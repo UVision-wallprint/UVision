@@ -349,10 +349,10 @@ img.u-image, .u-video-poster { overflow: hidden; }
 .u-enable-responsive .menu-collapse { display: block; }
 .u-enable-responsive .u-nav-container-collapse { display: flex; }
 .u-enable-responsive .u-nav-container { display: none; }
-@media (min-width: 768px) and (max-width: 991px) {
-  .u-menu[data-responsive-from="MD"] .menu-collapse, .u-menu:not([data-responsive-from]) .menu-collapse { display: block; }
-  .u-menu[data-responsive-from="MD"] .u-nav-container-collapse, .u-menu:not([data-responsive-from]) .u-nav-container-collapse { display: flex; }
-  .u-menu[data-responsive-from="MD"] .u-nav-container, .u-menu:not([data-responsive-from]) .u-nav-container { display: none; }
+@media (max-width: 575px) {
+  .u-menu[data-responsive-from="XS"] .menu-collapse { display: block; }
+  .u-menu[data-responsive-from="XS"] .u-nav-container-collapse { display: flex; }
+  .u-menu[data-responsive-from="XS"] .u-nav-container { display: none; }
 }
 .u-menu.u-offcanvas .u-sidenav { height: -webkit-fill-available; transition: margin-left 500ms ease 0s; border-top: none; border-bottom: none; white-space: normal; }
 .u-menu.u-offcanvas .u-sidenav > * { position: relative; }
