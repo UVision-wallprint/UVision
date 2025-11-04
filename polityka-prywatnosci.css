@@ -1224,7 +1224,7 @@ h3 { font-size: 3rem; line-height: 1.2; margin-top: 20px; margin-bottom: 20px; f
 p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125rem; line-height: 2; }
 .u-btn { margin-top: 20px; margin-bottom: 20px; border-radius: 50px; font-size: 1rem; font-weight: 700; text-transform: uppercase; line-height: 1.4; letter-spacing: 3px; border-style: none; }
 .u-btn { border-radius: 50px; }
-.u-body { background-image: url("images/default-image.jpg"); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; background-attachment: fixed; }
+.u-body { background-image: url("images/default-image-2.jpg"); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; background-attachment: fixed; }
 @media (max-width: 575px) {
   h3 { font-size: 1.875rem; font-weight: 700; line-height: 1.2; }
 }
@@ -1548,7 +1548,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1447px;
+    min-height: 1317px;
   }
 
   .u-section-1 .u-text-1 {
@@ -1559,7 +1559,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-image-1 {
-    margin-top: 1181px;
+    margin-top: 139px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -1568,7 +1568,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-section-1 .u-text-2 {
     font-size: 1.25rem;
     width: auto;
-    margin-top: -1298px;
-    margin-bottom: 60px;
+    margin-top: -657px;
+    margin-bottom: 22px;
   }
 }

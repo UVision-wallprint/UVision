@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://www.uvision.pl/druk-scienny.html</loc>
-        <lastmod>2025-10-28T13:54:54+01:00</lastmod>
+        <lastmod>2025-11-03T09:30:39+01:00</lastmod>
     </url>
     <url>
         <loc>https://www.uvision.pl/index.html</loc>
-        <lastmod>2025-10-28T13:54:54+01:00</lastmod>
+        <lastmod>2025-11-03T09:30:39+01:00</lastmod>
     </url>
     <url>
         <loc>https://www.uvision.pl/poznaj-druk-scienny.html</loc>
@@ -14,10 +14,22 @@
     </url>
     <url>
         <loc>https://www.uvision.pl/druk-scienny-realizacje.html</loc>
-        <lastmod>2025-10-28T13:52:29+01:00</lastmod>
+        <lastmod>2025-11-04T20:26:26+01:00</lastmod>
     </url>
     <url>
         <loc>https://www.uvision.pl/kontakt.html</loc>
         <lastmod>2025-10-27T08:07:26+01:00</lastmod>
+    </url>
+    <url>
+        <loc>https://www.uvision.pl/products/produkt.html</loc>
+        <lastmod>2025-10-28T13:42:59+01:00</lastmod>
+    </url>
+    <url>
+        <loc>https://www.uvision.pl/products/products.html</loc>
+        <lastmod>2025-11-04T20:27:12+01:00</lastmod>
+    </url>
+    <url>
+        <loc>https://www.uvision.pl/thank-you-page.html</loc>
+        <lastmod>2025-10-28T13:45:33+01:00</lastmod>
     </url>
 </urlset>

@@ -1280,7 +1280,7 @@ h6 { font-size: 1.125rem; line-height: 1.2; margin-top: 20px; margin-bottom: 20p
 p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125rem; line-height: 2; }
 .u-btn { margin-top: 20px; margin-bottom: 20px; border-radius: 50px; font-size: 1rem; font-weight: 700; text-transform: uppercase; line-height: 1.4; letter-spacing: 3px; border-style: none; }
 .u-btn { border-radius: 50px; }
-.u-body { background-image: url("images/default-image.jpg"); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; background-attachment: fixed; }
+.u-body { background-image: url("images/default-image-2.jpg"); background-size: cover; background-position: 50% 50%; background-repeat: no-repeat; background-attachment: fixed; }
 .u-input { border-width: 1px; }
 @media (max-width: 991px) {
   h1:not(.u-title) { font-size: 3.75rem; font-weight: 700; text-transform: none; line-height: 1.1; }
