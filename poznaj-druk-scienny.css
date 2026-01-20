@@ -1919,7 +1919,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 1403px;
+    min-height: 1426px;
   }
 
   .u-section-1 .u-container-layout-1 {
@@ -1945,14 +1945,14 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-shape-1 {
-    margin-top: 303px;
-    margin-right: -20px;
+    margin-top: 375px;
+    margin-right: -23px;
   }
 
   .u-section-1 .u-shape-2 {
     width: 207px;
     height: 207px;
-    margin-top: -361px;
+    margin-top: -433px;
     margin-right: auto;
     margin-left: -85px;
   }
@@ -1961,19 +1961,19 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
     width: 258px;
     height: 258px;
     margin-top: -285px;
-    margin-right: -62px;
+    margin-right: -79px;
   }
 
   .u-section-1 .u-image-1 {
     height: auto;
-    margin-top: -170px;
+    margin-top: -129px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
 
   .u-section-1 .u-shape-4 {
-    margin-top: -45px;
+    margin-top: -86px;
     margin-left: 0;
   }
 } .u-section-2 {
@@ -2248,20 +2248,19 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   .u-section-2 .u-shape-1 {
     width: 140px;
     height: 140px;
-    margin-top: 140px;
+    margin-top: 30px;
     margin-right: auto;
-    margin-left: -50px;
+    margin-left: 40px;
   }
 
   .u-section-2 .u-shape-2 {
-    margin-top: -287px;
-    margin-left: 39px;
+    margin-top: 10px;
+    margin-left: -50px;
   }
 
   .u-section-2 .u-image-1 {
-    height: 340px;
     --animation-custom_in-translate_x: -300px;
-    margin-top: -46px;
+    margin-top: -260px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -2270,7 +2269,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   .u-section-2 .u-shape-3 {
     width: 97px;
     height: 97px;
-    margin-top: -97px;
+    margin-top: -70px;
     margin-right: auto;
     margin-left: 0;
   }
@@ -2769,7 +2768,8 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
     font-size: 1.25rem;
     padding-left: 10px;
     margin-top: 248px;
-    margin-right: 25px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-4 .u-icon-1 {
