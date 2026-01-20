@@ -1671,14 +1671,14 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 3rem;
+  font-size: 2.25rem;
   text-transform: uppercase;
   --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 15px 31px 0;
+  margin: 16px auto 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -1690,13 +1690,13 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 28px auto 0;
+  margin: 24px auto 0 54px;
 }
 
 .u-section-1 .u-form-1 {
   height: 445px;
   width: 433px;
-  margin: 34px auto 0;
+  margin: 37px auto 0;
 }
 
 .u-section-1 .u-form-group-4 {
@@ -2015,8 +2015,8 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-section-1 .u-text-1 {
     font-size: 1.875rem;
     margin-top: -602px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-1 .u-text-2 {

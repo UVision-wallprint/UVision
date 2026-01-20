@@ -245,13 +245,7 @@ img.u-image, .u-video-poster { overflow: hidden; }
 @media (min-width: 576px) and (max-width: 767px) {
   .u-valign-middle-sm, .u-valign-top-sm, .u-valign-bottom-sm { display: flex; flex-direction: column; }
 }
-@media (max-width: 575px) {
-  .u-valign-middle-xs, .u-valign-top-xs, .u-valign-bottom-xs { display: flex; flex-direction: column; }
-}
 .u-valign-middle > *, .u-valign-top > *, .u-valign-bottom > * { flex-shrink: 0; }
-@media (min-width: 1200px) {
-  .u-xl-mode .u-valign-middle-xl { justify-content: center; }
-}
 @media (min-width: 992px) and (max-width: 1199px) {
   .u-valign-middle-lg { justify-content: center; }
 }
@@ -261,8 +255,8 @@ img.u-image, .u-video-poster { overflow: hidden; }
 @media (min-width: 576px) and (max-width: 767px) {
   .u-valign-middle-sm { justify-content: center; }
 }
-@media (max-width: 575px) {
-  .u-valign-top-xs { justify-content: flex-start; }
+@media (min-width: 1200px) {
+  .u-xl-mode .u-valign-top-xl { justify-content: flex-start; }
 }
 .u-valign-bottom { justify-content: flex-end; }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1925,7 +1919,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-2 .u-layout-wrap-1 {
-  margin: 0;
+  margin: 0 0 4px;
 }
 
 .u-section-2 .u-layout-cell-1 {
@@ -1944,7 +1938,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 0 -90px 0 auto;
+  margin: 0 -55px 0 auto;
 }
 
 .u-section-2 .u-image-1 {
@@ -2004,15 +1998,15 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-2 .u-text-2 {
-  font-size: 2.1875rem;
+  font-size: 2.25rem;
   line-height: 1;
-  width: 442px;
   --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 44px auto 0;
+  width: 442px;
+  margin: 36px auto 0;
 }
 
 .u-section-2 .u-shape-3 {
@@ -2020,7 +2014,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   height: 313px;
   transform-origin: center center;
   transform: scaleX(-1);
-  margin: 226px 31px 0 auto;
+  margin: 214px 31px 0 173px;
 }
 
 .u-section-2 .u-shape-4 {
@@ -2089,6 +2083,8 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-2 .u-shape-3 {
     margin-top: 225px;
+    margin-right: 0;
+    margin-left: 104px;
   }
 
   .u-section-2 .u-shape-4 {
@@ -2201,18 +2197,18 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     height: 320px;
     width: 360px;
     margin-right: 0;
-    margin-left: auto;
+    margin-left: 0;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1431px;
+    min-height: 1449px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
     margin-top: -5px;
-    margin-bottom: 5px;
+    margin-bottom: 26px;
     margin-right: initial;
     margin-left: initial;
   }
@@ -2297,8 +2293,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-3 .u-layout-wrap-1 {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .u-section-3 .u-layout-cell-1 {
@@ -2331,19 +2326,19 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   font-size: 2.1875rem;
   line-height: 1;
   width: 442px;
-  margin: 22px auto 0;
+  margin: 29px auto 0;
 }
 
 .u-section-3 .u-text-3 {
   font-size: 1.5625rem;
   line-height: 1.2;
-  margin: 12px 38px 0;
+  margin: 29px 38px 0;
 }
 
 .u-section-3 .u-shape-2 {
   width: 401px;
   height: 416px;
-  margin: -685px auto 0;
+  margin: -708px auto 0;
 }
 
 .u-section-3 .u-layout-cell-2 {
@@ -2439,6 +2434,11 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 @media (max-width: 1199px) {
   .u-section-3 .u-sheet-1 {
     min-height: 1194px;
+  }
+
+  .u-section-3 .u-layout-wrap-1 {
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-layout-cell-1 {
@@ -2627,7 +2627,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-3 .u-shape-1 {
-    margin-top: 19px;
+    margin-top: 12px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
