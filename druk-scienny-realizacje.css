@@ -219,9 +219,6 @@ img.u-image, .u-video-poster { overflow: hidden; }
 @media (min-width: 576px) and (max-width: 767px) {
   .u-valign-middle-sm { justify-content: center; }
 }
-@media (max-width: 575px) {
-  .u-valign-middle-xs { justify-content: center; }
-}
 .u-valign-bottom { justify-content: flex-end; }
 @media (min-width: 992px) and (max-width: 1199px) {
   .u-valign-bottom-lg { justify-content: flex-end; }
@@ -1487,45 +1484,63 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   height: 100%;
 }
 @media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 93px;
+  }
+
   .u-header .u-menu-1 {
     margin-right: -17px;
   }
 
   .u-header .u-image-1 {
     width: 52px;
-    margin-top: 20px;
+    margin-top: -75px;
   }
 
   .u-header .u-image-2 {
-    margin-top: -47px;
+    margin-top: -43px;
   }
 
   .u-header .u-social-icons-1 {
-    margin-top: -35px;
+    margin-top: -34px;
+    margin-bottom: 22px;
+    margin-left: 33px;
   }
 }
 @media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 109px;
+  }
+
   .u-header .u-image-1 {
-    margin-top: -57px;
+    margin-top: -62px;
+    margin-left: 99px;
   }
 
   .u-header .u-image-2 {
-    margin-top: -52px;
-    margin-bottom: 27px;
+    margin-top: -51px;
+    margin-bottom: 31px;
+    margin-left: 33px;
+  }
+
+  .u-header .u-social-icons-1 {
+    margin-top: -34px;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-menu-1 {
-    margin-top: 12px;
+    margin-top: 34px;
   }
 
   .u-header .u-image-1 {
-    margin-top: -57px;
+    margin-top: -62px;
+    margin-left: 31px;
   }
 
   .u-header .u-image-2 {
-    margin-top: -52px;
-    margin-bottom: 2px;
+    margin-top: -49px;
+    margin-bottom: 26px;
+    margin-left: -34px;
   }
 }
 @media (max-width: 575px) {
@@ -1534,16 +1549,18 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-header .u-menu-1 {
-    margin-top: 11px;
+    margin-top: 37px;
   }
 
   .u-header .u-image-1 {
     margin-top: -58px;
+    margin-left: auto;
   }
 
   .u-header .u-image-2 {
-    margin-top: -53px;
-    margin-bottom: 1px;
+    margin-top: -49px;
+    margin-left: auto;
+    margin-bottom: 22px;
   }
 
   .u-header .u-social-icons-1 {
