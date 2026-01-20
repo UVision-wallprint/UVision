@@ -1434,7 +1434,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-header .u-image-1 {
     width: 52px;
-    margin-top: -67px;
+    margin-top: 20px;
   }
 
   .u-header .u-image-2 {
@@ -1582,7 +1582,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-1 .u-text-1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   text-transform: uppercase;
   font-weight: 700;
   --animation-custom_in-translate_x: -200px;
@@ -1601,7 +1601,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 .u-section-1 .u-text-2 {
   font-weight: 400;
-  font-size: 1.5625rem;
+  font-size: 1.5rem;
   line-height: 1.2;
   margin: -715px 18px 60px;
 }
