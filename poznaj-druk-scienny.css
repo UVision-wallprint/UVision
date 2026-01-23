@@ -1955,7 +1955,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 1906px;
+    min-height: 1837px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
@@ -1985,7 +1985,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 322px;
+    min-height: 446px;
   }
 
   .u-section-1 .u-shape-1 {
@@ -2004,22 +2004,23 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-shape-3 {
-    width: 207px;
-    height: 207px;
-    margin-top: 157px;
-    margin-left: -49px;
+    width: 109px;
+    height: 109px;
+    margin-top: 175px;
+    margin-left: 0;
   }
 
   .u-section-1 .u-image-1 {
+    background-size: 150%;
     height: auto;
-    margin-top: -445px;
+    margin-top: -365px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-1 .u-shape-4 {
-    margin-top: -53px;
+    margin-top: -73px;
     margin-right: 13px;
     margin-left: auto;
   }
@@ -2278,12 +2279,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1873px;
-  }
-
-  .u-section-2 .u-layout-wrap-1 {
-    margin-top: -9px;
-    margin-bottom: 10px;
+    min-height: 1837px;
   }
 
   .u-section-2 .u-layout-cell-1 {
@@ -2318,8 +2314,10 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-2 .u-shape-4 {
-    margin-top: -326px;
-    margin-left: -31px;
+    width: 66px;
+    height: 66px;
+    margin-top: -351px;
+    margin-left: 14px;
   }
 
   .u-section-2 .u-layout-cell-2 {
@@ -2442,7 +2440,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 1517px;
+    min-height: 1499px;
   }
 
   .u-section-3 .u-text-1 {
@@ -2461,7 +2459,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-3 .u-text-3 {
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 12px;
   }
 } .u-section-4 {
   background-position: 50% 50%;
@@ -2593,7 +2591,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 969px;
+    min-height: 942px;
   }
 
   .u-section-4 .u-text-1 {
@@ -2608,7 +2606,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-4 .u-btn-1 {
-    margin-bottom: 23px;
+    margin-bottom: 11px;
   }
 } .u-section-5 {
   background-position: 50% 50%;
