@@ -219,6 +219,9 @@ img.u-image, .u-video-poster { overflow: hidden; }
 @media (min-width: 576px) and (max-width: 767px) {
   .u-valign-middle-sm { justify-content: center; }
 }
+@media (max-width: 575px) {
+  .u-valign-middle-xs { justify-content: center; }
+}
 .u-valign-bottom { justify-content: flex-end; }
 @media (min-width: 992px) and (max-width: 1199px) {
   .u-valign-bottom-lg { justify-content: flex-end; }
@@ -1634,6 +1637,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   .u-footer .u-image-1 {
     width: 77px;
     height: 77px;
+    margin-top: 10px;
   }
 
   .u-footer .u-text-1 {
