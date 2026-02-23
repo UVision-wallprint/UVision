@@ -1932,6 +1932,36 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   padding: 10px;
 }
 
+.u-section-1 .u-carousel-item-21 {
+  margin-right: 0;
+}
+
+.u-section-1 .u-over-slide-21 {
+  background-image: none;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-1 .u-carousel-item-22 {
+  margin-right: 0;
+}
+
+.u-section-1 .u-over-slide-22 {
+  background-image: none;
+  min-height: 100px;
+  padding: 10px;
+}
+
+.u-section-1 .u-carousel-item-23 {
+  margin-right: 0;
+}
+
+.u-section-1 .u-over-slide-23 {
+  background-image: none;
+  min-height: 100px;
+  padding: 10px;
+}
+
 .u-section-1 .u-carousel-control-1 {
   position: absolute;
   left: -20px;
@@ -2102,6 +2132,18 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   .u-section-1 .u-carousel-item-20 {
     margin-right: initial;
     margin-top: initial;
+  }
+
+  .u-section-1 .u-carousel-item-21 {
+    margin-right: initial;
+  }
+
+  .u-section-1 .u-carousel-item-22 {
+    margin-right: initial;
+  }
+
+  .u-section-1 .u-carousel-item-23 {
+    margin-right: initial;
   }
 
   .u-section-1 .u-carousel-control-1 {
