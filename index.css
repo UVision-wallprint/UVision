@@ -2011,7 +2011,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 .u-section-2 .u-image-1 {
   width: 558px;
   height: 558px;
-  background-position: 58.19% 22.01%;
+  background-position: 50% 50%;
   --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -2122,7 +2122,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-2 .u-image-1 {
-    background-size: auto 135%;
     width: 470px;
     height: 470px;
     margin-top: -185px;
@@ -2337,7 +2336,8 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-2 .u-image-1 {
-    margin-top: -82px;
+    height: 340px;
+    margin-top: -54px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -2346,9 +2346,8 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-section-2 .u-image-2 {
     width: 179px;
     height: 179px;
-    background-size: 150%;
-    margin-top: -117px;
-    margin-right: -5px;
+    margin-top: -125px;
+    margin-right: 5px;
   }
 
   .u-section-2 .u-layout-cell-2 {
@@ -2496,6 +2495,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   width: 558px;
   height: 558px;
   background-position: 100% 95.91%;
+  background-size: auto 135%;
   --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -2581,7 +2581,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-3 .u-image-1 {
-    background-size: auto 135%;
     width: 470px;
     height: 470px;
   }
@@ -3121,7 +3120,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-5 .u-image-1 {
-    margin-top: 20px;
+    margin-top: 0;
   }
 }
 
