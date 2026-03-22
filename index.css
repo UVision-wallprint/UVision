@@ -2495,7 +2495,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   width: 558px;
   height: 558px;
   background-position: 100% 95.91%;
-  background-size: auto 135%;
   --animation-custom_in-translate_x: -300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -2581,6 +2580,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-3 .u-image-1 {
+    background-size: auto 135%;
     width: 470px;
     height: 470px;
   }
@@ -3120,7 +3120,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-5 .u-image-1 {
-    margin-top: 0;
+    margin-top: 20px;
   }
 }
 
