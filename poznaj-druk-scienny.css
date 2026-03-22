@@ -1477,7 +1477,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-header .u-menu-1 {
-  margin: 37px -17px 0 auto;
+  margin: 36px 1px 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -1528,9 +1528,9 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-header .u-social-icons-1 {
-  height: 32px;
-  width: 84px;
-  margin: -35px auto 24px 40px;
+  height: 37px;
+  width: 153px;
+  margin: -37px auto 22px 0;
 }
 
 .u-header .u-icon-1 {
@@ -1542,18 +1542,24 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   color: rgb(197, 54, 164) !important;
   height: 100%;
 }
+
+.u-header .u-icon-3 {
+  height: 0;
+  background-image: none;
+}
 @media (max-width: 1199px) {
   .u-header .u-sheet-1 {
-    min-height: 93px;
+    min-height: 99px;
   }
 
   .u-header .u-menu-1 {
-    margin-right: -17px;
+    width: auto;
+    margin-top: 32px;
   }
 
   .u-header .u-image-1 {
     width: 52px;
-    margin-top: -75px;
+    margin-top: -62px;
   }
 
   .u-header .u-image-2 {
@@ -1561,34 +1567,39 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-header .u-social-icons-1 {
-    margin-top: -34px;
-    margin-bottom: 22px;
-    margin-left: 33px;
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 180deg;
+    --animation-custom_in-scale: 1;
+    margin-top: -49px;
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-sheet-1 {
-    min-height: 109px;
+  .u-header .u-menu-1 {
+    margin-top: 28px;
   }
 
   .u-header .u-image-1 {
-    margin-top: -62px;
-    margin-left: 99px;
+    margin-top: -58px;
+    margin-left: 98px;
   }
 
   .u-header .u-image-2 {
     margin-top: -51px;
-    margin-bottom: 31px;
-    margin-left: 33px;
+    margin-left: 32px;
   }
 
   .u-header .u-social-icons-1 {
-    margin-top: -34px;
+    margin-top: 20px;
+    margin-bottom: 60px;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-menu-1 {
     margin-top: 34px;
+    margin-right: 1px;
   }
 
   .u-header .u-image-1 {
@@ -1598,34 +1609,26 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 
   .u-header .u-image-2 {
     margin-top: -49px;
-    margin-bottom: 26px;
     margin-left: -34px;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 96px;
+    min-height: 94px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: 37px;
+    margin-top: 40px;
   }
 
   .u-header .u-image-1 {
-    margin-top: -58px;
+    margin-top: -62px;
     margin-left: auto;
   }
 
   .u-header .u-image-2 {
     margin-top: -49px;
     margin-left: auto;
-    margin-bottom: 22px;
-  }
-
-  .u-header .u-social-icons-1 {
-    margin-top: -37px;
-    margin-bottom: 34px;
-    margin-left: -25px;
   }
 }
  .u-footer {
