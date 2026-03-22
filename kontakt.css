@@ -1509,7 +1509,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-header .u-icon-3 {
-  height: 0;
+  height: 37px;
   background-image: none;
 }
 @media (max-width: 1199px) {
@@ -1843,7 +1843,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-1 .u-icon-8 {
-  height: 0;
+  height: 84px;
   background-image: none;
 }
 
