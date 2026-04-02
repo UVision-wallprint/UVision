@@ -2203,7 +2203,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   height: 74px;
   filter: none;
   transition-duration: 0.5s;
-  margin: -16px auto 0;
+  margin: -21px auto 0;
   padding: 13px;
 }
 
@@ -4101,6 +4101,10 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
     --top-left-radius: 200px;
     --bottom-right-radius: 200px;
     height: auto;
+  }
+
+  .u-section-6 .u-social-icons-1 {
+    margin-top: 20px;
   }
 }
 
