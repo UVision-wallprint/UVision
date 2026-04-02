@@ -1456,7 +1456,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   font-size: 0.75rem;
 }
 
-.u-header .u-nav-popup-1 {
+.u-header .u-nav-link-2 {
   --color-var: #0f0f0f80;
   padding: 7px 20px;
 }
@@ -1479,7 +1479,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 .u-header .u-nav-4 {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.75rem;
 }
 
 .u-header .u-social-icons-1 {
@@ -1618,10 +1618,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     margin-top: 15px;
     margin-right: auto;
     margin-left: 14px;
-  }
-
-  .u-header .u-nav-4 {
-    font-size: 0.75rem;
   }
 
   .u-header .u-social-icons-1 {
