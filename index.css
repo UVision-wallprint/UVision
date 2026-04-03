@@ -3400,7 +3400,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     object-position: 53.22% 73.69%;
     background-size: 158%;
     height: 245px;
-    margin-top: 24px;
+    margin-top: 19px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -3408,7 +3408,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-4 .u-text-1 {
     width: auto;
-    margin-top: 25px;
+    margin-top: 30px;
   }
 
   .u-section-4 .u-shape-1 {
@@ -4712,6 +4712,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-8 .u-group-2 {
     width: 520px;
+  }
+
+  .u-section-8 .u-social-icons-1 {
+    margin-top: 20px;
   }
 }
 

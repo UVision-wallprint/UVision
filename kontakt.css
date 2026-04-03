@@ -1282,6 +1282,7 @@ html.u-dialog-open-scroll section.u-dialog-block.u-dialog-open::before { positio
 .u-form, .u-tab-payment { --checkbox-checked-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23478ac9' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e"); --radio-checked-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23478ac9'/%3e%3c/svg%3e"); }
 .u-field-input { border: 0px; }
 [class*="u-border-"], .u-input, .u-field-input, .u-link[class*="u-border-"] { border-style: solid; }
+.u-border-1, .u-separator-1::after, .u-text.u-border-1, .u-input.u-border-1, .u-field-input.u-field-input.u-border-1, a.u-button-style.u-border-1 { border-width: 1px; }
 .u-border-2, .u-separator-2::after, .u-text.u-border-2, .u-input.u-border-2, .u-field-input.u-field-input.u-border-2, a.u-button-style.u-border-2 { border-width: 2px; }
 .u-border-7, .u-separator-7::after, .u-text.u-border-7, .u-input.u-border-7, .u-field-input.u-field-input.u-border-7, a.u-button-style.u-border-7 { border-width: 7px; }
 [class*="-radius-"], .u-radius { --border-radius: initial; --border-top-left-radius: initial; --border-top-right-radius: initial; --border-bottom-right-radius: initial; --border-bottom-left-radius: initial; --radius: initial; --top-left-radius: initial; --top-right-radius: initial; --bottom-right-radius: initial; --bottom-left-radius: initial; }

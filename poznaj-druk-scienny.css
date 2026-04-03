@@ -1261,6 +1261,7 @@ html.u-dialog-open-scroll section.u-dialog-block.u-dialog-open::before { positio
 .u-carousel-right .u-carousel-inner .u-carousel-item-next, .u-carousel-right .u-carousel-inner .u-active.u-carousel-item-right { transform: translate3d(-100%, 0px, 0px); }
 .u-carousel-right .u-carousel-inner .u-carousel-item-prev, .u-carousel-right .u-carousel-inner .u-active.u-carousel-item-left { transform: translate3d(100%, 0px, 0px); }
 [class*="u-border-"], .u-input, .u-field-input, .u-link[class*="u-border-"] { border-style: solid; }
+.u-border-1, .u-separator-1::after, .u-text.u-border-1, .u-input.u-border-1, .u-field-input.u-field-input.u-border-1, a.u-button-style.u-border-1 { border-width: 1px; }
 .u-border-2, .u-separator-2::after, .u-text.u-border-2, .u-input.u-border-2, .u-field-input.u-field-input.u-border-2, a.u-button-style.u-border-2 { border-width: 2px; }
 .u-border-3, .u-separator-3::after, .u-text.u-border-3, .u-input.u-border-3, .u-field-input.u-field-input.u-border-3, a.u-button-style.u-border-3 { border-width: 3px; }
 .u-border-7, .u-separator-7::after, .u-text.u-border-7, .u-input.u-border-7, .u-field-input.u-field-input.u-border-7, a.u-button-style.u-border-7 { border-width: 7px; }
