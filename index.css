@@ -205,7 +205,6 @@ img.u-image, .u-video-poster { overflow: hidden; }
   .u-expanded-width-xs { width: 100% !important; }
 }
 .u-expanded-width:not(.custom-expanded) { margin-left: 0px !important; margin-right: 0px !important; }
-.u-valign-middle, .u-valign-top, .u-valign-bottom { display: flex; flex-direction: column; }
 @media (min-width: 1200px) {
   .u-xl-mode .u-valign-middle-xl, .u-xl-mode .u-valign-top-xl, .u-xl-mode .u-valign-bottom-xl { display: flex; flex-direction: column; }
 }
@@ -221,10 +220,11 @@ img.u-image, .u-video-poster { overflow: hidden; }
 @media (max-width: 575px) {
   .u-valign-middle-xs, .u-valign-top-xs, .u-valign-bottom-xs { display: flex; flex-direction: column; }
 }
-.u-valign-middle > *, .u-valign-top > *, .u-valign-bottom > * { flex-shrink: 0; }
-.u-valign-middle { justify-content: center; }
 @media (min-width: 1200px) {
   .u-xl-mode .u-valign-middle-xl { justify-content: center; }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .u-valign-middle-lg { justify-content: center; }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .u-valign-middle-md { justify-content: center; }
@@ -2135,25 +2135,34 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 @media (max-width: 575px) {
    .u-section-1 {
     background-position: 68.08% 50%;
-    min-height: 835px;
+    min-height: 865px;
+    padding-right: 0;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 340px;
-    margin-bottom: 0;
+    margin-top: 100px;
+    margin-bottom: -36px;
   }
 
   .u-section-1 .u-layout-cell-1 {
     min-height: 728px;
   }
 
-  .u-section-1 .u-group-1 {
-    min-height: 100px;
-    width: 100%;
+  .u-section-1 .u-container-layout-1 {
+    padding-top: 0;
   }
 
-  .u-section-1 .u-container-layout-2 {
-    padding-bottom: 0;
+  .u-section-1 .u-group-1 {
+    min-height: 100px;
+    margin-top: 10px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 10px;
   }
 
   .u-section-1 .u-group-2 {

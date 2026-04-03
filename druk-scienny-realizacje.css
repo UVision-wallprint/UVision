@@ -2105,11 +2105,12 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 @media (max-width: 575px) {
    .u-section-1 {
     background-position: 68.08% 50%;
-    min-height: 871px;
+    min-height: 864px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 340px;
+    margin-top: 100px;
     margin-bottom: 1px;
   }
 
