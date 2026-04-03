@@ -1699,19 +1699,11 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     font-size: calc(1em + 8px);
   }
 
-  .u-header .u-nav-2 {
-    font-size: 0.875rem;
-  }
-
   .u-header .u-nav-3 {
     font-size: 0.875rem;
     margin-top: 15px;
     margin-right: auto;
     margin-left: 14px;
-  }
-
-  .u-header .u-nav-4 {
-    font-size: 0.875rem;
   }
 
   .u-header .u-social-icons-1 {
@@ -2809,7 +2801,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 15px 22px 0;
+  margin: 0 22px;
 }
 
 .u-section-4 .u-text-2 {
@@ -2941,7 +2933,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-section-4 .u-text-1 {
     font-size: 1.25rem;
     width: auto;
-    margin-top: 2px;
   }
 
   .u-section-4 .u-text-2 {
