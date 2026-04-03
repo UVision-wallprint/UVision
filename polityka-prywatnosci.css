@@ -226,6 +226,9 @@ img.u-image, .u-video-poster { overflow: hidden; }
 @media (min-width: 576px) and (max-width: 767px) {
   .u-valign-middle-sm { justify-content: center; }
 }
+@media (max-width: 575px) {
+  .u-valign-middle-xs { justify-content: center; }
+}
 @media (min-width: 992px) and (max-width: 1199px) {
   .u-valign-top-lg { justify-content: flex-start; }
 }
@@ -1811,7 +1814,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   font-weight: 800;
   text-transform: uppercase;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-  margin: 0 10px;
+  margin: 0 auto;
 }
 
 .u-section-1 .u-shape-1 {
@@ -1904,7 +1907,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-text-1 {
-    width: auto;
     margin-top: 0;
   }
 
@@ -1934,15 +1936,17 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     --top-left-radius: 100px;
     --bottom-right-radius: 100px;
     --bottom-left-radius: 0px;
-    min-height: 81px;
+    min-height: 100px;
     margin-top: 10px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    width: 100%;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-bottom: 0;
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: 13px;
+    width: auto;
   }
 
   .u-section-1 .u-shape-1 {
