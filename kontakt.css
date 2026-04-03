@@ -2680,9 +2680,9 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-2 .u-group-3 {
-    margin-top: 40px;
-    margin-bottom: -27px;
     min-height: 314px;
+    margin-top: 11px;
+    margin-bottom: -27px;
   }
 
   .u-section-2 .u-container-layout-5 {
@@ -2754,13 +2754,17 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     min-height: 524px;
   }
 
+  .u-section-3 .u-group-1 {
+    min-height: 457px;
+  }
+
   .u-section-3 .u-container-layout-1 {
     padding-bottom: 5px;
   }
 
   .u-section-3 .u-text-1 {
     width: auto;
-    margin-top: 35px;
+    margin-top: 10px;
   }
 } .u-section-4 {
   background-size: cover;

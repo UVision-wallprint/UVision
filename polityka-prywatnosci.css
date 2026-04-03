@@ -145,6 +145,7 @@ a:focus { outline: -webkit-focus-ring-color auto 5px; outline-offset: -2px; }
 }
 .u-border-none:not([class*="u-border-hover-"]):not([class*="u-border-active-"]), .u-border-none:not(:hover):not(.hover)[class*="u-border-hover-"], .u-border-none:not(:active):not(.active)[class*="u-border-active-"] { border-width: 0px !important; }
 .u-button-style[class*="u-border-"].u-border-no-top, [class*="u-border-"].u-border-no-top { border-top-width: 0px; border-top-style: none; }
+.u-button-style[class*="u-border-"].u-border-no-right, [class*="u-border-"].u-border-no-right { border-right-width: 0px; border-right-style: none; }
 .u-button-style[class*="u-border-"].u-border-no-bottom, [class*="u-border-"].u-border-no-bottom { border-bottom-width: 0px; border-bottom-style: none; }
 .u-button-style[class*="u-border-"].u-border-no-left, [class*="u-border-"].u-border-no-left { border-left-width: 0px; border-left-style: none; }
 .u-text-default { display: table; align-self: flex-start; width: fit-content; }
