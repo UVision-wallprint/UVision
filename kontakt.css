@@ -1870,11 +1870,11 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 .u-section-1 .u-layout-wrap-2 {
   width: 1140px;
-  margin: -562px auto 60px;
+  margin: -587px auto 60px;
 }
 
 .u-section-1 .u-layout-cell-2 {
-  min-height: 535px;
+  min-height: 553px;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -1896,13 +1896,14 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-scale: 1;
   --top-left-radius: 100px;
   --bottom-right-radius: 100px;
-  min-height: 174px;
-  margin: 1px auto 0 0;
+  min-height: 182px;
+  margin: 10px auto 0 0;
 }
 
 .u-section-1 .u-container-layout-3 {
   padding-right: 0;
   padding-left: 0;
+  padding-bottom: 0;
 }
 
 .u-section-1 .u-text-1 {
@@ -1914,7 +1915,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 0 15px 0 5px;
+  margin: 0 10px;
 }
 
 .u-section-1 .u-group-2 {
@@ -1928,7 +1929,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   min-height: 460px;
   --top-left-radius: 50px;
   --bottom-right-radius: 50px;
-  margin: -175px 8px 0 auto;
+  margin: -182px 0 0 auto;
 }
 
 .u-section-1 .u-container-layout-4 {
@@ -1981,7 +1982,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   min-height: 321px;
-  margin: -277px auto 0 0;
+  margin: -263px auto 0 0;
 }
 
 .u-section-1 .u-container-layout-5 {
@@ -2029,7 +2030,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 .u-section-1 .u-text-5 {
   font-size: 1rem;
-  margin: -36px 0 0 601px;
+  margin: -42px 0 0 601px;
 }
 
 @media (max-width: 1199px) {
@@ -2158,10 +2159,11 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-section-1 .u-container-layout-3 {
     padding-right: 0;
     padding-left: 0;
+    padding-bottom: 0;
   }
 
   .u-section-1 .u-text-1 {
-    margin-top: 10px;
+    margin-top: 0;
   }
 
   .u-section-1 .u-group-2 {
@@ -2270,19 +2272,21 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-text-5 {
     width: 407px;
-    margin: 491px auto -500px;
+    margin-top: 491px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 @media (max-width: 575px) {
    .u-section-1 {
     background-position: 68.08% 50%;
-    min-height: 795px;
+    min-height: 912px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 340px;
-    margin-top: 493px;
+    margin-top: 408px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -2295,19 +2299,22 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-layout-wrap-2 {
     width: 340px;
-    margin-bottom: 0;
+    margin-bottom: 3px;
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 792px;
+    min-height: 809px;
   }
 
   .u-section-1 .u-group-1 {
-    min-height: 93px;
-    margin-top: 0;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    min-height: 100px;
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-container-layout-3 {
+    padding-top: 0;
   }
 
   .u-section-1 .u-text-1 {
@@ -2319,7 +2326,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-group-2 {
     min-height: 477px;
-    margin-top: 131px;
+    margin-top: 114px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -2343,7 +2350,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-group-3 {
     min-height: 121px;
-    margin-top: -603px;
+    margin-top: -588px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -2392,7 +2399,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-section-1 .u-text-5 {
     width: 340px;
     font-size: 0.75rem;
-    margin-top: 494px;
+    margin-top: 479px;
   }
 } .u-section-2 {
   --color-var: #0f0f0f;

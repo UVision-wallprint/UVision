@@ -1602,46 +1602,22 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 104px;
+    min-height: 106px;
   }
 
   .u-header .u-menu-1 {
-    margin-top: 36px;
-    margin-right: 0;
-  }
-
-  .u-header .u-hamburger-link-1 {
-    font-size: calc(1em + 8px);
-  }
-
-  .u-header .u-nav-3 {
-    margin-top: 15px;
-    margin-right: auto;
-    margin-left: 14px;
-  }
-
-  .u-header .u-social-icons-1 {
-    margin-top: 384px;
-    margin-right: 47px;
-    margin-left: auto;
-  }
-
-  .u-header .u-text-1 {
+    margin-top: 40px;
+    margin-right: 2px;
     width: auto;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .u-header .u-image-1 {
-    width: 75px;
-    height: 93px;
-    margin-top: -62px;
-    margin-bottom: 10px;
+    margin-top: -54px;
   }
 
   .u-header .u-social-icons-2 {
-    margin-top: -322px;
+    margin-top: -58px;
+    margin-bottom: 38px;
   }
 }
  .u-footer {
@@ -1722,26 +1698,26 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 167px;
+    min-height: 173px;
   }
 
   .u-footer .u-group-1 {
-    margin-top: 0;
-    margin-bottom: 0;
+    min-height: 151px;
+    margin-top: 5px;
+    margin-bottom: 2px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-footer .u-image-1 {
-    width: 76px;
-    height: 94px;
-    margin-top: 13px;
+    margin-top: 10px;
   }
 
   .u-footer .u-text-1 {
-    font-size: 0.625rem;
-    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
   }
 }
 
@@ -1827,11 +1803,21 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 656px;
+    min-height: 835px;
+  }
+
+  .u-section-1 .u-post-details-1 {
+    margin-bottom: -10px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .u-section-1 .u-image-1 {
-    height: 275px;
+    height: 486px;
+    margin-top: 0;
     margin-left: initial;
   }
 }
