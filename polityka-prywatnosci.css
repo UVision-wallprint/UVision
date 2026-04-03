@@ -1621,14 +1621,23 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     font-size: calc(1em + 8px);
   }
 
+  .u-header .u-nav-2 {
+    font-size: 0.875rem;
+  }
+
   .u-header .u-nav-3 {
+    font-size: 0.875rem;
     margin-top: 15px;
     margin-right: auto;
     margin-left: 14px;
   }
 
+  .u-header .u-nav-4 {
+    font-size: 0.875rem;
+  }
+
   .u-header .u-social-icons-1 {
-    margin-top: 384px;
+    margin-top: 273px;
     margin-right: 47px;
     margin-left: auto;
   }
@@ -1636,8 +1645,8 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-header .u-text-1 {
     width: auto;
     margin-top: 10px;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: 66px;
   }
 
   .u-header .u-image-1 {
