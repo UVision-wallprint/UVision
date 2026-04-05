@@ -1563,7 +1563,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
 .u-header .u-nav-4 {
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .u-header .u-social-icons-1 {
@@ -1690,7 +1690,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-header .u-menu-1 {
-    margin-top: 36px;
+    margin-top: 38px;
     margin-right: 0;
   }
 
@@ -1699,10 +1699,14 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-header .u-nav-3 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     margin-top: 15px;
     margin-right: auto;
     margin-left: 14px;
+  }
+
+  .u-header .u-nav-4 {
+    font-size: 0.75rem;
   }
 
   .u-header .u-social-icons-1 {
@@ -1721,7 +1725,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   .u-header .u-image-1 {
     width: 75px;
     height: 93px;
-    margin-top: -62px;
+    margin-top: -64px;
     margin-bottom: 10px;
   }
 
@@ -1921,7 +1925,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   background-image: none;
   border-style: solid;
   margin: 17px auto 0 0;
-  padding: 10px 14px 10px 13px;
+  padding: 9px 22px 10px;
 }
 
 .u-section-1 .u-btn-2 {
@@ -1929,6 +1933,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   filter: none;
   border-style: solid;
   margin: 11px auto 0 0;
+  padding: 9px 39px 10px 38px;
 }
 
 .u-section-1 .u-image-1 {
@@ -3872,6 +3877,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(255,255,255,0.4);
   margin: 22px auto 0;
+  padding: 9px 45px 10px;
 }
 
 .u-section-7 .u-social-icons-1 {

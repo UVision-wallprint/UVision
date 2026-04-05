@@ -200,6 +200,9 @@ img.u-image, .u-video-poster { overflow: hidden; }
 }
 .u-expanded-width:not(.custom-expanded) { margin-left: 0px !important; margin-right: 0px !important; }
 .u-valign-middle, .u-valign-top, .u-valign-bottom { display: flex; flex-direction: column; }
+@media (min-width: 1200px) {
+  .u-xl-mode .u-valign-middle-xl, .u-xl-mode .u-valign-top-xl, .u-xl-mode .u-valign-bottom-xl { display: flex; flex-direction: column; }
+}
 @media (min-width: 992px) and (max-width: 1199px) {
   .u-valign-middle-lg, .u-valign-top-lg, .u-valign-bottom-lg { display: flex; flex-direction: column; }
 }
@@ -214,6 +217,9 @@ img.u-image, .u-video-poster { overflow: hidden; }
 }
 .u-valign-middle > *, .u-valign-top > *, .u-valign-bottom > * { flex-shrink: 0; }
 .u-valign-middle { justify-content: center; }
+@media (min-width: 1200px) {
+  .u-xl-mode .u-valign-middle-xl { justify-content: center; }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .u-valign-middle-md { justify-content: center; }
 }
@@ -1479,7 +1485,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 .u-header .u-nav-4 {
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .u-header .u-social-icons-1 {
@@ -1606,7 +1612,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-header .u-menu-1 {
-    margin-top: 36px;
+    margin-top: 38px;
     margin-right: 0;
   }
 
@@ -1614,19 +1620,15 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     font-size: calc(1em + 8px);
   }
 
-  .u-header .u-nav-2 {
-    font-size: 0.875rem;
-  }
-
   .u-header .u-nav-3 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     margin-top: 15px;
     margin-right: auto;
     margin-left: 14px;
   }
 
   .u-header .u-nav-4 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
   }
 
   .u-header .u-social-icons-1 {
@@ -1645,7 +1647,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-header .u-image-1 {
     width: 75px;
     height: 93px;
-    margin-top: -62px;
+    margin-top: -64px;
     margin-bottom: 10px;
   }
 
@@ -1661,13 +1663,14 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 173px;
+  min-height: 221px;
 }
 
 .u-footer .u-group-1 {
-  width: 540px;
-  min-height: 151px;
-  margin: 5px auto 2px;
+  width: 580px;
+  min-height: 193px;
+  height: auto;
+  margin: 14px auto;
 }
 
 .u-footer .u-container-layout-1 {
@@ -1678,7 +1681,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 .u-footer .u-image-1 {
   width: 108px;
   height: 134px;
-  margin: 10px auto 0;
+  margin: 6px auto 0;
 }
 
 .u-footer .u-logo-image-1 {
@@ -1688,11 +1691,11 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 .u-footer .u-text-1 {
   font-size: 1rem;
-  margin: 16px auto 0;
+  margin: 8px auto 0;
 }
 @media (max-width: 1199px) {
-  .u-footer .u-image-1 {
-    width: 108px;
+  .u-footer .u-group-1 {
+    height: auto;
   }
 }
 @media (max-width: 991px) {
@@ -1712,6 +1715,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-footer .u-group-1 {
+    min-height: 200px;
     margin-top: 1px;
     margin-bottom: 1px;
     margin-right: initial;
@@ -1720,22 +1724,22 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-footer .u-image-1 {
-    margin-top: 5px;
+    margin-top: 11px;
   }
 
   .u-footer .u-text-1 {
     width: auto;
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 5px;
   }
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 167px;
+    min-height: 145px;
   }
 
   .u-footer .u-group-1 {
-    margin-top: 0;
+    min-height: 173px;
+    margin-top: -28px;
     margin-bottom: 0;
     width: auto;
     margin-right: initial;
@@ -1745,12 +1749,12 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-footer .u-image-1 {
     width: 76px;
     height: 94px;
-    margin-top: 13px;
+    margin-top: 34px;
   }
 
   .u-footer .u-text-1 {
     font-size: 0.625rem;
-    margin-top: 16px;
+    margin-top: 7px;
   }
 }
 

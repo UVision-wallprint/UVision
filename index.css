@@ -1569,7 +1569,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 .u-header .u-nav-4 {
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .u-header .u-social-icons-1 {
@@ -1696,7 +1696,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-header .u-menu-1 {
-    margin-top: 36px;
+    margin-top: 38px;
     margin-right: 0;
   }
 
@@ -1705,10 +1705,14 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-header .u-nav-3 {
-    font-size: 0.875rem;
+    font-size: 0.75rem;
     margin-top: 15px;
     margin-right: auto;
     margin-left: 14px;
+  }
+
+  .u-header .u-nav-4 {
+    font-size: 0.75rem;
   }
 
   .u-header .u-social-icons-1 {
@@ -1727,7 +1731,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-header .u-image-1 {
     width: 75px;
     height: 93px;
-    margin-top: -62px;
+    margin-top: -64px;
     margin-bottom: 10px;
   }
 
@@ -1928,7 +1932,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   background-image: none;
   border-style: solid;
   margin: 20px auto 0 0;
-  padding: 10px 14px 10px 13px;
+  padding: 9px 22px 10px;
 }
 
 .u-section-1 .u-btn-2 {
@@ -1936,6 +1940,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   filter: none;
   border-style: solid;
   margin: 11px auto 0 0;
+  padding: 9px 39px 10px 38px;
 }
 
 .u-section-1 .u-image-1 {
@@ -2000,12 +2005,14 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-btn-2 {
+    padding-top: 10px;
+    padding-right: 14px;
+    padding-left: 13px;
     --animation-custom_in-translate_x: -200px;
     --animation-custom_in-translate_y: 0px;
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
-    padding: 10px 14px 10px 13px;
   }
 
   .u-section-1 .u-image-1 {
@@ -2249,6 +2256,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   margin: 15px auto 0 0;
+  padding: 9px 15px;
 }
 
 .u-section-2 .u-image-1 {
@@ -2322,6 +2330,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   margin: 15px auto 0 0;
+  padding: 9px 33px 10px;
 }
 
 @media (max-width: 1199px) {
@@ -2396,7 +2405,9 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-2 .u-btn-2 {
-    padding: 10px 14px 10px 13px;
+    padding-top: 10px;
+    padding-right: 14px;
+    padding-left: 13px;
   }
 }
 
@@ -3148,6 +3159,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   margin: 16px auto 0 0;
+  padding: 9px 30px 10px 29px;
 }
 
 .u-section-4 .u-layout-cell-2 {
@@ -3194,6 +3206,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   margin: 15px auto 0 0;
+  padding: 9px 20px 10px;
 }
 
 .u-section-4 .u-image-2 {
@@ -3445,7 +3458,9 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-4 .u-btn-1 {
-    padding: 9px 10px 9px 9px;
+    padding-right: 10px;
+    padding-bottom: 9px;
+    padding-left: 9px;
   }
 
   .u-section-4 .u-layout-cell-2 {
@@ -3490,7 +3505,8 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-4 .u-btn-2 {
     margin-top: 20px;
-    padding: 9px 10px 10px 8px;
+    padding-right: 10px;
+    padding-left: 8px;
   }
 
   .u-section-4 .u-image-2 {
@@ -4286,6 +4302,8 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  padding-top: 9px;
+  padding-bottom: 9px;
   margin: 25px auto;
 }
 
@@ -4617,6 +4635,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --top-left-radius: 300px;
   box-shadow: 5px 5px 20px 0 rgba(255,255,255,0.4);
   margin: 22px auto 0;
+  padding: 9px 45px 10px;
 }
 
 .u-section-8 .u-social-icons-1 {
