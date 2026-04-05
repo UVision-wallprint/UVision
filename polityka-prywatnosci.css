@@ -1815,9 +1815,9 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-1 .u-text-1 {
-  font-weight: 800;
-  text-transform: uppercase;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  text-transform: uppercase;
+  font-weight: 600;
   margin: 8px auto 0;
 }
 

@@ -1855,7 +1855,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-size: cover;
   height: auto;
-  width: 580px;
+  width: 542px;
   box-shadow: 5px 5px 20px 0 rgba(255,255,255,0.4);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 0px;
