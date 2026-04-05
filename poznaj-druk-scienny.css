@@ -3795,6 +3795,10 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   .u-section-5 .u-text-11 {
     margin-top: 51px;
   }
+
+  .u-section-5 .u-btn-1 {
+    animation-timing-function: ease;
+  }
 }
 
 .u-block-67b4-18:not([data-block-selected]):not([data-cell-selected]),

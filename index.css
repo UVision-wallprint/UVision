@@ -3118,8 +3118,8 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-4 .u-layout-wrap-1 {
-  margin-top: -1px;
-  margin-bottom: 27px;
+  margin-top: 0;
+  margin-bottom: 26px;
 }
 
 .u-section-4 .u-layout-cell-1 {
@@ -3374,7 +3374,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-4 .u-layout-wrap-1 {
-    margin-top: 0;
     margin-bottom: 0;
   }
 
@@ -4315,14 +4314,14 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   letter-spacing: 1px;
   filter: none;
   border-style: solid;
-  --animation-custom_in-translate_x: 0px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  --animation-custom_in-translate_x: -200px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  padding-top: 9px;
-  padding-bottom: 9px;
-  margin: 25px auto;
+  margin: 25px auto 60px;
 }
 
 @media (max-width: 991px) {
