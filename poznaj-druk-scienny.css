@@ -1892,7 +1892,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 29px auto 0 0;
+  margin: 30px auto 0 0;
 }
 
 .u-section-1 .u-container-layout-3 {
@@ -1900,7 +1900,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-1 .u-text-2 {
-  margin: 0;
+  margin: 0 30px 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -1932,7 +1932,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   box-shadow: 5px 5px 20px 0 rgba(255,255,255,0.4);
   --bottom-right-radius: 100px;
   object-position: 0% 50%;
-  margin: -439px 0 0 auto;
+  margin: -440px 0 0 auto;
 }
 
 .u-section-1 .u-image-2 {
@@ -2064,6 +2064,10 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-group-2 {
     margin-right: 180px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
   }
 
   .u-section-1 .u-image-1 {
