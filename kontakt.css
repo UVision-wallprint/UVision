@@ -2759,6 +2759,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-section-3 .u-group-1 {
     height: auto;
   }
+
+  .u-section-3 .u-btn-1 {
+    margin-top: 20px;
+  }
 }
 
 @media (max-width: 991px) {

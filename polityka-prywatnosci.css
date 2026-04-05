@@ -2153,5 +2153,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-2 .u-social-icons-1 {
     margin-top: -72px;
+    margin-bottom: 35px;
   }
 }
