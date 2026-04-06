@@ -1707,7 +1707,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-header .u-social-icons-1 {
-    margin-top: 200px;
+    margin-top: 130px;
     margin-right: 47px;
     margin-left: 50px;
   }
@@ -1723,6 +1723,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
     width: 75px;
     height: 93px;
     margin-top: -60px;
+    margin-bottom: 6px;
   }
 
   .u-header .u-social-icons-2 {
