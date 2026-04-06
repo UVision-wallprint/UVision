@@ -247,9 +247,6 @@ img.u-image, .u-video-poster { overflow: hidden; }
 @media (min-width: 576px) and (max-width: 767px) {
   .u-valign-top-sm { justify-content: flex-start; }
 }
-@media (max-width: 575px) {
-  .u-valign-top-xs { justify-content: flex-start; }
-}
 @media (min-width: 1200px) {
   .u-xl-mode .u-valign-bottom-xl { justify-content: flex-end; }
 }
@@ -2129,6 +2126,9 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-btn-2 {
     margin-left: -2px;
+    padding-top: 9px;
+    padding-right: 39px;
+    padding-left: 38px;
   }
 
   .u-section-1 .u-image-1 {
@@ -2176,7 +2176,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-group-2 {
     min-height: 333px;
-    margin-top: 274px;
+    margin-top: 294px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -2187,15 +2187,13 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-btn-1 {
+    margin-top: 29px;
     margin-left: 0;
   }
 
   .u-section-1 .u-btn-2 {
     margin-top: 11px;
     margin-left: 0;
-    padding-top: 9px;
-    padding-right: 39px;
-    padding-left: 38px;
   }
 
   .u-section-1 .u-image-1 {
@@ -2204,7 +2202,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     --top-right-radius: 100px;
     --bottom-right-radius: 0px;
     height: 254px;
-    margin-top: -597px;
+    margin-top: -607px;
     margin-right: initial;
     margin-left: initial;
     width: auto;

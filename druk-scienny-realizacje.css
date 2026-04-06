@@ -2115,7 +2115,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 386px;
+    min-height: 741px;
   }
 
   .u-section-1 .u-group-1 {
@@ -2137,6 +2137,10 @@ ol { margin-top: 20px; margin-bottom: 20px; }
     margin-right: initial;
     margin-left: initial;
     width: auto;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-top: 0;
   }
 
   .u-section-1 .u-image-1 {
