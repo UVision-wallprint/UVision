@@ -2644,6 +2644,10 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
     margin-top: 32px;
   }
 
+  .u-section-2 .u-container-layout-2 {
+    padding: 10px;
+  }
+
   .u-section-2 .u-text-3 {
     width: auto;
   }
@@ -2656,8 +2660,16 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
     min-height: 225px;
   }
 
+  .u-section-2 .u-container-layout-3 {
+    padding: 10px;
+  }
+
   .u-section-2 .u-text-6 {
     width: auto;
+  }
+
+  .u-section-2 .u-container-layout-4 {
+    padding: 10px;
   }
 
   .u-section-2 .u-text-8 {
@@ -2671,16 +2683,36 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
     --bottom-left-radius: 0px;
   }
 
+  .u-section-2 .u-container-layout-5 {
+    padding: 10px;
+  }
+
+  .u-section-2 .u-container-layout-6 {
+    padding: 10px;
+  }
+
   .u-section-2 .u-text-12 {
     width: auto;
+  }
+
+  .u-section-2 .u-container-layout-7 {
+    padding: 10px;
   }
 
   .u-section-2 .u-text-14 {
     width: auto;
   }
 
+  .u-section-2 .u-container-layout-8 {
+    padding: 10px;
+  }
+
   .u-section-2 .u-text-16 {
     width: auto;
+  }
+
+  .u-section-2 .u-container-layout-9 {
+    padding: 10px;
   }
 
   .u-section-2 .u-text-18 {
