@@ -4037,12 +4037,12 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 @media (max-width: 575px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 1434px;
+    min-height: 1383px;
   }
 
   .u-section-5 .u-group-1 {
     min-height: 157px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -4064,7 +4064,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-5 .u-layout-wrap-1 {
     margin-top: 30px;
-    margin-bottom: 29px;
+    margin-bottom: 19px;
   }
 
   .u-section-5 .u-layout-cell-1 {
