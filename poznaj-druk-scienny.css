@@ -240,6 +240,9 @@ img.u-image, .u-video-poster { overflow: hidden; }
 @media (min-width: 768px) and (max-width: 991px) {
   .u-valign-top-md { justify-content: flex-start; }
 }
+@media (max-width: 575px) {
+  .u-valign-top-xs { justify-content: flex-start; }
+}
 @media (min-width: 992px) and (max-width: 1199px) {
   .u-valign-bottom-lg { justify-content: flex-end; }
 }
@@ -2117,8 +2120,12 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
     padding-bottom: 0;
   }
 
+  .u-section-1 .u-text-2 {
+    width: auto;
+  }
+
   .u-section-1 .u-btn-1 {
-    margin-top: 21px;
+    margin-top: 20px;
   }
 
   .u-section-1 .u-image-1 {
@@ -2128,6 +2135,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
     --bottom-right-radius: 0px;
     height: 200px;
     margin-top: -480px;
+    margin-bottom: 0;
     margin-right: initial;
     margin-left: initial;
     width: auto;
