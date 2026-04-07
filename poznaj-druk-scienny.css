@@ -2107,7 +2107,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-group-2 {
     min-height: 260px;
-    margin-top: 339px;
+    margin-top: 240px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -2122,11 +2122,14 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
     --top-left-radius: 0px;
     --top-right-radius: 100px;
     --bottom-right-radius: 0px;
-    height: 299px;
-    margin-top: -579px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    height: 200px;
+    margin-top: -480px;
+    width: 100%;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: -81px;
+    margin-bottom: 60px;
   }
 } .u-section-2 {
   --color-var: #0f0f0f;

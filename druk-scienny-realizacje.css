@@ -2130,7 +2130,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-group-2 {
     min-height: 347px;
-    margin-top: 296px;
+    margin-top: 240px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -2141,11 +2141,9 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-image-1 {
-    height: 256px;
-    margin-top: -623px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    height: 200px;
+    margin-top: -567px;
+    width: 100%;
   }
 } .u-section-2 {
   --color-var: #0f0f0f;
