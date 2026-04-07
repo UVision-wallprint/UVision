@@ -1934,12 +1934,12 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-1 .u-image-1 {
-  width: 569px;
-  height: 432px;
+  width: 560px;
+  height: 440px;
   --top-left-radius: 100px;
   box-shadow: 5px 5px 20px 0 rgba(255,255,255,0.4);
   --bottom-right-radius: 100px;
-  margin: -521px 0 0 auto;
+  margin: -557px 0 0 auto;
 }
 
 .u-section-1 .u-image-2 {
@@ -2140,10 +2140,16 @@ ol { margin-top: 20px; margin-bottom: 20px; }
     margin-top: 0;
   }
 
+  .u-section-1 .u-btn-1 {
+    margin-top: 20px;
+  }
+
   .u-section-1 .u-image-1 {
     height: 200px;
     margin-top: -567px;
-    width: 100%;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 } .u-section-2 {
   --color-var: #0f0f0f;
