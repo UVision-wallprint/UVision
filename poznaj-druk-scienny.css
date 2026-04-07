@@ -1910,7 +1910,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   filter: none;
   background-image: none;
   border-style: solid;
-  margin: 11px auto 0 0;
+  margin: 10px auto 0 0;
   padding: 8px 26px 9px 25px;
 }
 
@@ -1926,7 +1926,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   box-shadow: 5px 5px 20px 0 rgba(255,255,255,0.4);
   --bottom-right-radius: 100px;
   object-position: 0% 50%;
-  margin: -470px 0 0 auto;
+  margin: -470px 0 30px auto;
 }
 
 .u-section-1 .u-image-2 {
@@ -2119,10 +2119,6 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-btn-1 {
     margin-top: 21px;
-  }
-
-  .u-section-1 .u-btn-2 {
-    margin-top: 10px;
   }
 
   .u-section-1 .u-image-1 {
