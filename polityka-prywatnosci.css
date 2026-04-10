@@ -1890,7 +1890,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 .u-section-1 .u-text-2 {
   line-height: 1.2;
   font-size: 1.125rem;
-  margin: 14px 4px 0;
+  margin: 14px auto 0 4px;
 }
 
 .u-section-1 .u-image-1 {
@@ -1923,7 +1923,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-text-2 {
     margin-left: 0;
-    margin-right: 0;
   }
 }
 
@@ -2005,7 +2004,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-text-2 {
-    width: auto;
     font-size: 0.875rem;
     margin-top: 20px;
   }
@@ -2045,17 +2043,17 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 0 22px;
+  margin: 0 auto;
 }
 
 .u-section-2 .u-text-2 {
   font-size: 1.5rem;
-  margin: 22px 0 0;
+  margin: 22px auto 0;
 }
 
 .u-section-2 .u-text-3 {
   font-size: 1.25rem;
-  margin: 24px 0 0;
+  margin: 24px auto 0;
 }
 
 .u-section-2 .u-btn-1 {
@@ -2142,11 +2140,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-section-2 .u-container-layout-2 {
     padding: 0;
   }
-
-  .u-section-2 .u-text-1 {
-    margin-left: 0;
-    margin-right: 0;
-  }
 }
 
 @media (max-width: 767px) {
@@ -2180,17 +2173,14 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-2 .u-text-1 {
     font-size: 1.25rem;
-    width: auto;
   }
 
   .u-section-2 .u-text-2 {
-    width: auto;
-    margin-top: 17px;
     font-size: 1rem;
+    margin-top: 17px;
   }
 
   .u-section-2 .u-text-3 {
-    width: auto;
     font-size: 0.875rem;
     margin-top: 12px;
   }
