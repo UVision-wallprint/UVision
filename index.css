@@ -1940,7 +1940,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 173px;
+  min-height: 165px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -2008,13 +2008,13 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-1 .u-text-2 {
-  margin: 16px 0 0;
+  margin: 15px 0 0;
 }
 
 .u-section-1 .u-shape-1 {
   width: 35px;
   height: 6px;
-  margin: 42px auto 0 112px;
+  margin: 50px auto 0 112px;
 }
 
 .u-section-1 .u-btn-1 {
@@ -2053,7 +2053,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   height: 403px;
   --bottom-left-radius: 100px;
   --top-right-radius: 100px;
-  margin: 16px 0 0 20px;
+  margin: 15px 0 0 auto;
 }
 
 .u-section-1 .u-image-2 {
@@ -2068,7 +2068,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 143px;
+    min-height: 136px;
   }
 
   .u-section-1 .u-group-1 {
@@ -2094,7 +2094,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-section-1 .u-image-1 {
     width: 470px;
     height: 344px;
-    margin-left: 0;
   }
 
   .u-section-1 .u-image-2 {
@@ -2202,11 +2201,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-image-1 {
     height: 300px;
-    margin-top: 15px;
     width: 100%;
     object-position: 50% 38%;
     margin-right: 0;
-    margin-left: 0;
+    margin-left: auto;
   }
 }
 
