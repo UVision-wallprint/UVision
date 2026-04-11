@@ -2013,7 +2013,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 .u-section-1 .u-shape-1 {
   width: 35px;
   height: 6px;
-  margin: 50px auto 0 112px;
+  margin: 50px auto 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -2122,8 +2122,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-group-1 {
     min-height: 100px;
-    --top-left-radius: 100px;
-    --bottom-right-radius: 100px;
   }
 
   .u-section-1 .u-text-1 {
@@ -2185,10 +2183,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-section-1 .u-container-layout-4 {
     padding-left: 15px;
     padding-right: 15px;
-  }
-
-  .u-section-1 .u-shape-1 {
-    margin-left: 0;
   }
 
   .u-section-1 .u-layout-cell-3 {

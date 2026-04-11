@@ -1920,7 +1920,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 726px;
+  min-height: 100vh;
 }
 
 .u-section-1 .u-layout-wrap-1 {
@@ -2049,11 +2049,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 .u-section-1 .u-shape-1 {
   width: 35px;
   height: 6px;
-  --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
   margin: 10px auto 0 0;
 }
 
@@ -2064,6 +2059,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 .u-section-1 .u-layout-cell-3 {
   order: 1;
+  min-height: 422px;
 }
 
 .u-section-1 .u-container-layout-6 {
@@ -2121,14 +2117,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 .u-section-1 .u-image-2 {
   width: 36px;
   height: 59px;
-  margin: -73px auto 60px;
+  margin: -59px auto 60px;
 }
 
 @media (max-width: 1199px) {
-   .u-section-1 {
-    min-height: 100vh;
-  }
-
   .u-section-1 .u-layout-wrap-1 {
     width: 1000px;
   }
@@ -2161,6 +2153,18 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     height: auto;
   }
 
+  .u-section-1 .u-shape-1 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+    --animation-custom_in-scale: 1;
+  }
+
+  .u-section-1 .u-layout-cell-3 {
+    min-height: 348px;
+  }
+
   .u-section-1 .u-group-4 {
     width: 469px;
     margin-top: 3px;
@@ -2181,11 +2185,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     --top-left-radius: 0px;
     --bottom-right-radius: 0px;
     --radius: 0px;
-  }
-
-  .u-section-1 .u-image-2 {
-    margin-top: -59px;
-    margin-bottom: 0;
   }
 }
 
@@ -2249,6 +2248,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-text-6 {
     margin-top: 20px;
+  }
+
+  .u-section-1 .u-layout-cell-3 {
+    min-height: 100px;
   }
 
   .u-section-1 .u-container-layout-6 {
@@ -2340,12 +2343,17 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     padding-right: 15px;
   }
 
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 179px;
+  }
+
   .u-section-1 .u-group-2 {
     margin-top: -1px;
+    min-height: 180px;
   }
 
   .u-section-1 .u-group-3 {
-    min-height: 192px;
+    min-height: 180px;
   }
 
   .u-section-1 .u-container-layout-5 {
@@ -2359,17 +2367,33 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-text-2 {
-    font-size: 1.3333333333333333rem;
+    font-size: 1.33333rem;
+    width: auto;
     margin-top: 0;
   }
 
+  .u-section-1 .u-btn-1 {
+    font-weight: 500;
+  }
+
   .u-section-1 .u-text-3 {
-    font-size: 1.3333333333333333rem;
-    margin-top: -6px;
+    font-size: 1.33333rem;
+    width: auto;
+    margin-top: -5px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    font-weight: 500;
   }
 
   .u-section-1 .u-text-4 {
-    font-size: 1.3333333333333333rem;
+    font-size: 1.33333rem;
+    width: auto;
+    margin-top: -4px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    font-weight: 500;
   }
 
   .u-section-1 .u-text-5 {
@@ -2382,12 +2406,12 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-text-6 {
     width: auto;
-    margin-top: -1px;
+    margin-top: 5px;
     margin-right: 0;
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 100px;
+    min-height: 452px;
   }
 
   .u-section-1 .u-container-layout-6 {
@@ -2397,11 +2421,18 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-group-4 {
     border-style: solid;
-    width: 340px;
+    min-height: 431px;
+    margin-top: 11px;
+    margin-bottom: -11px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-1 .u-container-layout-7 {
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
   }
 
   .u-section-1 .u-form-group-1 {
