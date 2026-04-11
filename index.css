@@ -2542,12 +2542,12 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 } .u-section-3 {
   --color-var: #0f0f0f;
-  min-height: 1020px;
+  min-height: 1048px;
 }
 
 .u-section-3 .u-layout-wrap-1 {
   width: 1140px;
-  margin: 4px auto;
+  margin: 32px auto 4px;
 }
 
 .u-section-3 .u-layout-cell-1 {
