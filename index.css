@@ -2211,8 +2211,13 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-layout-cell-2 {
-    min-height: 100px;
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-top: 51px;
   }
 
   .u-section-1 .u-btn-1 {
@@ -2220,11 +2225,14 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 213px;
+    min-height: 313px;
   }
 
   .u-section-1 .u-image-1 {
-    margin-top: 12px;
+    margin-bottom: -2px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 } .u-section-2 {
   --color-var: #0f0f0f;

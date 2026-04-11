@@ -2225,7 +2225,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 213px;
+    min-height: 266px;
   }
 
   .u-section-1 .u-container-layout-5 {
@@ -2234,7 +2234,10 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-image-1 {
-    margin-top: 12px;
+    height: 250px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 } .u-section-2 {
   --color-var: #0f0f0f;

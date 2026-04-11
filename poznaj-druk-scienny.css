@@ -2212,10 +2212,6 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-image-1 {
-    --top-left-radius: 0px;
-    --bottom-left-radius: 100px;
-    --bottom-right-radius: 0px;
-    --top-right-radius: 100px;
     height: 300px;
   }
 
@@ -2226,22 +2222,37 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 215px;
+    min-height: 100vh;
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 327px;
+    min-height: 321px;
   }
 
   .u-section-1 .u-group-2 {
-    min-height: 327px;
+    min-height: 321px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
   }
 
+  .u-section-1 .u-text-2 {
+    width: auto;
+    margin-top: 15px;
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-top: 20px;
+    margin-right: 375px;
+  }
+
   .u-section-1 .u-layout-cell-3 {
-    min-height: 224px;
+    min-height: 265px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 250px;
   }
 } .u-section-2 {
   --color-var: #0f0f0f;
@@ -3138,12 +3149,8 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-3 .u-image-1 {
     background-size: 158%;
-    --top-left-radius: 100px;
-    --bottom-left-radius: 0px;
     height: 449px;
     margin-top: 47px;
-    --bottom-right-radius: 100px;
-    --top-right-radius: 0px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
