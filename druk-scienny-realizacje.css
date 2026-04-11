@@ -3401,12 +3401,13 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
 @media (max-width: 575px) {
    .u-section-3 {
-    min-height: 0;
+    min-height: 2336px;
   }
 
   .u-section-3 .u-group-1 {
     margin-top: 18px;
-    min-height: 2281px;
+    margin-bottom: 18px;
+    min-height: 2301px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -3723,9 +3724,12 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-4 .u-group-1 {
-    min-height: 1754px;
-    width: 340px;
-    margin: 4px auto;
+    min-height: 100px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-4 .u-container-layout-1 {
