@@ -2344,6 +2344,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     margin-top: -1px;
   }
 
+  .u-section-1 .u-group-3 {
+    min-height: 192px;
+  }
+
   .u-section-1 .u-container-layout-5 {
     padding-left: 0;
   }
@@ -2377,7 +2381,9 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-text-6 {
-    margin-top: 12px;
+    width: auto;
+    margin-top: -1px;
+    margin-right: 0;
   }
 
   .u-section-1 .u-layout-cell-3 {
