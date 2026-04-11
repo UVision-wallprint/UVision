@@ -1675,9 +1675,9 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-header .u-social-icons-1 {
-    margin-top: 130px;
-    margin-right: 47px;
-    margin-left: 50px;
+    margin-top: 52px;
+    margin-right: auto;
+    margin-left: 45px;
   }
 
   .u-header .u-text-1 {
@@ -1858,8 +1858,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  --top-left-radius: 100px;
-  --bottom-right-radius: 100px;
+  --radius: 50px;
   margin: 10px auto 0;
 }
 
@@ -1909,11 +1908,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-group-1 {
-    --top-right-radius: 100px;
-    --bottom-left-radius: 100px;
-    --top-left-radius: 0px;
-    --bottom-right-radius: 0px;
-    --radius: 0px;
     height: auto;
   }
 
@@ -1988,10 +1982,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-group-1 {
-    --top-right-radius: 0px;
-    --top-left-radius: 100px;
-    --bottom-right-radius: 100px;
-    --bottom-left-radius: 0px;
     min-height: 100px;
     margin-top: 0;
     margin-right: initial;
@@ -2183,5 +2173,9 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-section-2 .u-text-3 {
     font-size: 0.875rem;
     margin-top: 12px;
+  }
+
+  .u-section-2 .u-social-icons-1 {
+    margin-top: -10px;
   }
 }
