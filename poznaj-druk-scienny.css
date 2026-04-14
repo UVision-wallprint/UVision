@@ -2664,9 +2664,14 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 @media (max-width: 767px) {
+   .u-section-2 {
+    min-height: 2062px;
+  }
+
   .u-section-2 .u-group-1 {
     min-height: 2046px;
     width: 540px;
+    margin-bottom: 16px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
