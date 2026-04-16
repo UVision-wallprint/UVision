@@ -2342,17 +2342,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 @media (max-width: 575px) {
-   .u-section-1 {
-    min-height: 841px;
-  }
-
-  .u-section-1 .u-layout-wrap-1 {
-    margin-bottom: 4px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
-  }
-
   .u-section-1 .u-container-layout-1 {
     padding-left: 15px;
     padding-right: 15px;
@@ -2430,7 +2419,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 445px;
+    min-height: 450px;
   }
 
   .u-section-1 .u-container-layout-6 {
@@ -2440,8 +2429,8 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-group-4 {
     border-style: solid;
-    margin-top: 10px;
-    min-height: 421px;
+    margin-top: 6px;
+    min-height: 440px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
