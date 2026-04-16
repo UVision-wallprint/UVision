@@ -2176,6 +2176,10 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 @media (max-width: 575px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-layout-wrap-1 {
     margin-right: initial;
     margin-left: initial;
@@ -2216,7 +2220,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 } .u-section-2 {
   --color-var: #0f0f0f;
-  min-height: 1095px;
+  min-height: 1096px;
 }
 
 .u-section-2 .u-group-1 {
