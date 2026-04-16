@@ -2187,23 +2187,25 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 321px;
+    min-height: 300px;
   }
 
   .u-section-1 .u-group-2 {
-    margin-top: 15px;
-    margin-bottom: -1px;
-    min-height: 307px;
+    min-height: 300px;
+  }
+
+  .u-section-1 .u-container-layout-4 {
+    padding-top: 0;
   }
 
   .u-section-1 .u-text-2 {
     width: auto;
-    margin-top: 0;
+    margin-top: 15px;
     margin-right: 0;
   }
 
   .u-section-1 .u-shape-1 {
-    margin-top: 20px;
+    margin-top: 21px;
     margin-right: 375px;
   }
 
