@@ -2187,7 +2187,12 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 @media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 841px;
+  }
+
   .u-section-1 .u-layout-wrap-1 {
+    margin-bottom: 56px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -3081,6 +3086,11 @@ ol { margin-top: 20px; margin-bottom: 20px; }
     width: auto;
     margin-right: initial;
     margin-left: initial;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: auto;
+    margin-right: 0;
   }
 
   .u-section-2 .u-gallery-1 {
