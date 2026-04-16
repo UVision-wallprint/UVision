@@ -2448,15 +2448,13 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-container-layout-7 {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
   }
 
   .u-section-1 .u-form-1 {
     height: 409px;
-    width: 360px;
-    margin-top: 5px;
+    width: 90%;
+    margin-top: 9px;
     margin-left: auto;
     margin-right: auto;
   }
