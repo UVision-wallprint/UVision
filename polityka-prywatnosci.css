@@ -134,6 +134,9 @@ a:hover { color: #0676a4; }
 a:focus { outline: -webkit-focus-ring-color auto 5px; outline-offset: -2px; }
 .u-clearfix::after, .u-clearfix::before { content: ""; display: table; }
 .u-clearfix::after { clear: both; }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .u-hidden-lg { display: none !important; }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .u-hidden-md { display: none !important; }
 }
@@ -1832,7 +1835,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 549px;
+  min-height: 592px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -1890,7 +1893,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 .u-section-1 .u-image-1 {
   width: 36px;
   height: 59px;
-  margin: -21px auto 0;
+  margin: -11px auto 0;
 }
 
 @media (max-width: 1199px) {
@@ -1909,17 +1912,11 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-section-1 .u-text-1 {
     margin-top: 19px;
   }
-
-  .u-section-1 .u-text-2 {
-    margin-left: 0;
-  }
 }
 
 @media (max-width: 991px) {
   .u-section-1 .u-layout-wrap-1 {
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    width: 720px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -1928,10 +1925,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-container-layout-1 {
     padding: 0 20px;
-  }
-
-  .u-section-1 .u-group-1 {
-    min-height: 100px;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -1946,19 +1939,17 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-layout-wrap-1 {
+    width: 540px;
+  }
+
   .u-section-1 .u-container-layout-1 {
     padding-left: 15px;
     padding-right: 15px;
   }
 
   .u-section-1 .u-group-1 {
-    min-height: 101px;
-    width: 338px;
-    margin-top: 14px;
-  }
-
-  .u-section-1 .u-shape-1 {
-    margin-top: 11px;
+    width: 540px;
   }
 }
 
@@ -1967,28 +1958,24 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     background-position: 50% 50%;
   }
 
-  .u-section-1 .u-layout-cell-1 {
-    min-height: 636px;
-  }
-
-  .u-section-1 .u-group-1 {
-    min-height: 100px;
-    margin-top: 0;
+  .u-section-1 .u-layout-wrap-1 {
     margin-right: initial;
     margin-left: initial;
     width: auto;
   }
 
-  .u-section-1 .u-shape-1 {
-    margin-top: 20px;
+  .u-section-1 .u-group-1 {
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-top: 34px;
   }
 
   .u-section-1 .u-text-2 {
     font-size: 0.875rem;
-    width: auto;
-    margin-top: 21px;
-    margin-left: 0;
-    margin-right: 0;
   }
 } .u-section-2 {
   background-size: cover;

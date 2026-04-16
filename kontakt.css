@@ -166,6 +166,9 @@ a:hover { color: #0676a4; }
 a:focus { outline: -webkit-focus-ring-color auto 5px; outline-offset: -2px; }
 .u-clearfix::after, .u-clearfix::before { content: ""; display: table; }
 .u-clearfix::after { clear: both; }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .u-hidden-lg { display: none !important; }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .u-hidden-md { display: none !important; }
 }
@@ -1924,7 +1927,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 145px;
+  min-height: 166px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -1967,6 +1970,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 .u-section-1 .u-layout-cell-2 {
   order: 0;
+  min-height: 426px;
 }
 
 .u-section-1 .u-container-layout-3 {
@@ -2054,7 +2058,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 .u-section-1 .u-layout-cell-3 {
   order: 1;
-  min-height: 422px;
+  min-height: 426px;
 }
 
 .u-section-1 .u-container-layout-6 {
@@ -2112,16 +2116,16 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 .u-section-1 .u-image-2 {
   width: 36px;
   height: 59px;
-  margin: -59px auto 0;
+  margin: -69px auto 60px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-layout-wrap-1 {
-    width: 1000px;
+    width: 940px;
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 120px;
+    min-height: 137px;
   }
 
   .u-section-1 .u-group-1 {
@@ -2134,6 +2138,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-text-1 {
     margin-top: 6px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 352px;
   }
 
   .u-section-1 .u-group-2 {
@@ -2157,12 +2165,11 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 348px;
+    min-height: 351px;
   }
 
   .u-section-1 .u-group-4 {
-    width: 469px;
-    margin-top: 3px;
+    width: 470px;
     height: auto;
   }
 
@@ -2180,6 +2187,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     --top-left-radius: 0px;
     --bottom-right-radius: 0px;
     --radius: 0px;
+  }
+
+  .u-section-1 .u-image-2 {
+    margin-top: -45px;
   }
 }
 
@@ -2207,6 +2218,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-text-1 {
     margin-top: 4px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
   }
 
   .u-section-1 .u-container-layout-3 {
@@ -2316,12 +2331,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     padding-left: 20px;
   }
 
-  .u-section-1 .u-group-4 {
-    min-height: 420px;
-    margin-top: 0;
-    margin-right: auto;
-  }
-
   .u-section-1 .u-form-1 {
     margin-top: 0;
     margin-bottom: 0;
@@ -2420,9 +2429,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-group-4 {
     border-style: solid;
-    min-height: 431px;
-    margin-top: 11px;
-    margin-bottom: -11px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -2744,7 +2750,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-2 .u-group-3 {
     min-height: 391px;
-    margin-top: 21px;
+    margin-top: 10px;
     margin-bottom: 0;
   }
 
