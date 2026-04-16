@@ -1956,6 +1956,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 @media (max-width: 575px) {
    .u-section-1 {
     background-position: 50% 50%;
+    min-height: 850px;
   }
 
   .u-section-1 .u-layout-wrap-1 {

@@ -2238,7 +2238,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 @media (max-width: 575px) {
    .u-section-1 {
     background-position: 50% 50%;
-    min-height: 100vh;
+    min-height: 850px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
