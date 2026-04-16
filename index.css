@@ -2238,14 +2238,22 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 @media (max-width: 575px) {
    .u-section-1 {
     background-position: 50% 50%;
-    min-height: 841px;
+    min-height: 100vh;
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    margin-bottom: 56px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 392px;
+  }
+
+  .u-section-1 .u-group-2 {
+    min-height: 374px;
+    margin-bottom: -12px;
   }
 
   .u-section-1 .u-text-2 {
@@ -2258,7 +2266,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 216px;
+    min-height: 215px;
   }
 
   .u-section-1 .u-image-1 {

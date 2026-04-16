@@ -2186,16 +2186,22 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
     width: auto;
   }
 
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 101px;
+  }
+
   .u-section-1 .u-layout-cell-2 {
-    min-height: 300px;
+    min-height: 368px;
   }
 
   .u-section-1 .u-group-2 {
-    min-height: 300px;
+    margin-bottom: -75px;
+    min-height: 375px;
   }
 
   .u-section-1 .u-container-layout-4 {
     padding-top: 0;
+    padding-bottom: 30px;
   }
 
   .u-section-1 .u-text-2 {
