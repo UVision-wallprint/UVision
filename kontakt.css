@@ -1916,7 +1916,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
  /*end-variables base-font-size*/
  .u-section-1 {
   min-height: 100vh;
-  background-position: 50% 50%;
+  background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
 }
