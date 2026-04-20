@@ -1892,7 +1892,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 
 .u-section-1 .u-layout-wrap-1 {
   width: 1140px;
-  margin: 107px auto 0;
+  margin: 106px auto 60px;
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -1954,6 +1954,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   --animation-custom_in-scale: 1;
   margin-top: 0;
   margin-bottom: 0;
+  min-height: 428px;
 }
 
 .u-section-1 .u-container-layout-4 {
@@ -1967,7 +1968,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 .u-section-1 .u-shape-1 {
   width: 35px;
   height: 6px;
-  margin: 54px auto 0 0;
+  margin: 51px 535px 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -1976,15 +1977,15 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   background-image: none;
   border-style: solid;
   margin: 10px auto 0 0;
-  padding: 8px 28px;
+  padding: 9px 28px 9px 27px;
 }
 
 .u-section-1 .u-btn-2 {
   letter-spacing: 1px;
   filter: none;
   border-style: solid;
-  margin: 10px auto 0 0;
-  padding: 9px 26px 9px 25px;
+  margin: 11px auto 0 0;
+  padding: 9px 25px;
 }
 
 .u-section-1 .u-layout-cell-3 {
@@ -2044,7 +2045,6 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
     background-repeat: no-repeat;
     background-size: cover;
     --bottom-right-radius: 100px;
-    min-height: 428px;
     height: auto;
   }
 
@@ -2058,6 +2058,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
+    margin-right: 435px;
   }
 
   .u-section-1 .u-btn-1 {
@@ -2125,6 +2126,10 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-text-2 {
     margin-top: 8px;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-right: 325px;
   }
 
   .u-section-1 .u-layout-cell-3 {
@@ -2204,9 +2209,6 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-group-2 {
-    width: 440px;
-    margin-left: 0;
-    margin-right: 0;
     margin-bottom: -75px;
   }
 
@@ -2223,7 +2225,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-shape-1 {
-    margin-top: 21px;
+    margin-top: 50px;
     margin-right: 375px;
   }
 
