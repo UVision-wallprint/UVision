@@ -3177,11 +3177,11 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-3 .u-image-1 {
-    height: 274px;
+    height: 300px;
     margin-top: 0;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    width: 100%;
+    margin-right: 0;
+    margin-left: auto;
   }
 } .u-section-4 {
   --color-var: #0f0f0f;

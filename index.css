@@ -3920,16 +3920,16 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
 @media (max-width: 575px) {
   .u-section-5 .u-layout-cell-1 {
-    min-height: 100px;
+    min-height: 984px;
   }
 
   .u-section-5 .u-image-1 {
     object-position: 53.22% 73.69%;
-    height: 192px;
+    height: 300px;
     margin-top: 12px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    width: 100%;
+    margin-right: auto;
+    margin-left: 0;
   }
 
   .u-section-5 .u-text-1 {
@@ -3964,7 +3964,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-5 .u-layout-cell-2 {
-    min-height: 868px;
+    min-height: 769px;
   }
 
   .u-section-5 .u-shape-2 {
@@ -3998,11 +3998,11 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-5 .u-image-2 {
     object-position: 100% 70.33%;
-    height: 399px;
+    height: 300px;
     margin-top: 26px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    width: 100%;
+    margin-right: auto;
+    margin-left: 0;
   }
 } .u-section-6 {
   --color-var: #0f0f0f;
