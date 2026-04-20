@@ -1896,7 +1896,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 164px;
+  min-height: 163px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -1938,7 +1938,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-1 .u-layout-cell-2 {
-  min-height: 428px;
+  min-height: 429px;
 }
 
 .u-section-1 .u-container-layout-3 {
@@ -1954,21 +1954,21 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   --animation-custom_in-scale: 1;
   margin-top: 0;
   margin-bottom: 0;
-  min-height: 429px;
+  min-height: 420px;
 }
 
 .u-section-1 .u-container-layout-4 {
-  padding: 0 0 12px;
+  padding: 12px 0 0;
 }
 
 .u-section-1 .u-text-2 {
-  margin: 0;
+  margin: 3px 0 0;
 }
 
 .u-section-1 .u-shape-1 {
   width: 35px;
   height: 6px;
-  margin: 54px auto 0 0;
+  margin: 56px auto 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -1976,7 +1976,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   filter: none;
   background-image: none;
   border-style: solid;
-  margin: 9px auto 0 0;
+  margin: 10px auto 0 0;
   padding: 9px 28px 9px 27px;
 }
 
@@ -1989,7 +1989,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-1 .u-layout-cell-3 {
-  min-height: 428px;
+  min-height: 429px;
 }
 
 .u-section-1 .u-container-layout-5 {
@@ -2012,7 +2012,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 .u-section-1 .u-image-2 {
   width: 36px;
   height: 59px;
-  margin: -61px auto 0 -18px;
+  margin: -60px auto 0 -18px;
 }
 
 @media (max-width: 1199px) {
@@ -2086,7 +2086,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-image-2 {
-    margin-top: -9px;
+    margin-top: -8px;
   }
 }
 
@@ -2120,8 +2120,8 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-container-layout-4 {
-    padding-top: 0;
     padding-right: 0;
+    padding-bottom: 0;
     padding-left: 20px;
   }
 
@@ -2143,7 +2143,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-image-2 {
-    margin-top: 73px;
+    margin-top: 74px;
   }
 }
 
