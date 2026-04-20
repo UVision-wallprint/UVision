@@ -3416,8 +3416,11 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-3 .u-group-1 {
     min-height: 1832px;
-    width: 440px;
-    margin: 0 0 29px;
+    margin-top: 0;
+    margin-bottom: 29px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-container-layout-1 {
@@ -3425,6 +3428,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-3 .u-text-1 {
+    width: auto;
     margin-top: 0;
   }
 
@@ -3782,8 +3786,12 @@ ol { margin-top: 20px; margin-bottom: 20px; }
     margin-left: initial;
   }
 
+  .u-section-4 .u-text-1 {
+    width: auto;
+  }
+
   .u-section-4 .u-shape-1 {
-    margin-right: 305px;
+    margin-right: auto;
   }
 
   .u-section-4 .u-image-1 {
