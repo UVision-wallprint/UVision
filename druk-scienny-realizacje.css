@@ -1463,7 +1463,6 @@ a.u-link.u-hover-body-alt-color:hover { color: #ffffff !important; }
 .u-text-palette-2-base, .u-input.u-text-palette-2-base, .u-input.u-text-palette-2-base[class*="u-border-"], li.active > a.u-button-style.u-text-palette-2-base, li.active > a.u-button-style.u-text-palette-2-base[class*="u-border-"], a.u-button-style.u-text-palette-2-base, a.u-button-style.u-text-palette-2-base[class*="u-border-"] { color: #ffd101 !important; }
 a.u-button-style:hover > .u-text-hover-palette-2-base, a.u-button-style:hover > .u-text-hover-palette-2-base[class*="u-border-"], a.u-button-style.u-button-style.u-text-hover-palette-2-base:hover, a.u-button-style.u-button-style.u-text-hover-palette-2-base[class*="u-border-"]:hover, a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-2-base.active, a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-2-base[class*="u-border-"].active, a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-2-base:active, a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-2-base[class*="u-border-"]:active, a.u-button-style.u-button-style.u-text-hover-palette-2-base:focus, a.u-button-style.u-button-style.u-text-hover-palette-2-base[class*="u-border-"]:focus, :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-text-hover-palette-2-base:hover, .u-text-hover-palette-2-base.u-language-url:hover, .u-text-hover-palette-2-base .u-language-url:hover, .u-text-hover-palette-2-base.u-carousel-control:hover, .u-text-hover-palette-2-base.u-gallery-nav:hover, .u-popupmenu-items.u-text-hover-palette-2-base .u-nav-link:hover, .u-calendar-time-list .u-calendar-time-slot.u-text-hover-palette-2-base:hover { color: #ffd101 !important; }
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-2-base:active, a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-2-base[class*="u-border-"]:active, a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-2-base.active, a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-2-base[class*="u-border-"].active, a.u-button-style.u-button-style.active > .u-text-active-palette-2-base, a.u-button-style.u-button-style.active > .u-text-active-palette-2-base[class*="u-border-"], :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-nav-link.u-text-active-palette-2-base.active, .u-popupmenu-items.u-popupmenu-items.u-text-active-palette-2-base .u-nav-link.active, .u-calendar-time-list .u-calendar-time-slot.u-text-active-palette-2-base.u-active { color: #ffd101 !important; }
-.u-text-palette-2-base .u-svg-link { fill: #ffd101; }
 .u-text-hover-palette-2-base:hover .u-svg-link, .u-text-hover-palette-2-base:focus .u-svg-link, .u-button-style:hover > .u-text-hover-palette-2-base .u-svg-link { fill: #ffd101; }
 .u-text-palette-5-base, .u-input.u-text-palette-5-base, .u-input.u-text-palette-5-base[class*="u-border-"], li.active > a.u-button-style.u-text-palette-5-base, li.active > a.u-button-style.u-text-palette-5-base[class*="u-border-"], a.u-button-style.u-text-palette-5-base, a.u-button-style.u-text-palette-5-base[class*="u-border-"] { color: #fafafa !important; }
 .u-text-white, .u-input.u-text-white, .u-input.u-text-white[class*="u-border-"], li.active > a.u-button-style.u-text-white, li.active > a.u-button-style.u-text-white[class*="u-border-"], a.u-button-style.u-text-white, a.u-button-style.u-text-white[class*="u-border-"] { color: #ffffff !important; }
@@ -2475,6 +2474,10 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   margin-top: 0;
 }
 
+.u-section-2 .u-back-image-19 {
+  object-position: 50% 27.65%;
+}
+
 .u-section-2 .u-over-slide-19 {
   min-height: 100px;
   padding: 10px;
@@ -3372,10 +3375,6 @@ ol { margin-top: 20px; margin-bottom: 20px; }
     height: NaNpx;
   }
 
-  .u-section-3 .u-layout-cell-3 {
-    min-height: NaNpx;
-  }
-
   .u-section-3 .u-layout-cell-4 {
     min-height: NaNpx;
   }
@@ -3442,10 +3441,6 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-3 .u-image-2 {
     height: 562px;
-  }
-
-  .u-section-3 .u-layout-cell-3 {
-    min-height: 485px;
   }
 
   .u-section-3 .u-image-3 {
