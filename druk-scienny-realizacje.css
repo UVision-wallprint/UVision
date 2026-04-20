@@ -2180,7 +2180,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 850px;
+    min-height: 860px;
   }
 
   .u-section-1 .u-group-2 {
