@@ -136,6 +136,9 @@ a:focus { outline: -webkit-focus-ring-color auto 5px; outline-offset: -2px; }
 .u-clearfix::after { clear: both; }
 .u-spacing-5.u-countdown-item .u-countdown-counter, .u-text.u-spacing-5 li { margin-bottom: 5px; }
 ul.u-text li:last-child { margin-bottom: 0px; }
+@media (min-width: 992px) and (max-width: 1199px) {
+  .u-hidden-lg { display: none !important; }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .u-hidden-md { display: none !important; }
 }
