@@ -2194,7 +2194,9 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-group-2 {
     margin-bottom: -25px;
-    width: 340px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-1 .u-btn-1 {
