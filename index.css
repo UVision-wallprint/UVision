@@ -1972,12 +1972,12 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 867px;
+  min-height: 100vh;
 }
 
 .u-section-1 .u-layout-wrap-1 {
   width: 1140px;
-  margin: 107px auto 60px;
+  margin: 107px auto 0;
 }
 
 .u-section-1 .u-layout-cell-1 {
@@ -2047,17 +2047,17 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-1 .u-container-layout-4 {
-  padding: 11px 0;
+  padding: 0;
 }
 
 .u-section-1 .u-text-2 {
-  margin: 0 auto 0 0;
+  margin: 15px 0 0;
 }
 
 .u-section-1 .u-shape-1 {
   width: 35px;
   height: 6px;
-  margin: 51px auto 0 0;
+  margin: 54px auto 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -2066,7 +2066,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   background-image: none;
   border-style: solid;
   margin: 10px auto 0 0;
-  padding: 9px 22px 10px;
+  padding: 9px 21px;
 }
 
 .u-section-1 .u-btn-2 {
@@ -2074,7 +2074,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   filter: none;
   border-style: solid;
   margin: 11px auto 0 0;
-  padding: 9px 39px 10px 38px;
+  padding: 9px 38px 9px 37px;
 }
 
 .u-section-1 .u-layout-cell-3 {
@@ -2101,14 +2101,10 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 .u-section-1 .u-image-2 {
   width: 36px;
   height: 59px;
-  margin: -60px auto 0 -18px;
+  margin: -59px auto 0 -18px;
 }
 
 @media (max-width: 1199px) {
-   .u-section-1 {
-    min-height: 611px;
-  }
-
   .u-section-1 .u-layout-wrap-1 {
     width: 940px;
   }
@@ -2149,15 +2145,11 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-image-2 {
-    margin-top: -8px;
+    margin-top: -7px;
   }
 }
 
 @media (max-width: 991px) {
-   .u-section-1 {
-    min-height: 493px;
-  }
-
   .u-section-1 .u-layout-wrap-1 {
     margin-right: initial;
     margin-left: initial;
@@ -2189,8 +2181,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-container-layout-4 {
-    padding-right: 0;
-    padding-left: 20px;
+    padding: 0 0 0 20px;
   }
 
   .u-section-1 .u-layout-cell-3 {
@@ -2265,7 +2256,6 @@ ol { margin-top: 20px; margin-bottom: 20px; }
     width: 100%;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 0;
   }
 
   .u-section-1 .u-text-1 {
@@ -2287,7 +2277,6 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-text-2 {
     width: auto;
-    margin-right: 0;
   }
 
   .u-section-1 .u-shape-1 {
