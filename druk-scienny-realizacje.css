@@ -3412,6 +3412,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-3 .u-image-3 {
+    object-position: 50% 7.05%;
     height: 530px;
   }
 
@@ -3429,6 +3430,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-3 .u-image-5 {
     height: 269px;
+    object-position: 50% 56.08%;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -3465,6 +3467,8 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   .u-section-3 .u-image-1 {
     height: 450px;
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-3 .u-layout-cell-2 {
@@ -3483,6 +3487,8 @@ ol { margin-top: 20px; margin-bottom: 20px; }
     object-position: 50% 36.45%;
     height: 450px;
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-3 .u-layout-cell-4 {
