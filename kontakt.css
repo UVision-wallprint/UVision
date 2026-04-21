@@ -2287,6 +2287,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 @media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 895px;
+  }
+
   .u-section-1 .u-layout-cell-1 {
     min-height: 100px;
   }
@@ -2297,16 +2301,17 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 100px;
+    min-height: 268px;
   }
 
   .u-section-1 .u-group-2 {
     margin-top: 0;
+    min-height: 268px;
   }
 
   .u-section-1 .u-container-layout-4 {
+    padding-right: 10px;
     padding-left: 15px;
-    padding-right: 15px;
   }
 
   .u-section-1 .u-group-3 {
@@ -2314,7 +2319,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-container-layout-5 {
-    padding-left: 10px;
+    padding-left: 0;
   }
 
   .u-section-1 .u-image-1 {
@@ -2332,20 +2337,24 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 420px;
+    min-height: 450px;
   }
 
   .u-section-1 .u-container-layout-6 {
-    padding-left: 20px;
+    padding: 15px;
+  }
+
+  .u-section-1 .u-group-4 {
+    min-height: 420px;
+    margin-right: auto;
   }
 
   .u-section-1 .u-form-1 {
-    margin-top: 0;
-    margin-bottom: 0;
+    height: 418px;
     --radius: 0px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    width: 314px;
+    margin-top: -10px;
+    margin-bottom: 0;
   }
 }
 
@@ -2368,12 +2377,12 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     min-height: 180px;
   }
 
-  .u-section-1 .u-group-3 {
-    min-height: 186px;
+  .u-section-1 .u-container-layout-4 {
+    padding-right: 15px;
   }
 
-  .u-section-1 .u-container-layout-5 {
-    padding-left: 0;
+  .u-section-1 .u-group-3 {
+    min-height: 186px;
   }
 
   .u-section-1 .u-image-1 {
@@ -2430,11 +2439,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     min-height: 438px;
   }
 
-  .u-section-1 .u-container-layout-6 {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
   .u-section-1 .u-group-4 {
     border-style: solid;
     min-height: 423px;
@@ -2454,8 +2458,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     height: 409px;
     width: 90%;
     margin-top: 11px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .u-section-1 .u-form-group-1 {

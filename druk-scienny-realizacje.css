@@ -2150,6 +2150,13 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-layout-cell-2 {
     order: 1;
+    min-height: 428px;
+  }
+
+  .u-section-1 .u-group-2 {
+    width: 640px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-1 .u-container-layout-4 {
@@ -2159,7 +2166,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-layout-cell-3 {
     order: 0;
-    min-height: 485px;
+    min-height: 266px;
   }
 
   .u-section-1 .u-container-layout-5 {
@@ -2169,9 +2176,10 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-image-1 {
     object-position: 50% 18.9%;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    height: 250px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: auto;
   }
 }
 
@@ -2180,8 +2188,13 @@ ol { margin-top: 20px; margin-bottom: 20px; }
     min-height: 860px;
   }
 
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
   .u-section-1 .u-group-2 {
     margin-bottom: -25px;
+    width: 340px;
   }
 
   .u-section-1 .u-btn-1 {
@@ -2199,9 +2212,6 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-image-1 {
     height: 200px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
   }
 } .u-section-2 {
   --color-var: #0f0f0f;
