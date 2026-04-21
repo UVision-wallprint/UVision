@@ -4409,13 +4409,13 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
 @media (max-width: 575px) {
    .u-section-6 {
-    min-height: 450px;
+    min-height: 476px;
   }
 
   .u-section-6 .u-group-1 {
-    min-height: 426px;
+    min-height: 434px;
     margin-top: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 30px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
@@ -4432,6 +4432,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-6 .u-image-1 {
     margin-top: 18px;
+    height: 299px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
