@@ -2527,13 +2527,9 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 @media (max-width: 575px) {
-   .u-section-2 {
-    min-height: 383px;
-  }
-
   .u-section-2 .u-group-1 {
     margin-top: 1px;
-    margin-bottom: 30px;
+    margin-bottom: 1px;
     min-height: 352px;
     width: auto;
     margin-right: initial;
@@ -4936,12 +4932,8 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 @media (max-width: 575px) {
-   .u-section-7 {
-    min-height: 868px;
-  }
-
   .u-section-7 .u-group-1 {
-    min-height: 966px;
+    min-height: 830px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -5159,14 +5151,14 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 } .u-section-9 {
   background-size: cover;
   background-position: 50% 100%;
-  min-height: 569px;
+  min-height: 798px;
 }
 
 .u-section-9 .u-group-1 {
   min-height: 569px;
   height: auto;
   width: 1140px;
-  margin: 2px auto 1px;
+  margin: 140px auto 0;
 }
 
 .u-section-9 .u-container-layout-1 {
@@ -5240,7 +5232,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
    .u-section-9 {
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    min-height: 469px;
+    min-height: 658px;
   }
 
   .u-section-9 .u-group-1 {
@@ -5277,7 +5269,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
 @media (max-width: 991px) {
    .u-section-9 {
-    min-height: 359px;
+    min-height: 504px;
   }
 
   .u-section-9 .u-group-1 {
@@ -5291,9 +5283,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-9 .u-group-2 {
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    width: 720px;
   }
 
   .u-section-9 .u-container-layout-2 {
@@ -5303,11 +5293,16 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
 @media (max-width: 767px) {
    .u-section-9 {
-    min-height: 269px;
+    min-height: 378px;
   }
 
   .u-section-9 .u-container-layout-1 {
-    padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-9 .u-group-2 {
+    width: 520px;
   }
 }
 
@@ -5317,16 +5312,15 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-9 .u-container-layout-1 {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 15px;
   }
 
   .u-section-9 .u-group-2 {
     --top-left-radius: 100px;
     --bottom-right-radius: 100px;
-    width: auto;
     margin-right: initial;
     margin-left: initial;
+    width: auto;
   }
 
   .u-section-9 .u-text-1 {
@@ -5341,5 +5335,9 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   .u-section-9 .u-text-3 {
     font-size: 0.875rem;
     margin-top: 12px;
+  }
+
+  .u-section-9 .u-social-icons-1 {
+    margin-top: -10px;
   }
 }
