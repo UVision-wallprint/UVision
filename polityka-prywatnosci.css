@@ -1880,13 +1880,13 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 .u-section-1 .u-text-2 {
   line-height: 1.2;
   font-size: 1.125rem;
-  margin: 21px auto 0 0;
+  margin: 20px 0 0;
 }
 
 .u-section-1 .u-image-1 {
   width: 36px;
   height: 59px;
-  margin: -12px auto 0;
+  margin: -11px auto 0;
 }
 
 @media (max-width: 1199px) {
