@@ -4522,15 +4522,15 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
 @media (max-width: 575px) {
    .u-section-5 {
-    min-height: 0;
+    min-height: 3024px;
   }
 
   .u-section-5 .u-group-1 {
-    margin-bottom: 0;
+    margin-bottom: 7px;
     min-height: 3017px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-5 .u-container-layout-1 {
@@ -4556,7 +4556,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   .u-section-5 .u-layout-cell-1 {
     background-position: 100% 95.65%;
     background-size: cover;
-    min-height: 366px;
+    min-height: 368px;
   }
 
   .u-section-5 .u-image-1 {
@@ -4567,7 +4567,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   .u-section-5 .u-layout-cell-2 {
     background-position: 50% 47.35%;
     background-size: cover;
-    min-height: 366px;
+    min-height: 368px;
   }
 
   .u-section-5 .u-image-2 {
@@ -4576,7 +4576,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-5 .u-layout-cell-3 {
-    min-height: 416px;
+    min-height: 418px;
   }
 
   .u-section-5 .u-image-3 {
@@ -4586,7 +4586,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-5 .u-layout-cell-4 {
-    min-height: 353px;
+    min-height: 355px;
   }
 
   .u-section-5 .u-image-4 {
@@ -4598,7 +4598,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-5 .u-layout-cell-5 {
-    min-height: 316px;
+    min-height: 317px;
   }
 
   .u-section-5 .u-image-5 {
@@ -4607,7 +4607,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-5 .u-layout-cell-6 {
-    min-height: 416px;
+    min-height: 418px;
   }
 
   .u-section-5 .u-image-6 {
@@ -4617,7 +4617,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-5 .u-layout-cell-7 {
-    min-height: 317px;
+    min-height: 318px;
   }
 
   .u-section-5 .u-image-7 {
@@ -4625,7 +4625,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-5 .u-layout-cell-8 {
-    min-height: 311px;
+    min-height: 312px;
   }
 
   .u-section-5 .u-image-8 {
