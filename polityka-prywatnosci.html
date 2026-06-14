@@ -140,7 +140,7 @@ display: none !important
           <div class="u-layout-row">
             <div class="Object]-md u-container-style u-layout-cell u-shape-rectangle u-size-60 u-size-[object u-layout-cell-1">
               <div class="u-container-layout u-container-layout-1">
-                <div class="u-align-center u-container-align-center u-container-align-center-lg u-container-align-center-xl u-container-style u-group u-radius u-shading u-shape-round u-group-1">
+                <div class="u-align-center u-border-2 u-border-palette-2-base u-container-align-center u-container-align-center-lg u-container-align-center-xl u-container-style u-group u-radius u-shading u-shape-round u-group-1">
                   <div class="u-container-layout u-container-layout-2">
                     <h1 class="u-align-center u-text u-title u-text-1" data-animation-name="fadeIn" data-animation-duration="1500" data-animation-delay="300" data-animation-out="0">Polityka&nbsp;<br>prywatności
                     </h1>
@@ -225,12 +225,11 @@ Okres przechowywania danych: Dane będą prze​chowywane przez okres niezbędny
 
 .u-cookies-consent .u-layout-cell-1 {
   min-height: 183px;
-  --top-left-radius: 100px;
-  --bottom-right-radius: 100px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
   background-size: cover;
+  --radius: 50px;
 }
 
 .u-cookies-consent .u-container-layout-1 {
@@ -274,8 +273,9 @@ Okres przechowywania danych: Dane będą prze​chowywane przez okres niezbędny
   }
 
   .u-cookies-consent .u-layout-cell-1 {
-    --radius: 50px;
     min-height: 157px;
+    --top-left-radius: 100px;
+    --bottom-right-radius: 100px;
   }
 
   .u-cookies-consent .u-text-1 {
