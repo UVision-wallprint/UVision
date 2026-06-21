@@ -3849,6 +3849,8 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-3 .u-layout-wrap-1 {
     margin-top: 31px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-3 .u-image-1 {
