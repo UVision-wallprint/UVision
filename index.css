@@ -792,9 +792,6 @@ p { margin-top: 0px; padding: 0px; margin-bottom: 0.5rem; }
 @media (max-width: 575px) {
   .u-align-center-xs { text-align: center; }
 }
-@media (max-width: 575px) {
-  .u-align-right-xs { text-align: right; }
-}
 .u-tabs:not([class*="u-align-"]), .u-accordion:not([class*="u-align-"]), .u-repeater-item:not([class*="u-align-"]), .u-container-style:not([class*="u-align-"]) { text-align: left; }
 .u-nav:not([class*="u-align-"]) .u-nav { text-align: left; }
 .u-text { overflow-wrap: break-word; position: relative; }
