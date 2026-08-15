@@ -520,15 +520,15 @@ display: none !important
           </p>
         </div>
       </div></footer><section class="u-align-center u-clearfix u-container-align-center u-cookies-consent u-valign-bottom-lg u-valign-bottom-md u-valign-bottom-sm u-valign-middle-xs" id="gdpr" data-image-width="2000" data-image-height="1333">
-      <div class="u-clearfix u-sheet u-valign-bottom-xl u-valign-bottom-xs u-sheet-1">
+      <div class="u-clearfix u-sheet u-valign-bottom-md u-valign-bottom-xl u-valign-bottom-xs u-sheet-1">
         <div class="data-layout-selected u-align-center u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
           <div class="u-gutter-0 u-layout">
             <div class="u-layout-row">
               <div class="u-align-center-xs u-container-style u-image-round u-layout-cell u-left-cell u-shading u-shape-rectangle u-size-60 u-layout-cell-1" data-image-width="1980" data-image-height="1047">
                 <div class="u-border-2 u-border-palette-2-base u-container-layout u-container-layout-1">
-                  <div class="u-container-align-center u-container-style u-group u-group-1">
-                    <div class="u-container-layout u-valign-middle-xs u-container-layout-2">
-                      <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-default u-text-palette-2-base u-text-1">Cenimy Twoją prywatność</h3>
+                  <div class="custom-expanded u-container-style u-expanded-width u-group u-group-1">
+                    <div class="u-container-layout u-container-layout-2">
+                      <h3 class="u-align-center u-custom-font u-font-montserrat u-text u-text-palette-2-base u-text-1">Cenimy Twoją prywatność</h3>
                       <p class="u-align-center u-text u-text-body-alt-color u-text-default u-text-2"> Używamy plików cookie, aby poprawić jakość przeglądania, wyświetlać reklamy lub treści dostosowane do indywidualnych potrzeb użytkowników oraz analizować ruch na stronie. Kliknięcie przycisku „Akceptuj” oznacza zgodę na wykorzystywanie przez nas plików cookie.</p>
                       <a href="" class="u-active-palette-2-base u-align-center u-border-none u-btn u-button-confirm u-button-style u-hover-white u-palette-2-base u-text-hover-black u-text-white u-btn-1">AKCEPTUJ </a>
                       <a href="" class="u-active-palette-2-base u-align-center u-btn u-button-decline u-button-style u-hover-white u-palette-2-base u-text-hover-black u-text-white u-btn-2" data-animation-name="" data-animation-duration="0" data-animation-delay="0" data-animation-direction=""> Odrzuć</a>
@@ -545,8 +545,7 @@ display: none !important
 }
 
 .u-cookies-consent .u-layout-wrap-1 {
-  margin-top: 60px;
-  margin-bottom: 0;
+  margin: auto auto 0;
 }
 
 .u-cookies-consent .u-layout-cell-1 {
@@ -576,7 +575,7 @@ display: none !important
 .u-cookies-consent .u-text-1 {
   font-size: 1.875rem;
   text-transform: uppercase;
-  margin: 25px auto 0;
+  margin: 25px 0 0;
 }
 
 .u-cookies-consent .u-text-2 {
@@ -605,15 +604,20 @@ display: none !important
     min-height: 388px;
   }
 
+  .u-cookies-consent .u-layout-wrap-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+
   .u-cookies-consent .u-layout-cell-1 {
     --radius: 50px;
     min-height: 207px;
   }
 
   .u-cookies-consent .u-group-1 {
-    width: 909px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
     height: auto;
   }
 
@@ -635,11 +639,7 @@ display: none !important
 
 @media (max-width: 991px) {
   .u-cookies-consent .u-sheet-1 {
-    min-height: 347px;
-  }
-
-  .u-cookies-consent .u-layout-wrap-1 {
-    margin-bottom: 60px;
+    min-height: 100vh;
   }
 
   .u-cookies-consent .u-layout-cell-1 {
@@ -652,10 +652,10 @@ display: none !important
   }
 
   .u-cookies-consent .u-group-1 {
-    width: 689px;
     min-height: 191px;
-    margin-right: -2px;
-    margin-left: auto;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-cookies-consent .u-text-1 {
@@ -683,6 +683,10 @@ display: none !important
 }
 
 @media (max-width: 767px) {
+  .u-cookies-consent .u-sheet-1 {
+    min-height: 347px;
+  }
+
   .u-cookies-consent .u-layout-cell-1 {
     min-height: 100px;
   }
@@ -693,9 +697,10 @@ display: none !important
   }
 
   .u-cookies-consent .u-group-1 {
-    width: 520px;
     min-height: 191px;
-    margin-right: 0;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-cookies-consent .u-btn-2 {
@@ -706,15 +711,11 @@ display: none !important
 
 @media (max-width: 575px) {
   .u-cookies-consent .u-sheet-1 {
-    min-height: 374px;
-  }
-
-  .u-cookies-consent .u-layout-wrap-1 {
-    margin-top: 120px;
+    min-height: 100vh;
   }
 
   .u-cookies-consent .u-layout-cell-1 {
-    min-height: 179px;
+    min-height: 165px;
   }
 
   .u-cookies-consent .u-container-layout-1 {
@@ -723,27 +724,37 @@ display: none !important
   }
 
   .u-cookies-consent .u-group-1 {
-    width: 320px;
-    min-height: 167px;
-    margin-right: -2px;
+    min-height: 156px;
+    margin-top: 0;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-cookies-consent .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .u-cookies-consent .u-text-1 {
     font-size: 1rem;
     width: auto;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-top: 13px;
+    margin-left: 1px;
+    margin-right: 1px;
   }
 
   .u-cookies-consent .u-text-2 {
     font-size: 0.625rem;
     width: auto;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-cookies-consent .u-btn-1 {
     font-size: 0.75rem;
-    margin-top: 12px;
-    margin-left: 30px;
+    margin-left: 31px;
     padding-right: 6px;
     padding-left: 5px;
   }
@@ -751,7 +762,8 @@ display: none !important
   .u-cookies-consent .u-btn-2 {
     font-size: 0.75rem;
     margin-top: -30px;
-    margin-left: 191px;
+    margin-right: 31px;
+    margin-left: auto;
     padding-right: 14px;
     padding-left: 12px;
   }
