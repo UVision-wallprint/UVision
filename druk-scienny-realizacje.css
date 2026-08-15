@@ -686,7 +686,6 @@ a:focus { outline: -webkit-focus-ring-color auto 5px; outline-offset: -2px; }
 @media (min-width: 576px) and (max-width: 767px) {
   .u-text-default-sm { display: table; align-self: flex-start; width: fit-content; }
 }
-.u-cookies-consent { display: none; position: fixed; bottom: 0px; left: 0px; right: 0px; z-index: 10000; }
 .u-cookies-consent.show { display: block; }
 .u-countdown-number .counter-html { position: absolute; width: 1ch; }
 .qs-datepicker-container { font-size: 1rem; font-family: sans-serif; color: #000000; display: flex; flex-direction: column; user-select: none; }
@@ -930,10 +929,8 @@ img.u-image, .u-video-poster { overflow: hidden; }
   .u-absolute-hcenter, .u-absolute-hcenter-xs { max-width: 100%; }
 }
 .u-layout-row > .u-size-60 { flex: 0 0 100%; max-width: 100%; min-width: 100%; }
-.u-layout-row > .u-size-40 { flex: 0 0 66.6667%; max-width: 66.6667%; min-width: 66.6667%; }
 .u-layout-row > .u-size-30 { flex: 0 0 50%; max-width: 50%; min-width: 50%; }
 .u-layout-col > .u-size-30 { flex: 30 0 auto; }
-.u-layout-row > .u-size-20 { flex: 0 0 33.3333%; max-width: 33.3333%; min-width: 33.3333%; }
 .u-layout-col > .u-size-20 { flex: 20 0 auto; }
 .u-layout-col > .u-size-12 { flex: 12 0 auto; }
 .u-layout-col > .u-size-10 { flex: 10 0 auto; }

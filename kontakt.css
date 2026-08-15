@@ -676,7 +676,6 @@ a:focus { outline: -webkit-focus-ring-color auto 5px; outline-offset: -2px; }
 .u-text-default { display: table; align-self: flex-start; width: fit-content; }
 .u-form-agree .u-btn, .u-table-cell .u-btn, .u-text .u-btn { display: inline-block; margin-top: 0px; margin-bottom: 0px; vertical-align: baseline; white-space: normal; text-align: inherit; }
 .u-form-agree .u-btn.u-button-link, .u-table-cell .u-btn.u-button-link, .u-text .u-btn.u-button-link { display: inline; }
-.u-cookies-consent { display: none; position: fixed; bottom: 0px; left: 0px; right: 0px; z-index: 10000; }
 .u-cookies-consent.show { display: block; }
 .u-countdown-number .counter-html { position: absolute; width: 1ch; }
 .qs-datepicker-container { font-size: 1rem; font-family: sans-serif; color: #000000; display: flex; flex-direction: column; user-select: none; }
@@ -738,7 +737,6 @@ html { font-size: 16px; }
 h1, h2, h3, h4, h5, h6 { margin-top: 0px; margin-bottom: 0.5rem; line-height: 1.2; font-weight: 500; color: inherit; }
 h1 { font-size: 2.25rem; }
 h2 { font-size: 1.5rem; }
-h3 { font-size: 1.25rem; }
 p { margin-top: 0px; padding: 0px; margin-bottom: 0.5rem; }
 .u-align-left { text-align: left; }
 @media (min-width: 1200px) {
@@ -906,9 +904,6 @@ img.u-image, .u-video-poster { overflow: hidden; }
 @media (min-width: 1200px) {
   .u-xl-mode .u-valign-top-xl { justify-content: flex-start; }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
-  .u-valign-top-lg { justify-content: flex-start; }
-}
 @media (min-width: 768px) and (max-width: 991px) {
   .u-valign-top-md { justify-content: flex-start; }
 }
@@ -944,10 +939,8 @@ img.u-image, .u-video-poster { overflow: hidden; }
   .u-layout-wrap:not(.u-layout-custom-xs) .u-layout .u-layout-cell { border-left: 0px !important; border-right: 0px !important; }
 }
 .u-layout-row > .u-size-60 { flex: 0 0 100%; max-width: 100%; min-width: 100%; }
-.u-layout-row > .u-size-40 { flex: 0 0 66.6667%; max-width: 66.6667%; min-width: 66.6667%; }
 .u-layout-row > .u-size-30 { flex: 0 0 50%; max-width: 50%; min-width: 50%; }
 .u-layout-col > .u-size-30 { flex: 30 0 auto; }
-.u-layout-row > .u-size-20 { flex: 0 0 33.3333%; max-width: 33.3333%; min-width: 33.3333%; }
 @media (min-width: 768px) and (max-width: 991px) {
   .u-layout-row > .u-size-30-md { flex: 0 0 50%; max-width: 50%; min-width: 50%; }
 }
@@ -1494,7 +1487,6 @@ a.u-link.u-text-hover-body-alt-color:hover, a.u-link.u-text-hover-body-alt-color
 .u-body { --theme-sheet-width-xl: 1140px; --theme-sheet-width-lg: 940px; --theme-sheet-width-md: 720px; --theme-sheet-width-sm: 540px; --theme-sheet-width-xs: 340px; }
 h1.u-title { font-size: 3rem; line-height: 1.1; margin-top: 20px; margin-bottom: 20px; font-weight: 700; }
 h2:not(.u-subtitle) { font-size: 2.25rem; line-height: 1.2; margin-top: 20px; margin-bottom: 20px; text-transform: none; font-family: Montserrat, sans-serif; font-weight: 600; }
-h3 { font-size: 1.25rem; line-height: 1.2; margin-top: 20px; margin-bottom: 20px; font-weight: 600; }
 p.u-small-text { font-size: 1rem; margin-top: 20px; margin-bottom: 20px; line-height: 1.4; }
 p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125rem; line-height: 1.4; }
 .u-btn { margin-top: 20px; margin-bottom: 20px; font-size: 1rem; font-weight: 700; text-transform: uppercase; line-height: 1.4; letter-spacing: 3px; border-style: none; }
@@ -1517,12 +1509,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 @media (max-width: 575px) {
   h2:not(.u-subtitle) { font-size: 1.5rem; font-weight: 700; text-transform: none; line-height: 1.1; }
-}
-@media (max-width: 991px) {
-  h3 { font-size: 1.125rem; }
-}
-@media (max-width: 575px) {
-  h3 { font-size: 1.125rem; font-weight: 700; line-height: 1.2; }
 }
 @media (max-width: 575px) {
   p:not(.u-text-variant) { font-size: 1rem; }
