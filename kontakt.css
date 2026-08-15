@@ -1901,20 +1901,25 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 }
 
- /*begin-variables custom-site-css*/body.u-overlap-mode,
-div[class*="u-overlap"],
-.u-body-effect {
-pointer-events: none !important;
+ /*begin-variables custom-site-css*//* Wyciągnięcie samego banera i jego przycisków na najwyższą warstwę */
+.u-cookies-consent {
+position: relative !important;
+z-index: 9999999 !important;
+pointer-events: auto !important;
 }
 
-.u-cookies-consent,
-.u-cookies-consent *,
+.u-cookies-consent * {
+pointer-events: auto !important;
+}
+
+/* Przywrócenie odklikowalności przycisków */
 a.u-button-confirm,
 a.u-button-decline {
-pointer-events: auto !important;
 position: relative !important;
-z-index: 999999 !important;
-}/*end-variables custom-site-css*/
+z-index: 99999999 !important;
+cursor: pointer !important;
+}
+/*end-variables custom-site-css*/
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
  /*end-variables base-font-size*/
