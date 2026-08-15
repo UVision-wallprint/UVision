@@ -875,6 +875,9 @@ img.u-image, .u-video-poster { overflow: hidden; }
 @media (min-width: 576px) and (max-width: 767px) {
   .u-valign-bottom-sm { justify-content: flex-end; }
 }
+@media (max-width: 575px) {
+  .u-valign-bottom-xs { justify-content: flex-end; }
+}
 @media (max-width: 767px) {
   :not(.u-sheet) > [class*="u-gutter-"]:not(.u-gutter-0).u-expanded-width { overflow: hidden; }
 }
