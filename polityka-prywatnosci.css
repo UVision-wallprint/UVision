@@ -669,18 +669,6 @@ a:focus { outline: -webkit-focus-ring-color auto 5px; outline-offset: -2px; }
 .u-button-style[class*="u-border-"].u-border-no-bottom, [class*="u-border-"].u-border-no-bottom { border-bottom-width: 0px; border-bottom-style: none; }
 .u-button-style[class*="u-border-"].u-border-no-left, [class*="u-border-"].u-border-no-left { border-left-width: 0px; border-left-style: none; }
 .u-text-default { display: table; align-self: flex-start; width: fit-content; }
-@media (min-width: 1200px) {
-  .u-xl-mode .u-text-default-xl { display: table; align-self: flex-start; width: fit-content; }
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  .u-text-default-lg { display: table; align-self: flex-start; width: fit-content; }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-  .u-text-default-md { display: table; align-self: flex-start; width: fit-content; }
-}
-@media (min-width: 576px) and (max-width: 767px) {
-  .u-text-default-sm { display: table; align-self: flex-start; width: fit-content; }
-}
 .u-cookies-consent { display: none; position: fixed; bottom: 0px; left: 0px; right: 0px; z-index: 10000; }
 .u-cookies-consent.show { display: block; }
 .u-countdown-number .counter-html { position: absolute; width: 1ch; }
@@ -833,6 +821,7 @@ img.u-image, .u-video-poster { overflow: hidden; }
 @media (max-width: 575px) {
   .u-expanded-width-xs { width: 100% !important; }
 }
+.u-expanded-width:not(.custom-expanded) { margin-left: 0px !important; margin-right: 0px !important; }
 @media (min-width: 1200px) {
   .u-xl-mode .u-valign-middle-xl, .u-xl-mode .u-valign-top-xl, .u-xl-mode .u-valign-bottom-xl { display: flex; flex-direction: column; }
 }
@@ -874,6 +863,9 @@ img.u-image, .u-video-poster { overflow: hidden; }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .u-valign-bottom-sm { justify-content: flex-end; }
+}
+@media (max-width: 575px) {
+  .u-valign-bottom-xs { justify-content: flex-end; }
 }
 @media (max-width: 767px) {
   :not(.u-sheet) > [class*="u-gutter-"]:not(.u-gutter-0).u-expanded-width { overflow: hidden; }
