@@ -927,9 +927,6 @@ img.u-image, .u-video-poster { overflow: hidden; }
 @media (min-width: 576px) and (max-width: 767px) {
   .u-valign-bottom-sm { justify-content: flex-end; }
 }
-@media (max-width: 575px) {
-  .u-valign-bottom-xs { justify-content: flex-end; }
-}
 @media (max-width: 767px) {
   :not(.u-sheet) > [class*="u-gutter-"]:not(.u-gutter-0).u-expanded-width { overflow: hidden; }
 }
@@ -944,8 +941,10 @@ img.u-image, .u-video-poster { overflow: hidden; }
   .u-layout-wrap:not(.u-layout-custom-xs) .u-layout .u-layout-cell { border-left: 0px !important; border-right: 0px !important; }
 }
 .u-layout-row > .u-size-60 { flex: 0 0 100%; max-width: 100%; min-width: 100%; }
+.u-layout-row > .u-size-40 { flex: 0 0 66.6667%; max-width: 66.6667%; min-width: 66.6667%; }
 .u-layout-row > .u-size-30 { flex: 0 0 50%; max-width: 50%; min-width: 50%; }
 .u-layout-col > .u-size-30 { flex: 30 0 auto; }
+.u-layout-row > .u-size-20 { flex: 0 0 33.3333%; max-width: 33.3333%; min-width: 33.3333%; }
 @media (min-width: 768px) and (max-width: 991px) {
   .u-layout-row > .u-size-30-md { flex: 0 0 50%; max-width: 50%; min-width: 50%; }
 }
