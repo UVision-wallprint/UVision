@@ -49,42 +49,52 @@
 <link rel="manifest" href="/site.webmanifest">
 
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="">
+
 <link rel="stylesheet" id="silktide-consent-manager-css" href="https://cdn.jsdelivr.net/gh/silktide/consent-manager@v2.0.1/silktide-consent-manager.css" integrity="sha384-EdMq+R+YOnsbelo08wPenoTlnxbAyxI11NMIxzugx/qAsbh64KcOkqxYqq6pfvO/" crossorigin="anonymous">
+
 <style id="silktide-consent-manager-overrides">
 #stcm-wrapper {
   --boxShadow: -5px 5px 10px 0px #00000012, 0px 0px 50px 0px #0000001a;
   --fontFamily: Helvetica Neue, Segoe UI, Arial, sans-serif;
-  --primaryColor: #F9D000;
+  --primaryColor: #FFD101;
   --backgroundColor: #050505;
-  --textColor: #F4F0DF;
+  --textColor: #fafafa;
   --backdropBackgroundColor: #00000033;
   --backdropBackgroundBlur: 0px;
-  --iconColor: #F9D000;
+  --iconColor: #ffd101;
   --iconBackgroundColor: #050505;
 }
+
+/* Ukrycie linku Credit / Silktide */
+#stcm-wrapper a[href*="silktide.com"] {
+  display: none !important;
+}
 </style>
+
 <script src="https://cdn.jsdelivr.net/gh/silktide/consent-manager@v2.0.1/silktide-consent-manager.js" integrity="sha384-5Pt34uiIbCsvfiiZXoLi4HRf/YBXjr9c8e+gYeVo9smUaInNHYVtc8NZ8wUnXJIq" crossorigin="anonymous"></script>
+
 <script>
 window.silktideConsentManager.init({
   backdrop: {
     show: true
   },
+
   icon: {
     position: "bottomLeft"
   },
+
   prompt: {
-    position: "bottomCenter"
+    position: "bottomLeft"
   },
+
   consentTypes: [
     {
       id: "niezb_dne",
       label: "Niezbędne",
       description: "<p>Pliki cookie niezbędne do prawidłowego działania strony. Nie można ich wyłączyć.</p>",
-      required: true,
-      onAccept: function() {
-        console.log('Add logic for the required Niezbędne consent type here');
-      }
+      required: true
     },
+
     {
       id: "statystyczne",
       label: "Statystyczne",
@@ -92,6 +102,7 @@ window.silktideConsentManager.init({
       required: false,
       gtag: "analytics_storage"
     },
+
     {
       id: "marketingowe",
       label: "Marketingowe",
@@ -104,28 +115,38 @@ window.silktideConsentManager.init({
       ]
     }
   ],
+
   text: {
     prompt: {
-      description: "<p class=\"isSelectedEnd\" style=\"font-size: 17px;\">Korzystamy z plików cookie, aby zapewnić prawidłowe działanie naszej strony, analizować ruch oraz poprawiać jakość naszych usług. Niektóre pliki cookie są niezbędne, natomiast pozostałe wykorzystujemy wyłącznie za Twoją zgodą.</p>",
-      acceptAllButtonText: "Akceptuję wszystkie",
-      acceptAllButtonAccessibleLabel: "Zaakceptuj wszystkie pliki cookies",
+      description: "<p>Korzystamy z plików cookie, aby zapewnić prawidłowe działanie naszej strony, analizować ruch oraz poprawiać jakość naszych usług.</p>",
+
+      acceptAllButtonText: "Akceptuj wszystkie",
+      acceptAllButtonAccessibleLabel: "Akceptuj wszystkie pliki cookie",
+
       rejectNonEssentialButtonText: "Odrzuć opcjonalne",
-      rejectNonEssentialButtonAccessibleLabel: "Orzuć opcjonalne pliki cookies",
-      preferencesButtonText: "Ustawienia plików cookies",
-      preferencesButtonAccessibleLabel: "Sprawdź ustawienia plików cookies"
+      rejectNonEssentialButtonAccessibleLabel: "Odrzuć opcjonalne pliki cookie",
+
+      preferencesButtonText: "Preferencje",
+      preferencesButtonAccessibleLabel: "Wyświetl ustawienia plików cookie"
     },
+
     preferences: {
-      title: "Szanujemy Twoją prywatność",
-      description: "<p class=\"isSelectedEnd\">Korzystamy z plików cookie, aby zapewnić prawidłowe działanie naszej strony, analizować ruch oraz poprawiać jakość naszych usług. Niektóre pliki cookie są niezbędne, natomiast pozostałe wykorzystujemy wyłącznie za Twoją zgodą.</p><p>Możesz zaakceptować wszystkie pliki cookie, odrzucić opcjonalne lub dostosować swoje preferencje. Swoją decyzję możesz w każdej chwili zmienić w ustawieniach cookies.</p>",
-      saveButtonText: "Akceptuję",
-      saveButtonAccessibleLabel: "Zaakceptuj wybrane pliki cookies",
+      title: "Dostosuj ustawienia plików cookie",
+
+      description: "<p>Szanujemy Twoją prywatność. Możesz zdecydować, na które rodzaje plików cookie wyrażasz zgodę. Wybrane przez Ciebie ustawienia będą obowiązywać na całej naszej stronie.</p>",
+
+      saveButtonText: "Zapisz wybór",
+      saveButtonAccessibleLabel: "Zapisz wybrane ustawienia plików cookie",
+
       creditLinkText: "",
       creditLinkAccessibleLabel: ""
     }
   },
-  eventName: "Cookies_UVision"
+
+  eventName: "UVision_cookies"
 });
 </script>
+
 
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=AW-17945671505" type="text/plain" data-cookieconsent="marketing"></script>
 <script type="text/plain" data-cookieconsent="marketing">
