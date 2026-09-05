@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="druk-scienny-realizacje.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 8.6.2, nicepage.com">
+    <meta name="generator" content="Nicepage 8.6.23, nicepage.com">
     <link rel="canonical" href="https://www.uvision.pl/druk-scienny-realizacje">
     <link rel="icon" href="images/favicon.ico">
     
@@ -90,14 +90,14 @@ window.silktideConsentManager.init({
   consentTypes: [
     {
       id: "niezb_dne",
-      label: "Niezbędne",
+      label: "NIEZBĘDNE",
       description: "<p>Pliki cookie niezbędne do prawidłowego działania strony. Nie można ich wyłączyć.</p>",
       required: true
     },
 
     {
       id: "statystyczne",
-      label: "Statystyczne",
+      label: "STATYSTYCZNE",
       description: "<p>Pomagają nam zrozumieć, w jaki sposób użytkownicy korzystają ze strony, dzięki czemu możemy poprawiać jej działanie.</p>",
       required: false,
       gtag: "analytics_storage"
@@ -105,7 +105,7 @@ window.silktideConsentManager.init({
 
     {
       id: "marketingowe",
-      label: "Marketingowe",
+      label: "MARKETINGOWE",
       description: "<p>Umożliwiają mierzenie skuteczności naszych działań reklamowych oraz dostosowanie treści reklam do użytkowników.</p>",
       required: false,
       gtag: [
@@ -120,22 +120,22 @@ window.silktideConsentManager.init({
     prompt: {
       description: "<p>Korzystamy z plików cookie, aby zapewnić prawidłowe działanie naszej strony, analizować ruch oraz poprawiać jakość naszych usług.</p>",
 
-      acceptAllButtonText: "Akceptuj wszystkie",
+      acceptAllButtonText: "AKCEPTUJ WSZYSTKIE",
       acceptAllButtonAccessibleLabel: "Akceptuj wszystkie pliki cookie",
 
-      rejectNonEssentialButtonText: "Odrzuć opcjonalne",
+      rejectNonEssentialButtonText: "ODRZUĆ OPCJONALNE",
       rejectNonEssentialButtonAccessibleLabel: "Odrzuć opcjonalne pliki cookie",
 
-      preferencesButtonText: "Preferencje",
+      preferencesButtonText: "PREFERENCJE",
       preferencesButtonAccessibleLabel: "Wyświetl ustawienia plików cookie"
     },
 
     preferences: {
-      title: "Dostosuj ustawienia plików cookie",
+      title: "DOSTOSUJ USTAWIENIA PLIKÓW COOKIE",
 
       description: "<p>Szanujemy Twoją prywatność. Możesz zdecydować, na które rodzaje plików cookie wyrażasz zgodę. Wybrane przez Ciebie ustawienia będą obowiązywać na całej naszej stronie.</p>",
 
-      saveButtonText: "Zapisz wybór",
+      saveButtonText: "ZAPISZ WYBÓR",
       saveButtonAccessibleLabel: "Zapisz wybrane ustawienia plików cookie",
 
       creditLinkText: "",
@@ -161,6 +161,13 @@ gtag('config', 'AW-17945671505');
 #stcm-wrapper,
 #stcm-wrapper * {
     font-family: 'Montserrat', sans-serif !important;
+}
+</style>
+
+<style>
+/* Ukrycie napisów ON / OFF w przełącznikach Silktide */
+#stcm-wrapper .stcm-toggle-label {
+    font-size: 0 !important;
 }
 </style><script>window._u_GDPRConfirmCode = function () {window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
