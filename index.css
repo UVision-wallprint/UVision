@@ -2002,7 +2002,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   margin-top: 0;
   margin-bottom: 0;
   --radius: 50px;
-  width: 100%;
+  width: 1140px;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -2112,6 +2112,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-group-1 {
     min-height: 150px;
+    width: 940px;
     height: auto;
   }
 
@@ -2159,6 +2160,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-group-1 {
     min-height: 100px;
+    width: 720px;
   }
 
   .u-section-1 .u-text-1 {
@@ -2211,6 +2213,10 @@ ol { margin-top: 20px; margin-bottom: 20px; }
     padding-right: 15px;
   }
 
+  .u-section-1 .u-group-1 {
+    width: 540px;
+  }
+
   .u-section-1 .u-text-1 {
     margin-top: 7px;
   }
@@ -2258,6 +2264,10 @@ ol { margin-top: 20px; margin-bottom: 20px; }
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .u-section-1 .u-group-1 {
+    width: 340px;
   }
 
   .u-section-1 .u-text-1 {
