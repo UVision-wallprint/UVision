@@ -764,6 +764,7 @@ p { margin-top: 0px; padding: 0px; margin-bottom: 0.5rem; }
 @media (max-width: 575px) {
   .u-align-center-xs { text-align: center; }
 }
+.u-align-right { text-align: right; }
 @media (max-width: 575px) {
   .u-align-right-xs { text-align: right; }
 }
@@ -1555,23 +1556,18 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-header .u-nav-1 {
-  font-weight: 400;
-  font-size: 0.75rem;
-}
-
-.u-header .u-nav-popup-1 {
   --color-var: #0f0f0f80;
   padding: 7px 15px;
 }
 
 .u-header .u-nav-2 {
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
 }
 
 .u-header .u-nav-3 {
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
 }
 
 .u-header .u-sidenav-1 {
@@ -1587,12 +1583,12 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 .u-header .u-nav-5 {
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
 }
 
 .u-header .u-nav-6 {
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
 }
 
 .u-header .u-social-icons-1 {
@@ -1667,6 +1663,11 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-header .u-menu-1 {
     width: auto;
+  }
+
+  .u-header .u-nav-1 {
+    font-weight: 400;
+    font-size: 0.75rem;
   }
 
   .u-header .u-image-1 {

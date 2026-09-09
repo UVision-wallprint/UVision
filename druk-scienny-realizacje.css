@@ -769,6 +769,7 @@ p { margin-top: 0px; padding: 0px; margin-bottom: 0.5rem; }
 @media (max-width: 575px) {
   .u-align-center-xs { text-align: center; }
 }
+.u-align-right { text-align: right; }
 .u-tabs:not([class*="u-align-"]), .u-accordion:not([class*="u-align-"]), .u-repeater-item:not([class*="u-align-"]), .u-container-style:not([class*="u-align-"]) { text-align: left; }
 .u-nav:not([class*="u-align-"]) .u-nav { text-align: left; }
 .u-text { overflow-wrap: break-word; position: relative; }
@@ -1587,23 +1588,18 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-header .u-nav-1 {
-  font-weight: 400;
-  font-size: 0.75rem;
-}
-
-.u-header .u-nav-popup-1 {
   --color-var: #0f0f0f80;
   padding: 7px 15px;
 }
 
 .u-header .u-nav-2 {
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
 }
 
 .u-header .u-nav-3 {
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
 }
 
 .u-header .u-sidenav-1 {
@@ -1619,12 +1615,12 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
 .u-header .u-nav-5 {
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
 }
 
 .u-header .u-nav-6 {
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 0.625rem;
 }
 
 .u-header .u-social-icons-1 {
@@ -1699,6 +1695,11 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-header .u-menu-1 {
     width: auto;
+  }
+
+  .u-header .u-nav-1 {
+    font-weight: 400;
+    font-size: 0.75rem;
   }
 
   .u-header .u-image-1 {
