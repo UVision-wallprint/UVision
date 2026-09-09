@@ -1014,12 +1014,14 @@ img.u-image, .u-video-poster { overflow: hidden; }
 .u-nav-item { display: inline-block; position: relative; vertical-align: middle; padding: 0px; margin: 0px; height: 100%; }
 :where(.u-nav-container > .u-nav > .u-nav-item > .u-nav-link) { padding: 10px 20px; }
 .u-nav-popup.fake:not(.open) { display: none; }
+.u-nav-popup .u-nav:not([class*="u-align-"]) .u-nav { text-align: inherit; }
 .u-nav-container .u-nav-popup { position: absolute; visibility: hidden; pointer-events: none; z-index: 99; }
 .u-nav-container .u-nav-item .u-nav-item { display: block; }
 .u-nav-container .u-nav-item .u-nav-item:first-child > .u-nav-link { }
 .u-nav-container .u-nav-item .u-nav-item:last-child > .u-nav-link { }
 .u-nav-container .u-nav-item:hover > .u-nav-popup:not(.fake) { visibility: visible; pointer-events: auto; }
 .u-menu-mega .u-nav-container .u-nav-item:hover > .u-mega-popup:not(.fake) .u-nav-popup, .u-menu-mega .u-nav-container .u-mega-popup.open .u-nav-popup { visibility: visible; pointer-events: auto; }
+.u-menu .u-nav-container .u-nav-item .u-nav-item .u-nav-popup { top: 0px; left: 100%; }
 .u-nav-container-collapse .u-nav-popup { overflow: hidden; visibility: hidden; pointer-events: none; max-height: 0px; padding-left: 1em; text-align: left; }
 .u-nav-container-collapse .u-nav-popup .u-nav { box-shadow: none; }
 .u-nav-container-collapse .u-nav-popup.animating { transition: max-height 200ms ease 0s; }
@@ -1632,20 +1634,30 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   font-size: 0.75rem;
 }
 
+.u-header .u-nav-3 {
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
 .u-header .u-sidenav-1 {
   --color-var: #0f0f0f;
   --opacity: 0.5;
 }
 
-.u-header .u-nav-3 {
+.u-header .u-nav-4 {
   font-size: 1rem;
   letter-spacing: 0px;
   margin-bottom: 0;
 }
 
-.u-header .u-nav-4 {
+.u-header .u-nav-5 {
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.75rem;
+}
+
+.u-header .u-nav-6 {
+  font-weight: 400;
+  font-size: 0.75rem;
 }
 
 .u-header .u-social-icons-1 {
@@ -1794,15 +1806,11 @@ ol { margin-top: 20px; margin-bottom: 20px; }
     padding-right: 5px;
   }
 
-  .u-header .u-nav-3 {
+  .u-header .u-nav-4 {
     font-size: 0.75rem;
     margin-top: 15px;
     margin-right: auto;
     margin-left: 14px;
-  }
-
-  .u-header .u-nav-4 {
-    font-size: 0.75rem;
   }
 
   .u-header .u-social-icons-1 {
