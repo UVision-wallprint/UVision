@@ -864,9 +864,6 @@ img.u-image, .u-video-poster { overflow: hidden; }
 @media (max-width: 575px) {
   .u-valign-top-xs { justify-content: flex-start; }
 }
-@media (min-width: 1200px) {
-  .u-xl-mode .u-valign-bottom-xl { justify-content: flex-end; }
-}
 @media (max-width: 767px) {
   :not(.u-sheet) > [class*="u-gutter-"]:not(.u-gutter-0).u-expanded-width { overflow: hidden; }
 }
@@ -1905,8 +1902,8 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin-top: -45px;
-  margin-bottom: 0;
+  margin-top: -42px;
+  margin-bottom: -3px;
   min-height: 474px;
 }
 

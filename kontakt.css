@@ -1932,6 +1932,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   --radius: 50px;
+  min-height: 167px;
   margin: 0 auto;
 }
 
