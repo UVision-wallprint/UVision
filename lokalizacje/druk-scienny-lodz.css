@@ -1517,10 +1517,16 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --opacity: 0.5;
 }
 
+.u-header .u-menu-close-1 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
 .u-header .u-nav-4 {
-  font-size: 1rem;
+  font-size: 0.875rem;
   letter-spacing: 0px;
   margin-bottom: 0;
+  margin-top: 20px;
 }
 
 .u-header .u-nav-5 {
@@ -1536,7 +1542,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 .u-header .u-social-icons-1 {
   height: 37px;
   width: 153px;
-  margin: 0;
+  margin: 102px 42px 0 auto;
 }
 
 .u-header .u-icon-1 {
@@ -1559,7 +1565,8 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-header .u-text-1 {
-  margin: 30px 0 0;
+  font-size: 0.875rem;
+  margin: 9px auto 0;
 }
 
 .u-header .u-image-1 {
@@ -1605,6 +1612,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-header .u-menu-1 {
     width: auto;
+  }
+
+  .u-header .u-social-icons-1 {
+    margin-right: 42px;
   }
 
   .u-header .u-image-1 {
@@ -1680,7 +1691,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-header .u-nav-4 {
-    font-size: 0.75rem;
     margin-top: 15px;
     margin-right: auto;
     margin-left: 14px;
@@ -1695,7 +1705,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   .u-header .u-text-1 {
     width: auto;
     margin-top: 10px;
-    margin-right: auto;
     margin-left: 66px;
   }
 
