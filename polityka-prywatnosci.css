@@ -729,13 +729,8 @@ html { font-size: 16px; }
 h1, h2, h3, h4, h5, h6 { margin-top: 0px; margin-bottom: 0.5rem; line-height: 1.2; font-weight: 500; color: inherit; }
 h1 { font-size: 2.25rem; }
 p { margin-top: 0px; padding: 0px; margin-bottom: 0.5rem; }
-@media (max-width: 575px) {
-  .u-align-left-xs { text-align: left; }
-}
+.u-align-left { text-align: left; }
 .u-align-center { text-align: center; }
-@media (min-width: 1200px) {
-  .u-xl-mode .u-align-center-xl { text-align: center; }
-}
 @media (min-width: 992px) and (max-width: 1199px) {
   .u-align-center-lg { text-align: center; }
 }
@@ -1440,7 +1435,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   font-size: 0.75rem;
 }
 
-.u-header .u-nav-popup-1 {
+.u-header .u-nav-link-2 {
   --color-var: #0f0f0f80;
   padding: 7px 15px;
 }
@@ -1468,8 +1463,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 .u-header .u-nav-4 {
   font-size: 0.875rem;
   letter-spacing: 0px;
-  margin-bottom: 0;
-  margin-top: 20px;
+  margin: 25px auto 0;
 }
 
 .u-header .u-nav-5 {
@@ -1485,7 +1479,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 .u-header .u-social-icons-1 {
   height: 37px;
   width: 153px;
-  margin: 102px 42px 0 auto;
+  margin: 97px auto 0;
 }
 
 .u-header .u-icon-1 {
@@ -1555,10 +1549,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-header .u-menu-1 {
     width: auto;
-  }
-
-  .u-header .u-social-icons-1 {
-    margin-right: 42px;
   }
 
   .u-header .u-image-1 {
@@ -1635,20 +1625,16 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-header .u-nav-4 {
     margin-top: 15px;
-    margin-right: auto;
     margin-left: 14px;
   }
 
   .u-header .u-social-icons-1 {
     margin-top: 52px;
-    margin-right: auto;
-    margin-left: 45px;
   }
 
   .u-header .u-text-1 {
     width: auto;
-    margin-top: 10px;
-    margin-left: 66px;
+    margin-top: 14px;
   }
 
   .u-header .u-image-1 {
