@@ -2348,7 +2348,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-group-2 {
     margin-top: -1px;
-    min-height: 180px;
+    min-height: 186px;
   }
 
   .u-section-1 .u-container-layout-4 {
@@ -2410,13 +2410,12 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 438px;
+    min-height: 453px;
   }
 
   .u-section-1 .u-group-4 {
     border-style: solid;
     min-height: 423px;
-    margin-top: 11px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
