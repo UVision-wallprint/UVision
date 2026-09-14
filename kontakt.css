@@ -2886,7 +2886,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 } .u-section-4 {
   --color-var: #0f0f0f;
-  min-height: 886px;
+  min-height: 100vh;
 }
 
 .u-section-4 .u-group-1 {
@@ -2942,7 +2942,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 .u-section-4 .u-text-3 {
   font-size: 1rem;
-  margin: 7px calc(((100% - 1140px) / 2)  + 136px) 48px calc(((100% - 1140px) / 2)  + 122px);
+  margin: 7px calc(((100% - 1140px) / 2)  + 136px) 22px calc(((100% - 1140px) / 2)  + 122px);
 }
 
 .u-section-4 .u-btn-1 {
@@ -3175,6 +3175,13 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-4 .u-text-2 {
     margin-right: 0;
+  }
+
+  .u-section-4 .u-layout-wrap-1 {
+    margin-top: 10px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-4 .u-layout-cell-1 {
