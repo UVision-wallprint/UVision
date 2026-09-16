@@ -1573,6 +1573,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   background-image: none;
 }
 @media (max-width: 1199px) {
+   .u-header {
+    --color-var: #000000cc;
+  }
+
   .u-header .u-group-1 {
     width: 1000px;
     margin-top: 0;
@@ -1638,7 +1642,12 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 }
 @media (max-width: 575px) {
+   .u-header {
+    --color-var: #0f0f0f80;
+  }
+
   .u-header .u-group-1 {
+    --color-var: #0f0f0f80;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -1806,10 +1815,11 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
  html { font-size: 16px; }
  /*end-variables base-font-size*/
  .u-section-1 {
-  background-position: 50% 0%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
+  background-position: 50% 50%, 50% 0%;
+  background-repeat: no-repeat, no-repeat;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) no-repeat 50% 50% / cover;
+  background-size: cover, cover;
+  min-height: 794px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
@@ -1941,6 +1951,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 555px;
+  }
+
   .u-section-1 .u-layout-wrap-1 {
     width: 1000px;
   }

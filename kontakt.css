@@ -1639,6 +1639,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   background-image: none;
 }
 @media (max-width: 1199px) {
+   .u-header {
+    --color-var: #000000cc;
+  }
+
   .u-header .u-group-1 {
     width: 1000px;
     margin-top: 0;
@@ -1704,7 +1708,12 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 }
 @media (max-width: 575px) {
+   .u-header {
+    --color-var: #0f0f0f80;
+  }
+
   .u-header .u-group-1 {
+    --color-var: #0f0f0f80;
     margin-top: 0;
     margin-bottom: 0;
   }
