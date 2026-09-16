@@ -1843,7 +1843,9 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-scale: 1;
   --radius: 50px;
   min-height: 119px;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -1953,6 +1955,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-group-1 {
     width: 940px;
+    margin-right: auto;
     height: auto;
   }
 
