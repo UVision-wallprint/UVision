@@ -1933,6 +1933,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 .u-section-1 .u-layout-cell-2 {
   order: 0;
+  min-height: 422px;
 }
 
 .u-section-1 .u-container-layout-3 {
@@ -2011,6 +2012,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
 .u-section-1 .u-layout-cell-3 {
   order: 1;
+  min-height: 422px;
 }
 
 .u-section-1 .u-container-layout-5 {
@@ -2068,7 +2070,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 .u-section-1 .u-image-2 {
   width: 36px;
   height: 59px;
-  margin: -60px auto 60px;
+  margin: -62px auto 60px;
 }
 
 @media (max-width: 1199px) {
@@ -2093,10 +2095,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     width: auto;
   }
 
-  .u-section-1 .u-layout-cell-2 {
-    min-height: 422px;
-  }
-
   .u-section-1 .u-group-2 {
     background-position: 50% 50%;
     background-repeat: no-repeat;
@@ -2104,6 +2102,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     --bottom-right-radius: 100px;
     margin-top: 0;
     height: auto;
+  }
+
+  .u-section-1 .u-layout-cell-3 {
+    min-height: 348px;
   }
 
   .u-section-1 .u-group-3 {
@@ -2283,7 +2285,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-image-2 {
-    margin-top: -60px;
+    margin-top: -62px;
   }
 }
 
