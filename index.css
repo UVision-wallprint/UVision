@@ -1966,7 +1966,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
  html { font-size: 16px; }
  /*end-variables base-font-size*/
  .u-section-1 {
-  background-position: 50% 50%;
+  background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -2095,14 +2095,10 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 .u-section-1 .u-image-2 {
   width: 36px;
   height: 59px;
-  margin: -70px auto 0;
+  margin: -75px auto 0;
 }
 
 @media (max-width: 1199px) {
-   .u-section-1 {
-    background-position: 50% 0%;
-  }
-
   .u-section-1 .u-layout-wrap-1 {
     width: 940px;
   }
@@ -2239,7 +2235,6 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
 @media (max-width: 575px) {
    .u-section-1 {
-    background-position: 50% 50%;
     min-height: 824px;
   }
 
