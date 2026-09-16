@@ -763,6 +763,7 @@ p { margin-top: 0px; padding: 0px; margin-bottom: 0.5rem; }
 @media (max-width: 575px) {
   .u-align-center-xs { text-align: center; }
 }
+.u-align-right { text-align: right; }
 .u-tabs:not([class*="u-align-"]), .u-accordion:not([class*="u-align-"]), .u-repeater-item:not([class*="u-align-"]), .u-container-style:not([class*="u-align-"]) { text-align: left; }
 .u-nav:not([class*="u-align-"]) .u-nav { text-align: left; }
 .u-text { overflow-wrap: break-word; position: relative; }
@@ -1915,7 +1916,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 793px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
@@ -1983,12 +1984,13 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   margin-top: 0;
-  margin-bottom: 0;
-  min-height: 419px;
+  margin-bottom: -3px;
+  min-height: 430px;
+  width: 100%;
 }
 
 .u-section-1 .u-container-layout-4 {
-  padding: 0;
+  padding: 0 0 10px;
 }
 
 .u-section-1 .u-text-2 {
@@ -2023,7 +2025,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-1 .u-container-layout-5 {
-  padding: 0;
+  padding: 0 0 10px;
 }
 
 .u-section-1 .u-image-1 {
@@ -2036,7 +2038,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   width: 540px;
   height: 403px;
   --radius: 50px;
-  margin: 15px 0 0 auto;
+  margin: 14px 0 0 auto;
 }
 
 .u-section-1 .u-image-2 {
@@ -2046,6 +2048,10 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 550px;
+  }
+
   .u-section-1 .u-layout-wrap-1 {
     width: 1000px;
   }
@@ -2109,7 +2115,9 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-container-layout-4 {
-    padding: 0 0 0 20px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 20px;
   }
 
   .u-section-1 .u-btn-1 {
@@ -2117,7 +2125,9 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-container-layout-5 {
-    padding: 0 20px;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .u-section-1 .u-image-1 {
@@ -2185,7 +2195,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 100px;
+    min-height: 369px;
   }
 
   .u-section-1 .u-group-2 {
