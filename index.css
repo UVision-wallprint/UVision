@@ -1591,7 +1591,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 :where(.u-shading, .u-overlap-contrast .u-header) .u-btn { background-color: #ffffff; color: #000000; }
 :where(.u-shading, .u-overlap-contrast .u-header) .u-btn:hover { background-color: #ffffff; color: #000000; }
 :where(.u-shading, .u-overlap-contrast .u-header) .u-btn:active { background-color: #e6e6e6; color: #ffffff; } .u-header {
-  min-height: 0;
+  min-height: 107px;
 }
 
 .u-header .u-group-1 {
@@ -1781,10 +1781,17 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 }
 @media (max-width: 575px) {
+   .u-header {
+    min-height: 115px;
+  }
+
   .u-header .u-group-1 {
-    min-height: 114px;
-    margin-top: 1px;
-    margin-bottom: 1px;
+    min-height: 115px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-header .u-menu-1 {
@@ -1984,7 +1991,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   margin-top: 0;
   margin-bottom: 0;
   --radius: 50px;
-  width: 1140px;
+  width: 1005px;
 }
 
 .u-section-1 .u-container-layout-2 {
@@ -2094,8 +2101,8 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-group-1 {
     min-height: 150px;
-    width: 940px;
     height: auto;
+    width: auto;
   }
 
   .u-section-1 .u-text-1 {
@@ -2142,7 +2149,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-group-1 {
     min-height: 100px;
-    width: 100%;
+    width: auto;
   }
 
   .u-section-1 .u-container-layout-2 {
@@ -2200,10 +2207,6 @@ ol { margin-top: 20px; margin-bottom: 20px; }
     padding-right: 15px;
   }
 
-  .u-section-1 .u-group-1 {
-    width: auto;
-  }
-
   .u-section-1 .u-layout-cell-2 {
     order: 1;
   }
@@ -2244,9 +2247,11 @@ ol { margin-top: 20px; margin-bottom: 20px; }
   }
 
   .u-section-1 .u-layout-wrap-1 {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 116px;
+    margin-bottom: 26px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -2277,6 +2282,10 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 
   .u-section-1 .u-image-1 {
     height: 200px;
+    margin-top: 0;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 } .u-section-2 {
   --color-var: #0f0f0f;
