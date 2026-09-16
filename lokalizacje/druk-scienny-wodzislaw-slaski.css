@@ -2034,7 +2034,8 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-group-1 {
-    width: 720px;
+    width: 100%;
+    min-height: 100px;
   }
 
   .u-section-1 .u-text-1 {
@@ -2142,9 +2143,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-section-1 .u-group-1 {
     min-height: 85px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    width: 100%;
   }
 
   .u-section-1 .u-text-1 {
