@@ -1839,7 +1839,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 .u-section-1 .u-image-1 {
   width: 36px;
   height: 59px;
-  margin: 19px auto 0;
+  margin: 0 auto;
 }
 
 @media (max-width: 1199px) {
