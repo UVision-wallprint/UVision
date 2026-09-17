@@ -1363,7 +1363,6 @@ a.u-link.u-hover-body-alt-color:hover, a.u-link.u-hover-body-alt-color.hover { c
 .u-text-palette-2-base, .u-input.u-text-palette-2-base, .u-input.u-text-palette-2-base[class*="u-border-"], li.active > a.u-button-style.u-text-palette-2-base, li.active > a.u-button-style.u-text-palette-2-base[class*="u-border-"], a.u-button-style.u-text-palette-2-base, a.u-button-style.u-text-palette-2-base[class*="u-border-"] { color: #ffd101 !important; }
 a.u-button-style:hover > .u-text-hover-palette-2-base, a.u-button-style.hover > .u-text-hover-palette-2-base, a.u-button-style:hover > .u-text-hover-palette-2-base[class*="u-border-"], a.u-button-style.hover > .u-text-hover-palette-2-base[class*="u-border-"], a.u-button-style.u-button-style.u-text-hover-palette-2-base:hover, a.u-button-style.u-button-style.u-text-hover-palette-2-base.hover, a.u-button-style.u-button-style.u-text-hover-palette-2-base[class*="u-border-"]:hover, a.u-button-style.u-button-style.u-text-hover-palette-2-base[class*="u-border-"].hover, a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-2-base.active, a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-2-base[class*="u-border-"].active, a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-2-base:active, a.u-button-style.u-button-style.u-button-style.u-text-hover-palette-2-base[class*="u-border-"]:active, a.u-button-style.u-button-style.u-text-hover-palette-2-base:focus, a.u-button-style.u-button-style.u-text-hover-palette-2-base[class*="u-border-"]:focus, :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-text-hover-palette-2-base:hover, .u-text-hover-palette-2-base.u-language-url:hover, .u-text-hover-palette-2-base .u-language-url:hover, .u-text-hover-palette-2-base.u-carousel-control:hover, .u-text-hover-palette-2-base.u-gallery-nav:hover, .u-popupmenu-items.u-text-hover-palette-2-base .u-nav-link:hover, .u-calendar-time-list .u-calendar-time-slot.u-text-hover-palette-2-base:hover { color: #ffd101 !important; }
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-2-base:active, a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-2-base[class*="u-border-"]:active, a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-2-base.active, a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-palette-2-base[class*="u-border-"].active, a.u-button-style.u-button-style.active > .u-text-active-palette-2-base, a.u-button-style.u-button-style.active > .u-text-active-palette-2-base[class*="u-border-"], :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-nav-link.u-text-active-palette-2-base.active, .u-popupmenu-items.u-popupmenu-items.u-text-active-palette-2-base .u-nav-link.active, .u-calendar-time-list .u-calendar-time-slot.u-text-active-palette-2-base.u-active { color: #ffd101 !important; }
-.u-text-hover-palette-2-base:hover .u-svg-link, .u-text-hover-palette-2-base.hover .u-svg-link, .u-text-hover-palette-2-base:focus .u-svg-link, .u-button-style:hover > .u-text-hover-palette-2-base .u-svg-link, .u-button-style.hover > .u-text-hover-palette-2-base .u-svg-link { fill: #ffd101; }
 .u-text-white, .u-input.u-text-white, .u-input.u-text-white[class*="u-border-"], li.active > a.u-button-style.u-text-white, li.active > a.u-button-style.u-text-white[class*="u-border-"], a.u-button-style.u-text-white, a.u-button-style.u-text-white[class*="u-border-"] { color: #ffffff !important; }
 a.u-button-style.u-text-white:hover, a.u-button-style.u-text-white.hover, a.u-button-style.u-text-white[class*="u-border-"]:hover, a.u-button-style.u-text-white[class*="u-border-"].hover, a.u-button-style.u-text-white:focus, a.u-button-style.u-text-white[class*="u-border-"]:focus, a.u-button-style.u-button-style.u-text-white:active, a.u-button-style.u-button-style.u-text-white[class*="u-border-"]:active, a.u-button-style.u-button-style.u-text-white.active, a.u-button-style.u-button-style.u-text-white[class*="u-border-"].active { color: #e6e6e6 !important; }
 a.u-button-style:hover > .u-text-hover-white, a.u-button-style.hover > .u-text-hover-white, a.u-button-style:hover > .u-text-hover-white[class*="u-border-"], a.u-button-style.hover > .u-text-hover-white[class*="u-border-"], a.u-button-style.u-button-style.u-text-hover-white:hover, a.u-button-style.u-button-style.u-text-hover-white.hover, a.u-button-style.u-button-style.u-text-hover-white[class*="u-border-"]:hover, a.u-button-style.u-button-style.u-text-hover-white[class*="u-border-"].hover, a.u-button-style.u-button-style.u-button-style.u-text-hover-white.active, a.u-button-style.u-button-style.u-button-style.u-text-hover-white[class*="u-border-"].active, a.u-button-style.u-button-style.u-button-style.u-text-hover-white:active, a.u-button-style.u-button-style.u-button-style.u-text-hover-white[class*="u-border-"]:active, a.u-button-style.u-button-style.u-text-hover-white:focus, a.u-button-style.u-button-style.u-text-hover-white[class*="u-border-"]:focus, :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-text-hover-white:hover, .u-text-hover-white.u-language-url:hover, .u-text-hover-white .u-language-url:hover, .u-text-hover-white.u-carousel-control:hover, .u-text-hover-white.u-gallery-nav:hover, .u-popupmenu-items.u-text-hover-white .u-nav-link:hover, .u-calendar-time-list .u-calendar-time-slot.u-text-hover-white:hover { color: #ffffff !important; }
@@ -1372,6 +1371,7 @@ a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-whit
 .u-text-active-white:active .u-svg-link.u-svg-link, .u-button-style.u-button-style:active > .u-text-active-white .u-svg-link, .u-button-style.u-button-style.active > .u-text-active-white .u-svg-link { fill: #ffffff; }
 a.u-button-style:hover > .u-text-hover-black, a.u-button-style.hover > .u-text-hover-black, a.u-button-style:hover > .u-text-hover-black[class*="u-border-"], a.u-button-style.hover > .u-text-hover-black[class*="u-border-"], a.u-button-style.u-button-style.u-text-hover-black:hover, a.u-button-style.u-button-style.u-text-hover-black.hover, a.u-button-style.u-button-style.u-text-hover-black[class*="u-border-"]:hover, a.u-button-style.u-button-style.u-text-hover-black[class*="u-border-"].hover, a.u-button-style.u-button-style.u-button-style.u-text-hover-black.active, a.u-button-style.u-button-style.u-button-style.u-text-hover-black[class*="u-border-"].active, a.u-button-style.u-button-style.u-button-style.u-text-hover-black:active, a.u-button-style.u-button-style.u-button-style.u-text-hover-black[class*="u-border-"]:active, a.u-button-style.u-button-style.u-text-hover-black:focus, a.u-button-style.u-button-style.u-text-hover-black[class*="u-border-"]:focus, :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-text-hover-black:hover, .u-text-hover-black.u-language-url:hover, .u-text-hover-black .u-language-url:hover, .u-text-hover-black.u-carousel-control:hover, .u-text-hover-black.u-gallery-nav:hover, .u-popupmenu-items.u-text-hover-black .u-nav-link:hover, .u-calendar-time-list .u-calendar-time-slot.u-text-hover-black:hover { color: #000000 !important; }
 a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-black:active, a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-black[class*="u-border-"]:active, a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-black.active, a.u-button-style.u-button-style.u-button-style.u-button-style.u-text-active-black[class*="u-border-"].active, a.u-button-style.u-button-style.active > .u-text-active-black, a.u-button-style.u-button-style.active > .u-text-active-black[class*="u-border-"], :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-nav-link.u-text-active-black.active, .u-popupmenu-items.u-popupmenu-items.u-text-active-black .u-nav-link.active, .u-calendar-time-list .u-calendar-time-slot.u-text-active-black.u-active { color: #000000 !important; }
+.u-text-hover-black:hover .u-svg-link, .u-text-hover-black.hover .u-svg-link, .u-text-hover-black:focus .u-svg-link, .u-button-style:hover > .u-text-hover-black .u-svg-link, .u-button-style.hover > .u-text-hover-black .u-svg-link { fill: #000000; }
 .u-text-body-color, .u-input.u-text-body-color, .u-input.u-text-body-color[class*="u-border-"], li.active > a.u-button-style.u-text-body-color, li.active > a.u-button-style.u-text-body-color[class*="u-border-"], a.u-button-style.u-text-body-color, a.u-button-style.u-text-body-color[class*="u-border-"] { color: #111111 !important; }
 a.u-button-style.u-text-body-color:hover, a.u-button-style.u-text-body-color.hover, a.u-button-style.u-text-body-color[class*="u-border-"]:hover, a.u-button-style.u-text-body-color[class*="u-border-"].hover, a.u-button-style.u-text-body-color:focus, a.u-button-style.u-text-body-color[class*="u-border-"]:focus, a.u-button-style.u-button-style.u-text-body-color:active, a.u-button-style.u-button-style.u-text-body-color[class*="u-border-"]:active, a.u-button-style.u-button-style.u-text-body-color.active, a.u-button-style.u-button-style.u-text-body-color[class*="u-border-"].active { color: #0f0f0f !important; }
 a.u-button-style:hover > .u-text-hover-body-color, a.u-button-style.hover > .u-text-hover-body-color, a.u-button-style:hover > .u-text-hover-body-color[class*="u-border-"], a.u-button-style.hover > .u-text-hover-body-color[class*="u-border-"], a.u-button-style.u-button-style.u-text-hover-body-color:hover, a.u-button-style.u-button-style.u-text-hover-body-color.hover, a.u-button-style.u-button-style.u-text-hover-body-color[class*="u-border-"]:hover, a.u-button-style.u-button-style.u-text-hover-body-color[class*="u-border-"].hover, a.u-button-style.u-button-style.u-button-style.u-text-hover-body-color.active, a.u-button-style.u-button-style.u-button-style.u-text-hover-body-color[class*="u-border-"].active, a.u-button-style.u-button-style.u-button-style.u-text-hover-body-color:active, a.u-button-style.u-button-style.u-button-style.u-text-hover-body-color[class*="u-border-"]:active, a.u-button-style.u-button-style.u-text-hover-body-color:focus, a.u-button-style.u-button-style.u-text-hover-body-color[class*="u-border-"]:focus, :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-text-hover-body-color:hover, .u-text-hover-body-color.u-language-url:hover, .u-text-hover-body-color .u-language-url:hover, .u-text-hover-body-color.u-carousel-control:hover, .u-text-hover-body-color.u-gallery-nav:hover, .u-popupmenu-items.u-text-hover-body-color .u-nav-link:hover, .u-calendar-time-list .u-calendar-time-slot.u-text-hover-body-color:hover { color: #111111 !important; }
@@ -1601,6 +1601,10 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 }
 @media (max-width: 991px) {
+   .u-header {
+    min-height: 97px;
+  }
+
   .u-header .u-group-1 {
     margin-right: initial;
     margin-left: initial;
@@ -1827,7 +1831,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-1 .u-layout-cell-1 {
-  min-height: 125px;
+  min-height: 131px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -1871,7 +1875,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-1 .u-layout-cell-2 {
-  min-height: 443px;
+  min-height: 466px;
 }
 
 .u-section-1 .u-container-layout-3 {
@@ -1922,7 +1926,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-1 .u-layout-cell-3 {
-  min-height: 443px;
+  min-height: 466px;
 }
 
 .u-section-1 .u-container-layout-5 {
@@ -1946,7 +1950,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 .u-section-1 .u-image-2 {
   width: 36px;
   height: 59px;
-  margin: -59px auto 0 -18px;
+  margin: -75px auto 60px;
 }
 
 @media (max-width: 1199px) {
@@ -1955,7 +1959,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-layout-cell-1 {
-    min-height: 103px;
+    min-height: 108px;
   }
 
   .u-section-1 .u-group-1 {
@@ -1969,7 +1973,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 365px;
+    min-height: 384px;
   }
 
   .u-section-1 .u-group-2 {
@@ -2009,16 +2013,12 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-layout-cell-3 {
-    min-height: 365px;
+    min-height: 384px;
   }
 
   .u-section-1 .u-image-1 {
     width: 470px;
     height: 351px;
-  }
-
-  .u-section-1 .u-image-2 {
-    margin-top: -7px;
   }
 }
 
@@ -2077,15 +2077,11 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     width: 360px;
     height: 269px;
   }
-
-  .u-section-1 .u-image-2 {
-    margin-top: 75px;
-  }
 }
 
 @media (max-width: 767px) {
    .u-section-1 {
-    min-height: 713px;
+    min-height: 813px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
