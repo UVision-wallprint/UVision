@@ -1962,7 +1962,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 }
 
 .u-section-1 .u-container-layout-4 {
-  padding: 0 0 30px;
+  padding: 10px 0 30px;
 }
 
 .u-section-1 .u-text-2 {
@@ -2173,7 +2173,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-container-layout-4 {
-    padding-top: 0;
     padding-left: 0;
     padding-right: 0;
   }
