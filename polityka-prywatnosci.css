@@ -1446,6 +1446,11 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   font-size: 0.75rem;
 }
 
+.u-header .u-nav-3 {
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
 .u-header .u-sidenav-1 {
   --color-var: #0f0f0f;
   --opacity: 0.5;
@@ -1456,15 +1461,20 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   margin-bottom: 0;
 }
 
-.u-header .u-nav-3 {
+.u-header .u-nav-4 {
   font-size: 0.875rem;
   letter-spacing: 0px;
   margin: 25px auto 0;
 }
 
-.u-header .u-nav-4 {
+.u-header .u-nav-5 {
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.u-header .u-nav-6 {
+  font-weight: 400;
+  font-size: 0.875rem;
 }
 
 .u-header .u-social-icons-1 {
@@ -1540,6 +1550,14 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
 
   .u-header .u-menu-1 {
     width: auto;
+  }
+
+  .u-header .u-nav-5 {
+    font-size: 0.75rem;
+  }
+
+  .u-header .u-nav-6 {
+    font-size: 0.75rem;
   }
 
   .u-header .u-image-1 {
@@ -1622,7 +1640,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
     padding-right: 5px;
   }
 
-  .u-header .u-nav-3 {
+  .u-header .u-nav-4 {
     margin-top: 15px;
     margin-left: 14px;
   }
@@ -1805,7 +1823,6 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  --radius: 50px;
   margin: 0 auto;
 }
 
@@ -1852,6 +1869,7 @@ p:not(.u-text-variant) { margin-top: 20px; margin-bottom: 20px; font-size: 1.125
   }
 
   .u-section-1 .u-group-1 {
+    --radius: 50px;
     min-height: 100px;
     margin-left: 0;
     margin-right: 0;
