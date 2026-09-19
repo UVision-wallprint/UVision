@@ -2978,14 +2978,14 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   }
 } .u-section-9 {
   --color-var: #0f0f0f;
-  min-height: 279px;
+  min-height: 351px;
 }
 
 .u-section-9 .u-group-1 {
   height: auto;
   width: 1140px;
   min-height: 311px;
-  margin: 0 auto;
+  margin: 31px auto 9px;
 }
 
 .u-section-9 .u-container-layout-1 {
