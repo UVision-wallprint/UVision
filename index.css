@@ -4734,7 +4734,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-7 .u-accordion-link-1 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-7 .u-icon-1 {
@@ -4753,7 +4753,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-7 .u-accordion-link-2 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-7 .u-icon-2 {
@@ -4772,7 +4772,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-7 .u-accordion-link-3 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-7 .u-icon-3 {
@@ -4791,7 +4791,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-7 .u-accordion-link-4 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-7 .u-icon-4 {
@@ -4810,7 +4810,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-7 .u-accordion-link-5 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-7 .u-icon-5 {
@@ -4829,7 +4829,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-7 .u-accordion-link-6 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-7 .u-icon-6 {
@@ -4848,7 +4848,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-7 .u-accordion-link-7 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-7 .u-icon-7 {
@@ -4867,7 +4867,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-7 .u-accordion-link-8 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-7 .u-icon-8 {
@@ -4886,7 +4886,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-7 .u-accordion-link-9 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-7 .u-icon-9 {
@@ -4905,7 +4905,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-7 .u-accordion-link-10 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-7 .u-icon-10 {
@@ -4924,7 +4924,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-7 .u-accordion-link-11 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-7 .u-icon-11 {
@@ -4943,7 +4943,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-7 .u-accordion-link-12 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-7 .u-icon-12 {
@@ -4962,7 +4962,7 @@ ol { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-7 .u-accordion-link-13 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-7 .u-icon-13 {
@@ -5120,19 +5120,9 @@ ol { margin-top: 20px; margin-bottom: 20px; }
     margin-top: 22px;
   }
 
-  .u-section-7 .u-accordion-link-1 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
   .u-section-7 .u-container-layout-2 {
     padding-right: 0;
     padding-left: 5px;
-  }
-
-  .u-section-7 .u-accordion-link-2 {
-    padding-left: 5px;
-    padding-right: 5px;
   }
 
   .u-section-7 .u-container-layout-3 {
@@ -5140,96 +5130,41 @@ ol { margin-top: 20px; margin-bottom: 20px; }
     padding-left: 5px;
   }
 
-  .u-section-7 .u-accordion-link-3 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
   .u-section-7 .u-container-layout-4 {
     padding-right: 0;
     padding-left: 5px;
-  }
-
-  .u-section-7 .u-accordion-link-4 {
-    padding-left: 5px;
-    padding-right: 5px;
   }
 
   .u-section-7 .u-container-layout-5 {
     padding: 10px 0 10px 5px;
   }
 
-  .u-section-7 .u-accordion-link-5 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
   .u-section-7 .u-container-layout-6 {
     padding: 10px 0 10px 5px;
-  }
-
-  .u-section-7 .u-accordion-link-6 {
-    padding-left: 5px;
-    padding-right: 5px;
   }
 
   .u-section-7 .u-container-layout-7 {
     padding: 10px 0 10px 5px;
   }
 
-  .u-section-7 .u-accordion-link-7 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
   .u-section-7 .u-container-layout-8 {
     padding: 10px 0 10px 5px;
-  }
-
-  .u-section-7 .u-accordion-link-8 {
-    padding-left: 5px;
-    padding-right: 5px;
   }
 
   .u-section-7 .u-container-layout-9 {
     padding: 10px 0 10px 5px;
   }
 
-  .u-section-7 .u-accordion-link-9 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
   .u-section-7 .u-container-layout-10 {
     padding: 10px 0 10px 5px;
-  }
-
-  .u-section-7 .u-accordion-link-10 {
-    padding-left: 5px;
-    padding-right: 5px;
   }
 
   .u-section-7 .u-container-layout-11 {
     padding: 10px 0 10px 5px;
   }
 
-  .u-section-7 .u-accordion-link-11 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
   .u-section-7 .u-container-layout-12 {
     padding: 10px 0 10px 5px;
-  }
-
-  .u-section-7 .u-accordion-link-12 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
-  .u-section-7 .u-accordion-link-13 {
-    padding-left: 5px;
-    padding-right: 5px;
   }
 
   .u-section-7 .u-btn-1 {

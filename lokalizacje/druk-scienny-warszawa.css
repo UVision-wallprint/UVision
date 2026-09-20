@@ -757,6 +757,9 @@ h1 { font-size: 2.25rem; }
 h2 { font-size: 1.5rem; }
 p { margin-top: 0px; padding: 0px; margin-bottom: 0.5rem; }
 .u-align-left { text-align: left; }
+@media (max-width: 575px) {
+  .u-align-left-xs { text-align: left; }
+}
 .u-align-center { text-align: center; }
 @media (min-width: 992px) and (max-width: 1199px) {
   .u-align-center-lg { text-align: center; }
@@ -3477,7 +3480,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-9 .u-accordion-link-1 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-9 .u-icon-1 {
@@ -3495,8 +3498,13 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   padding: 10px 20px;
 }
 
+.u-section-9 .u-text-2 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .u-section-9 .u-accordion-link-2 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-9 .u-icon-2 {
@@ -3514,8 +3522,13 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
   padding: 10px 20px;
 }
 
+.u-section-9 .u-text-3 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .u-section-9 .u-accordion-link-3 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-9 .u-icon-3 {
@@ -3534,7 +3547,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-9 .u-accordion-link-4 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-9 .u-icon-4 {
@@ -3553,7 +3566,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-9 .u-accordion-link-5 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-9 .u-icon-5 {
@@ -3572,7 +3585,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-9 .u-accordion-link-6 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-9 .u-icon-6 {

@@ -3461,7 +3461,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-9 .u-accordion-link-1 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-9 .u-icon-1 {
@@ -3480,7 +3480,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-9 .u-accordion-link-2 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-9 .u-icon-2 {
@@ -3499,7 +3499,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-9 .u-accordion-link-3 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-9 .u-icon-3 {
@@ -3518,7 +3518,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-9 .u-accordion-link-4 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-9 .u-icon-4 {
@@ -3537,7 +3537,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-9 .u-accordion-link-5 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-9 .u-icon-5 {
@@ -3556,7 +3556,7 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
 }
 
 .u-section-9 .u-accordion-link-6 {
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .u-section-9 .u-icon-6 {
@@ -3668,19 +3668,9 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
     margin-top: 10px;
   }
 
-  .u-section-9 .u-accordion-link-1 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
   .u-section-9 .u-container-layout-2 {
     padding-right: 0;
     padding-left: 5px;
-  }
-
-  .u-section-9 .u-accordion-link-2 {
-    padding-left: 5px;
-    padding-right: 5px;
   }
 
   .u-section-9 .u-container-layout-3 {
@@ -3688,37 +3678,17 @@ ul:not(.u-unstyled) { margin-top: 20px; margin-bottom: 20px; }
     padding-left: 5px;
   }
 
-  .u-section-9 .u-accordion-link-3 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
   .u-section-9 .u-container-layout-4 {
     padding-right: 0;
     padding-left: 5px;
-  }
-
-  .u-section-9 .u-accordion-link-4 {
-    padding-left: 5px;
-    padding-right: 5px;
   }
 
   .u-section-9 .u-container-layout-5 {
     padding: 10px 0 10px 5px;
   }
 
-  .u-section-9 .u-accordion-link-5 {
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
   .u-section-9 .u-container-layout-6 {
     padding: 10px 0 10px 5px;
-  }
-
-  .u-section-9 .u-accordion-link-6 {
-    padding-left: 5px;
-    padding-right: 5px;
   }
 
   .u-section-9 .u-container-layout-7 {
