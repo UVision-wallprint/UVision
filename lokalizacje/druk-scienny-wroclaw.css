@@ -1528,7 +1528,7 @@
   }
 } .u-section-9 {
   --color-var: #0f0f0f;
-  min-height: 0;
+  min-height: 380px;
 }
 
 .u-section-9 .u-group-1 {
@@ -1677,10 +1677,6 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-9 {
-    min-height: 0;
-  }
-
   .u-section-9 .u-group-1 {
     width: 1000px;
     height: auto;
@@ -1758,9 +1754,19 @@
 }
 
 @media (max-width: 575px) {
+   .u-section-9 {
+    min-height: 0;
+  }
+
+  .u-section-9 .u-group-1 {
+    min-height: 490px;
+    width: 100%;
+    margin: 1px auto;
+  }
+
   .u-section-9 .u-container-layout-1 {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 27px;
   }
 } .u-section-10 {
   --color-var: #0f0f0f;
