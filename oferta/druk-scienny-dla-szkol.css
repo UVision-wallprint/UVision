@@ -235,7 +235,7 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 980px;
+    min-height: 985px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -248,11 +248,16 @@
   }
 
   .u-section-1 .u-layout-cell-2 {
-    min-height: 391px;
+    min-height: 430px;
   }
 
   .u-section-1 .u-text-3 {
     font-size: 1rem;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: 41px;
+    margin-right: 158px;
   }
 
   .u-section-1 .u-layout-cell-3 {
