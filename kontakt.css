@@ -1059,9 +1059,7 @@
   }
 
   .u-section-3 .u-container-layout-1 {
-    padding-top: 0;
-    padding-left: 7px;
-    padding-right: 7px;
+    padding: 15px;
   }
 
   .u-section-3 .u-text-1 {
@@ -1093,10 +1091,6 @@
     width: auto;
     margin-right: initial;
     margin-left: initial;
-  }
-
-  .u-section-3 .u-container-layout-1 {
-    padding: 15px;
   }
 
   .u-section-3 .u-shape-1 {
