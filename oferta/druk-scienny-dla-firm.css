@@ -233,7 +233,7 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 990px;
+    min-height: 931px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -379,19 +379,14 @@
 
   .u-section-2 .u-group-1 {
     margin-bottom: 10px;
-    min-height: 1338px;
+    min-height: 1457px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
   }
 
-  .u-section-2 .u-container-layout-1 {
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-
   .u-section-2 .u-text-1 {
-    margin-top: 20px;
+    margin-top: 2px;
   }
 
   .u-section-2 .u-text-3 {
