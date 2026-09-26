@@ -263,14 +263,7 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 902px;
-  }
-
-  .u-section-1 .u-layout-wrap-1 {
-    margin-bottom: 20px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    min-height: 960px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -296,7 +289,7 @@
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 30px;
+    margin-top: 45px;
     margin-right: 162px;
   }
 

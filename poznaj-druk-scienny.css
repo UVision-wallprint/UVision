@@ -308,14 +308,7 @@
 @media (max-width: 575px) {
    .u-section-1 {
     background-position: 50% 50%;
-    min-height: 865px;
-  }
-
-  .u-section-1 .u-layout-wrap-1 {
-    margin-bottom: 20px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    min-height: 960px;
   }
 
   .u-section-1 .u-group-1 {
@@ -338,22 +331,18 @@
   }
 
   .u-section-1 .u-group-2 {
-    min-height: 315px;
+    min-height: 329px;
     width: auto;
   }
 
-  .u-section-1 .u-container-layout-4 {
-    padding-bottom: 24px;
-  }
-
   .u-section-1 .u-btn-1 {
-    margin-top: 31px;
+    margin-top: 45px;
     margin-right: 161px;
   }
 
   .u-section-1 .u-layout-cell-3 {
     order: 1;
-    min-height: 215px;
+    min-height: 387px;
   }
 
   .u-section-1 .u-image-1 {
