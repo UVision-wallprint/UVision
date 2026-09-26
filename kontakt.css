@@ -854,6 +854,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  box-shadow: 5px 5px 20px 0 rgba(255,209,1,0.4);
   margin: 0 auto;
   padding: 15px;
 }
@@ -879,6 +880,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  box-shadow: 5px 5px 20px 0 rgba(255,209,1,0.4);
   margin: 0 auto;
   padding: 15px;
 }
@@ -904,6 +906,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  box-shadow: 5px 5px 20px 0 rgba(255,209,1,0.4);
   margin: 0 auto;
   padding: 15px;
 }
@@ -929,6 +932,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  box-shadow: 5px 5px 20px 0 rgba(255,209,1,0.4);
   margin: 0 auto;
   padding: 15px;
 }
@@ -954,6 +958,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  box-shadow: 5px 5px 20px 0 rgba(255,209,1,0.4);
   margin: 0 auto;
   padding: 15px;
 }
@@ -979,6 +984,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  box-shadow: 5px 5px 20px 0 rgba(255,209,1,0.4);
   margin: 0 auto;
   padding: 15px;
 }
