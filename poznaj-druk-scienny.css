@@ -265,7 +265,7 @@
 @media (max-width: 575px) {
    .u-section-1 {
     background-position: 50% 50%;
-    min-height: 960px;
+    min-height: 970px;
   }
 
   .u-section-1 .u-group-1 {
@@ -300,7 +300,7 @@
 
   .u-section-1 .u-layout-cell-3 {
     order: 1;
-    min-height: 387px;
+    min-height: 345px;
   }
 
   .u-section-1 .u-image-1 {

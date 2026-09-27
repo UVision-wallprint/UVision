@@ -232,7 +232,7 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    min-height: 931px;
+    min-height: 990px;
   }
 
   .u-section-1 .u-layout-cell-1 {
@@ -685,13 +685,9 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-4 {
-    min-height: 1392px;
-  }
-
   .u-section-4 .u-layout-wrap-1 {
     margin-top: 0;
-    margin-bottom: 2px;
+    margin-bottom: 0;
     width: auto;
     margin-right: initial;
     margin-left: initial;

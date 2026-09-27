@@ -320,7 +320,7 @@
 .u-section-2 .u-text-2 {
   font-size: 1.125rem;
   padding-left: 10px;
-  margin: 19px 0 -2px;
+  margin: 19px auto -2px 0;
 }
 
 @media (max-width: 1199px) {
@@ -391,7 +391,6 @@
   }
 
   .u-section-2 .u-text-2 {
-    width: auto;
     margin-top: 21px;
   }
 }
