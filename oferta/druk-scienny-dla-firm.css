@@ -82,7 +82,7 @@
   filter: none;
   border-style: solid;
   box-shadow: 5px 5px 20px 0 rgba(255,209,1,0.4);
-  margin: 109px auto 0 0;
+  margin: 101px auto 0 0;
   padding: 9px 29px 10px;
 }
 
@@ -106,7 +106,7 @@
 .u-section-1 .u-image-2 {
   width: 36px;
   height: 59px;
-  margin: -75px auto 0;
+  margin: -73px auto 60px;
 }
 
 @media (max-width: 1199px) {
