@@ -83,7 +83,7 @@
   background-image: none;
   border-style: solid;
   box-shadow: 5px 5px 20px 0 rgba(255,209,1,0.4);
-  margin: 43px 307px 0 0;
+  margin: 53px 307px 0 0;
   padding: 9px 21px;
 }
 
@@ -114,7 +114,7 @@
   width: 540px;
   height: 396px;
   --radius: 50px;
-  margin: 1px 0 0 auto;
+  margin: 3px 0 0 auto;
 }
 
 .u-section-1 .u-image-2 {
