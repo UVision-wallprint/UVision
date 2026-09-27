@@ -265,7 +265,14 @@
 @media (max-width: 575px) {
    .u-section-1 {
     background-position: 50% 50%;
-    min-height: 970px;
+    min-height: 980px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    margin-bottom: 5px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-1 .u-group-1 {
@@ -300,7 +307,7 @@
 
   .u-section-1 .u-layout-cell-3 {
     order: 1;
-    min-height: 345px;
+    min-height: 366px;
   }
 
   .u-section-1 .u-image-1 {
