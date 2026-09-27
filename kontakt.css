@@ -1657,6 +1657,10 @@
   background-image: none;
 }
 
+.u-section-6 .u-custom-html-1 {
+  margin: 0;
+}
+
 @media (max-width: 1199px) {
    .u-section-6 {
     background-position: 50% 50%;
@@ -1693,6 +1697,11 @@
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
+  }
+
+  .u-section-6 .u-custom-html-1 {
+    margin-right: initial;
+    margin-left: initial;
   }
 }
 
@@ -1737,7 +1746,7 @@
 
 @media (max-width: 575px) {
    .u-section-6 {
-    min-height: 338px;
+    min-height: 238px;
   }
 
   .u-section-6 .u-container-layout-1 {

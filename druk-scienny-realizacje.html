@@ -649,7 +649,7 @@ display: none !important
       <div class="data-layout-selected u-align-center u-clearfix u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-gutter-0 u-layout-wrap u-layout-wrap-1">
         <div class="u-gutter-0 u-layout">
           <div class="u-layout-row">
-            <div class="u-align-left u-container-style u-layout-cell u-shape-rectangle u-size-33 u-layout-cell-1">
+            <div class="u-align-left u-container-align-left u-container-style u-layout-cell u-shape-rectangle u-size-33 u-layout-cell-1">
               <div class="u-container-layout u-valign-middle-lg u-container-layout-1" src="">
                 <img class="custom-expanded u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xl u-image u-image-round u-radius lazyload u-image-1" alt="mural w szkole - druk ścienny, Kędzierzyn-Koźle" data-image-width="1600" data-image-height="1600" data-src="images/druk-scienny-firma-tychy.jpg" loading="lazy">
               </div>
@@ -872,6 +872,38 @@ display: none !important
             </a>
           </div>
         </div>
+      </div>
+      <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
+        <div id="uvision-preloader">
+          <video autoplay="" muted="" playsinline="">
+            <source src="images/logo-animation.mp4" type="video/mp4">
+          </video>
+        </div>
+        <style> #uvision-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: uvisionHide 0.5s ease 3s forwards;
+}
+#uvision-preloader video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+@keyframes uvisionHide {
+    to {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+} </style>
       </div>
     </section>
     

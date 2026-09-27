@@ -611,6 +611,38 @@ Od edukacyjnych ilustracji i map, przez motywy przyrodnicze, aÅ¼ po grafiki zwiÄ
           </div>
         </div>
       </div>
+      <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1">
+        <div id="uvision-preloader">
+          <video autoplay="" muted="" playsinline="">
+            <source src="../images/logo-animation.mp4" type="video/mp4">
+          </video>
+        </div>
+        <style> #uvision-preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: uvisionHide 0.5s ease 3s forwards;
+}
+#uvision-preloader video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+@keyframes uvisionHide {
+    to {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+} </style>
+      </div>
     </section>
     
     

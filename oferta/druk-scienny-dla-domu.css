@@ -1105,6 +1105,10 @@
   background-image: none;
 }
 
+.u-section-9 .u-custom-html-1 {
+  margin: 0;
+}
+
 @media (max-width: 1199px) {
   .u-section-9 .u-group-1 {
     width: 1000px;
@@ -1135,6 +1139,11 @@
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
+  }
+
+  .u-section-9 .u-custom-html-1 {
+    margin-right: initial;
+    margin-left: initial;
   }
 }
 
@@ -1170,10 +1179,6 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-9 {
-    min-height: 338px;
-  }
-
   .u-section-9 .u-container-layout-1 {
     padding: 15px;
   }
