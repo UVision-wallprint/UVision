@@ -1275,18 +1275,16 @@
   }
 } .u-section-5 {
   --color-var: #0f0f0f;
-  min-height: 728px;
 }
 
 .u-section-5 .u-group-1 {
-  min-height: 650px;
   height: auto;
   width: 1140px;
   margin: 8px auto 0;
 }
 
 .u-section-5 .u-container-layout-1 {
-  padding: 17px 0 0;
+  padding: 15px 0;
 }
 
 .u-section-5 .u-text-1 {
@@ -1310,12 +1308,12 @@
 }
 
 .u-section-5 .u-layout-wrap-1 {
-  width: 100%;
-  margin: 3px 0 0;
+  margin: 3px auto 0;
 }
 
 .u-section-5 .u-layout-cell-1 {
-  min-height: 0;
+  order: 0;
+  min-height: NaNpx;
 }
 
 .u-section-5 .u-container-layout-2 {
@@ -1330,7 +1328,8 @@
 
 .u-section-5 .u-text-3 {
   font-size: 1rem;
-  margin: 0 186px 25px 172px;
+  width: 882px;
+  margin: 8px auto 0;
 }
 
 .u-section-5 .u-btn-1 {
@@ -1435,23 +1434,23 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-5 {
+    min-height: 749px;
+  }
+
   .u-section-5 .u-group-1 {
     width: 1000px;
+    margin-bottom: 8px;
     height: auto;
   }
 
   .u-section-5 .u-layout-wrap-1 {
     margin-top: 20px;
-  }
-
-  .u-section-5 .u-layout-cell-1 {
-    min-height: 0;
+    width: 100%;
   }
 
   .u-section-5 .u-text-3 {
     width: 897px;
-    margin-left: 72px;
-    margin-right: 86px;
   }
 
   .u-section-5 .u-btn-10 {
@@ -1532,23 +1531,19 @@
 
 @media (max-width: 575px) {
    .u-section-5 {
-    min-height: 641px;
+    min-height: 660px;
   }
 
   .u-section-5 .u-group-1 {
-    min-height: 535px;
+    min-height: 644px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
   }
 
-  .u-section-5 .u-container-layout-1 {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
   .u-section-5 .u-text-1 {
-    margin-top: 15px;
+    width: auto;
+    margin-right: 0;
   }
 
   .u-section-5 .u-text-2 {
@@ -1557,13 +1552,6 @@
 
   .u-section-5 .u-layout-wrap-1 {
     margin-top: 10px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
-  }
-
-  .u-section-5 .u-layout-cell-1 {
-    order: 0;
   }
 
   .u-section-5 .u-image-1 {
@@ -1575,7 +1563,6 @@
     font-size: 0.875rem;
     margin-left: 25px;
     margin-right: 25px;
-    margin-bottom: 19px;
   }
 } .u-section-6 {
   background-position: 50% 100%;
