@@ -82,7 +82,7 @@
   border-style: solid;
   box-shadow: 5px 5px 20px 0 rgba(255,209,1,0.4);
   margin: 47px 306px 0 0;
-  padding: 9px 28px 9px 27px;
+  padding: 9px 29px;
 }
 
 .u-section-1 .u-btn-2 {
@@ -91,7 +91,7 @@
   border-style: solid;
   box-shadow: 5px 5px 20px 0 rgba(255,209,1,0.4);
   margin: 11px 254px 0 0;
-  padding: 9px 25px;
+  padding: 9px 29px;
 }
 
 .u-section-1 .u-layout-cell-3 {
@@ -617,7 +617,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   margin: 19px auto 0 0;
-  padding: 8px 43px 9px 42px;
+  padding: 8px 29px 9px;
 }
 
 @media (max-width: 1199px) {
@@ -1670,7 +1670,7 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   margin: 21px auto 0 0;
-  padding: 9px 15px;
+  padding: 9px 29px;
 }
 
 @media (max-width: 1199px) {
