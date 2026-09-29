@@ -2337,7 +2337,7 @@
 }
 
 .u-section-6 .u-group-1 {
-  min-height: 522px;
+  min-height: 503px;
   height: auto;
   width: 1140px;
   transition-duration: 0.5s;
@@ -2366,16 +2366,17 @@
 .u-section-6 .u-gallery-1 {
   height: 307px;
   width: 721px;
-  margin: 60px auto 0;
+  margin: 26px auto 0;
 }
 
 .u-section-6 .u-carousel-indicators-1 {
   position: absolute;
   bottom: 10px;
+  width: auto;
+  height: auto;
 }
 
 .u-section-6 .u-gallery-inner-1 {
-  grid-template-columns: repeat(3, auto);
   --gap: 0px;
 }
 
@@ -2385,7 +2386,7 @@
 }
 
 .u-section-6 .u-over-slide-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
   padding: 30px;
 }
 
@@ -2395,7 +2396,7 @@
 }
 
 .u-section-6 .u-over-slide-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
   padding: 30px;
 }
 
@@ -2405,7 +2406,7 @@
 }
 
 .u-section-6 .u-over-slide-3 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
   padding: 30px;
 }
 
@@ -2415,7 +2416,7 @@
 }
 
 .u-section-6 .u-over-slide-4 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
   padding: 30px;
 }
 
@@ -2425,7 +2426,7 @@
 }
 
 .u-section-6 .u-over-slide-5 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
   padding: 30px;
 }
 
@@ -2435,7 +2436,7 @@
 }
 
 .u-section-6 .u-over-slide-6 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
   padding: 30px;
 }
 
@@ -2445,7 +2446,7 @@
 }
 
 .u-section-6 .u-over-slide-7 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
   padding: 30px;
 }
 
@@ -2455,7 +2456,7 @@
 }
 
 .u-section-6 .u-over-slide-8 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
   padding: 30px;
 }
 
@@ -2465,7 +2466,7 @@
 }
 
 .u-section-6 .u-over-slide-9 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
   padding: 30px;
 }
 
@@ -2475,26 +2476,26 @@
 }
 
 .u-section-6 .u-over-slide-10 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8));
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
   padding: 30px;
 }
 
 .u-section-6 .u-carousel-control-1 {
   position: absolute;
   left: 10px;
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
+  right: auto;
+  padding: 5px;
 }
 
 .u-section-6 .u-carousel-control-2 {
   position: absolute;
+  width: 36px;
+  height: 36px;
+  left: auto;
   right: 10px;
-  width: 40px;
-  height: 40px;
-}
-
-.u-section-6 .u-container-layout-2 {
-  padding: 30px;
+  padding: 5px;
 }
 
 @media (max-width: 1199px) {
@@ -2563,10 +2564,12 @@
 
   .u-section-6 .u-carousel-control-1 {
     left: 8px;
+    top: 136px;
   }
 
   .u-section-6 .u-carousel-control-2 {
     right: 8px;
+    top: 136px;
   }
 }
 
@@ -2601,12 +2604,12 @@
 
 @media (max-width: 767px) {
    .u-section-6 {
-    min-height: 515px;
+    min-height: 476px;
   }
 
   .u-section-6 .u-group-1 {
     min-height: 416px;
-    margin-bottom: 29px;
+    margin-bottom: 17px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -2622,7 +2625,7 @@
   }
 
   .u-section-6 .u-gallery-1 {
-    height: 250px;
+    height: 200px;
     width: 540px;
   }
 
@@ -2633,22 +2636,17 @@
   .u-section-6 .u-carousel-control-2 {
     right: 5px;
   }
-
-  .u-section-6 .u-container-layout-2 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
 }
 
 @media (max-width: 575px) {
    .u-section-6 {
-    min-height: 401px;
+    min-height: 432px;
   }
 
   .u-section-6 .u-group-1 {
     min-height: 360px;
     margin-top: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -2674,8 +2672,8 @@
 
   .u-section-6 .u-gallery-1 {
     height: 180px;
-    width: 100%;
     margin-top: 25px;
+    width: 100%;
   }
 
   .u-section-6 .u-carousel-control-1 {
