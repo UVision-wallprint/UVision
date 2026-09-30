@@ -862,8 +862,7 @@
     margin-top: 30px;
   }
 } .u-section-6 {
-  --color-var: #0f0f0f;
-  min-height: 567px;
+  min-height: 770px;
 }
 
 .u-section-6 .u-group-1 {
@@ -871,7 +870,7 @@
   height: auto;
   width: 1140px;
   background-image: none;
-  margin: 18px auto;
+  margin: 20px auto;
 }
 
 .u-section-6 .u-container-layout-1 {
@@ -891,7 +890,7 @@
 }
 
 .u-section-6 .u-over-slide-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  background-image: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,1));
   padding: 30px;
 }
 
@@ -900,12 +899,12 @@
 }
 
 .u-section-6 .u-over-slide-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  background-image: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,1));
   padding: 30px;
 }
 
 .u-section-6 .u-over-slide-3 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  background-image: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,1));
   padding: 30px;
 }
 
@@ -914,7 +913,7 @@
 }
 
 .u-section-6 .u-over-slide-4 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  background-image: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,1));
   padding: 30px;
 }
 
@@ -923,7 +922,7 @@
 }
 
 .u-section-6 .u-over-slide-5 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  background-image: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,1));
   padding: 30px;
 }
 
@@ -932,12 +931,13 @@
 }
 
 .u-section-6 .u-over-slide-6 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+  background-image: linear-gradient(0deg, rgba(0,0,0,1), rgba(0,0,0,1));
   padding: 30px;
 }
 
 @media (max-width: 1199px) {
    .u-section-6 {
+    --color-var: #0f0f0f;
     min-height: 463px;
   }
 
@@ -1004,20 +1004,20 @@
     margin-right: 0;
   }
 } .u-section-7 {
-  --color-var: #0f0f0f;
-  min-height: 156px;
+  min-height: 158px;
 }
 
 .u-section-7 .u-group-1 {
   height: auto;
   min-height: 143px;
   width: 1140px;
-  margin: -1px auto 12px;
+  margin: 1px auto 12px;
 }
 
 .u-section-7 .u-container-layout-1 {
   padding-left: 0;
   padding-right: 0;
+  padding-top: 0;
 }
 
 .u-section-7 .u-text-1 {
@@ -1038,13 +1038,16 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-7 {
+    --color-var: #0f0f0f;
+  }
+
   .u-section-7 .u-group-1 {
     width: 940px;
     height: auto;
   }
 
   .u-section-7 .u-container-layout-1 {
-    padding-top: 0;
     padding-bottom: 30px;
   }
 
@@ -1091,7 +1094,7 @@
   }
 
   .u-section-7 .u-container-layout-1 {
-    padding-top: 15px;
+    padding-top: 0;
     padding-bottom: 15px;
   }
 

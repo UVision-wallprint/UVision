@@ -730,7 +730,6 @@
     padding-bottom: 23px;
   }
 } .u-section-6 {
-  --color-var: #0f0f0f;
   min-height: 0;
 }
 
@@ -742,7 +741,7 @@
 }
 
 .u-section-6 .u-container-layout-1 {
-  padding: 0 0 30px;
+  padding: 20px 0;
 }
 
 .u-section-6 .u-text-1 {
@@ -780,6 +779,7 @@
 
 @media (max-width: 1199px) {
    .u-section-6 {
+    --color-var: #0f0f0f;
     min-height: 312px;
   }
 
