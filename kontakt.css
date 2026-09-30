@@ -1258,7 +1258,6 @@
     font-size: 1.1111111111111112rem;
   }
 } .u-section-4 {
-  --color-var: #0f0f0f;
   min-height: 381px;
 }
 
@@ -1307,6 +1306,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-4 {
+    --color-var: #0f0f0f;
+  }
+
   .u-section-4 .u-group-1 {
     width: 1000px;
     margin-top: 0;
