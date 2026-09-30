@@ -2,7 +2,7 @@
   background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 793px;
+  min-height: 100vh;
 }
 
 .u-section-1 .u-layout-wrap-1 {
@@ -120,7 +120,7 @@
 .u-section-1 .u-image-2 {
   width: 36px;
   height: 59px;
-  margin: -75px auto 60px;
+  margin: -75px auto 0;
 }
 
 @media (max-width: 1199px) {

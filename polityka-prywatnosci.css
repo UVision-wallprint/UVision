@@ -288,6 +288,12 @@
   .u-section-2 .u-group-2 {
     width: 520px;
   }
+
+  .u-section-2 .u-custom-html-1 {
+    margin-top: 20px;
+    margin-right: initial;
+    margin-left: initial;
+  }
 }
 
 @media (max-width: 575px) {
