@@ -2,7 +2,7 @@
   background-position: 50% 0%;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 750px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
@@ -109,6 +109,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 513px;
+  }
+
   .u-section-1 .u-layout-wrap-1 {
     width: 1000px;
   }
@@ -155,6 +159,10 @@
 }
 
 @media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 421px;
+  }
+
   .u-section-1 .u-layout-wrap-1 {
     margin-right: initial;
     margin-left: initial;
@@ -202,6 +210,10 @@
 }
 
 @media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 672px;
+  }
+
   .u-section-1 .u-layout-cell-1 {
     min-height: 76px;
   }
@@ -235,6 +247,10 @@
 }
 
 @media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 505px;
+  }
+
   .u-section-1 .u-layout-cell-1 {
     min-height: 85px;
   }
@@ -1765,53 +1781,18 @@
   .u-section-9 .u-social-icons-1 {
     margin-top: -10px;
   }
-}/* Uniwersalny styl dla każdej sekcji z klasą .hero-fullheight (tylko Desktop) */
-@media (min-width: 992px) {
-  .hero-fullheight {
-    height: 100vh !important;
-    min-height: 100vh !important;
-    max-height: 100vh !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: space-between !important;
-    position: relative !important;
-    box-sizing: border-box !important;
-    z-index: 2 !important;
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-    overflow: hidden !important;
-  }
-  .hero-fullheight .u-sheet {
-    flex-grow: 1 !important;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    padding-bottom: 80px !important;
-    box-sizing: border-box !important;
-    position: relative !important;
-  }
-  .hero-fullheight img {
-    max-height: calc(100vh - 260px) !important;
-    width: auto !important;
-    object-fit: contain !important;
-  }
-  .hero-fullheight .u-icon-scroll,
-  .hero-fullheight .u-btn-scroll,
-  .hero-fullheight [class*="u-icon"] {
+}/* 2. SUWAK (Ikona scrolla) - sztywne przyklejenie do samej dolnej krawędzi sekcji */
+  .u-section-1 .u-icon-scroll,
+  .u-section-1 .u-btn-scroll,
+  .u-section-1 [class*="u-icon-scroll"],
+  .hero-fullheight .u-icon-scroll {
     position: absolute !important;
-    bottom: 20px !important;
-    top: auto !important;
-    left: 50% !important;
+    bottom: 20px !important;       /* Odległość od dolnej krawędzi ekranu */
+    top: auto !important;          /* Kasuje ewentualne wyrównanie od góry */
+    left: 50% !important;          /* Wyśrodkowanie w poziomie */
     transform: translateX(-50%) !important;
     margin: 0 !important;
-    z-index: 10 !important;
-  }
-  /* Automatyczne kasowanie luki pod sekcją Hero na dowolnej podstronie */
-  .hero-fullheight + section,
-  .hero-fullheight + div[class*="u-section"] {
-    position: relative !important;
-    z-index: 1 !important;
-    margin-top: 0 !important;
-    clear: both !important;
+    z-index: 10 !important;        /* Gwarantuje, że suwak wisi nad tłem i obrazkiem */
+    cursor: pointer !important;
   }
 }
