@@ -3062,4 +3062,53 @@
   .u-section-14 .u-social-icons-1 {
     margin-top: -10px;
   }
+}/* Uniwersalny styl dla każdej sekcji z klasą .hero-fullheight (tylko Desktop) */
+@media (min-width: 992px) {
+  .hero-fullheight {
+    height: 100vh !important;
+    min-height: 100vh !important;
+    max-height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    position: relative !important;
+    box-sizing: border-box !important;
+    z-index: 2 !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    overflow: hidden !important;
+  }
+  .hero-fullheight .u-sheet {
+    flex-grow: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    padding-bottom: 80px !important;
+    box-sizing: border-box !important;
+    position: relative !important;
+  }
+  .hero-fullheight img {
+    max-height: calc(100vh - 260px) !important;
+    width: auto !important;
+    object-fit: contain !important;
+  }
+  .hero-fullheight .u-icon-scroll,
+  .hero-fullheight .u-btn-scroll,
+  .hero-fullheight [class*="u-icon"] {
+    position: absolute !important;
+    bottom: 20px !important;
+    top: auto !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin: 0 !important;
+    z-index: 10 !important;
+  }
+  /* Automatyczne kasowanie luki pod sekcją Hero na dowolnej podstronie */
+  .hero-fullheight + section,
+  .hero-fullheight + div[class*="u-section"] {
+    position: relative !important;
+    z-index: 1 !important;
+    margin-top: 0 !important;
+    clear: both !important;
+  }
 }

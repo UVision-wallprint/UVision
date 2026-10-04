@@ -1765,57 +1765,53 @@
   .u-section-9 .u-social-icons-1 {
     margin-top: -10px;
   }
-}/* Style wykonywane WYŁĄCZNIE na trybie Desktop (ekrany od 992px szerokości) */
+}/* Uniwersalny styl dla każdej sekcji z klasą .hero-fullheight (tylko Desktop) */
 @media (min-width: 992px) {
-/* 1. Wyraźne odseparowanie sekcji Hero i odepchnięcie kolejnego bloku */
-.u-section-1 {
-  min-height: 100vh !important;
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: space-between !important;
-  position: relative !important;
-  box-sizing: border-box !important;
-  z-index: 2 !important; /* Wynosi sekcję Hero ponad blok poniżej */
-  margin-bottom: 0 !important;
-}
-/* 2. Zabezpieczenie siatki - przestrzeń na cień pod przyciskiem i suwak */
-.u-section-1 .u-sheet {
-  flex-grow: 1 !important;
-  display: flex !important;
-  flex-direction: column !important;
-  justify-content: center !important;
-  padding-bottom: 90px !important; /* Większy zapas, by cień przycisku się nie ucinał */
-  box-sizing: border-box !important;
-  position: relative !important;
-  overflow: visible !important; /* Pozwala cieniom wychodzić poza obrys kontenera */
-}
-/* 3. Upewnienie się, że przyciski mają miejsce na cień */
-.u-section-1 .u-btn,
-.u-section-1 a.u-button-style {
-  position: relative !important;
-  z-index: 5 !important;
-}
-/* 4. Skalowanie zdjęcia, by nie rozpychało pionu */
-.u-section-1 img {
-  max-height: calc(100vh - 280px) !important;
-  width: auto !important;
-  object-fit: contain !important;
-}
-/* 5. Ikona suwaka przyklejona do dołu sekcji */
-.u-section-1 .u-icon-scroll,
-.u-section-1 .u-btn-scroll,
-.u-section-1 [class*="u-icon"] {
-  position: absolute !important;
-  bottom: 20px !important;
-  top: auto !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-  margin: 0 !important;
-  z-index: 10 !important;
-}
-/* 6. Wymuszenie tła i odsuniecie drugiej sekcji pod krawędź ekranu */
-.u-section-2 {
-  position: relative !important;
-  z-index: 1 !important;
-  clear: both !important;
+  .hero-fullheight {
+    height: 100vh !important;
+    min-height: 100vh !important;
+    max-height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    position: relative !important;
+    box-sizing: border-box !important;
+    z-index: 2 !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+    overflow: hidden !important;
+  }
+  .hero-fullheight .u-sheet {
+    flex-grow: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    padding-bottom: 80px !important;
+    box-sizing: border-box !important;
+    position: relative !important;
+  }
+  .hero-fullheight img {
+    max-height: calc(100vh - 260px) !important;
+    width: auto !important;
+    object-fit: contain !important;
+  }
+  .hero-fullheight .u-icon-scroll,
+  .hero-fullheight .u-btn-scroll,
+  .hero-fullheight [class*="u-icon"] {
+    position: absolute !important;
+    bottom: 20px !important;
+    top: auto !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    margin: 0 !important;
+    z-index: 10 !important;
+  }
+  /* Automatyczne kasowanie luki pod sekcją Hero na dowolnej podstronie */
+  .hero-fullheight + section,
+  .hero-fullheight + div[class*="u-section"] {
+    position: relative !important;
+    z-index: 1 !important;
+    margin-top: 0 !important;
+    clear: both !important;
+  }
 }
