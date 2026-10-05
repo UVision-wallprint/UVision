@@ -14,7 +14,7 @@
   filter: none;
   width: 1140px;
   min-height: 126px;
-  margin: 109px auto 0;
+  margin: 110px auto 0;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -58,7 +58,7 @@
   height: auto;
   width: 1140px;
   min-height: 180px;
-  margin: auto auto 10px;
+  margin: 122px auto 10px;
 }
 
 .u-section-1 .u-container-layout-3 {
@@ -104,7 +104,6 @@
     --radius: 50px;
     min-height: 99px;
     width: 1000px;
-    margin-top: 110px;
     height: auto;
   }
 
@@ -232,6 +231,7 @@
 @media (max-width: 575px) {
    .u-section-1 {
     background-position: 50% 50%, 68.83% 50%;
+    min-height: 704px;
   }
 
   .u-section-1 .u-text-1 {
@@ -246,6 +246,13 @@
   .u-section-1 .u-text-3 {
     margin-top: 21px;
     margin-right: 0;
+  }
+
+  .u-section-1 .u-group-3 {
+    margin-top: 0;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-1 .u-btn-1 {

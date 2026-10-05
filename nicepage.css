@@ -1054,11 +1054,11 @@ ol {
 .u-accordion-link-icon-hidden.u-icon {
   display: none;
 }
-.u-accordion-pane {
+.u-accordion .u-accordion-pane {
   position: relative;
   display: none;
 }
-.u-accordion-pane.u-accordion-active {
+.u-accordion .u-accordion-pane.u-accordion-active {
   display: flex;
 }
 .u-accordion.u-spacing-0 .u-accordion-item:not(:last-child) .u-accordion-link[class*=u-border-] ~ .u-accordion-pane,
@@ -7872,8 +7872,8 @@ p {
   object-fit: cover;
   object-position: center;
 }
-.u-show-text-none .u-over-slide {
-  display: none;
+.u-show-text-none:not(.u-form-gallery) .u-over-slide {
+  display: none !important;
 }
 .u-over-slide .u-gallery-heading,
 .u-over-slide .u-gallery-text {

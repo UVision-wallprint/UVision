@@ -232,6 +232,7 @@
 @media (max-width: 575px) {
    .u-section-1 {
     background-position: 50% 50%, 68.83% 50%;
+    min-height: 704px;
   }
 
   .u-section-1 .u-text-1 {
@@ -246,6 +247,13 @@
   .u-section-1 .u-text-3 {
     margin-top: 21px;
     margin-right: 0;
+  }
+
+  .u-section-1 .u-group-3 {
+    margin-top: 0;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-1 .u-btn-1 {
