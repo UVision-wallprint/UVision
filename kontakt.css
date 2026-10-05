@@ -291,11 +291,13 @@
     font-size: 1.1111111111111112rem;
     width: auto;
     margin-top: 20px;
-    margin-right: 238px;
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-5 {
     font-size: 1.1111111111111112rem;
+    width: auto;
+    margin-right: 0;
   }
 
   .u-section-1 .u-text-6 {
@@ -304,6 +306,8 @@
 
   .u-section-1 .u-text-7 {
     font-size: 1.1111111111111112rem;
+    width: auto;
+    margin-right: 0;
   }
 
   .u-section-1 .u-group-3 {
