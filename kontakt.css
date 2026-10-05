@@ -557,12 +557,14 @@
   }
 
   .u-section-2 .u-btn-2 {
-    font-size: 0.75rem;
+    font-size: 0.625rem;
   }
 
   .u-section-2 .u-btn-3 {
     --top-right-radius: 50px;
     --bottom-left-radius: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
 } .u-section-3 {
   --color-var: #0f0f0f;
