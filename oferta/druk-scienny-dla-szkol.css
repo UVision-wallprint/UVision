@@ -1123,12 +1123,12 @@
   }
 } .u-section-8 {
   --color-var: #0f0f0f;
-  min-height: 531px;
+  min-height: 551px;
 }
 
 .u-section-8 .u-layout-wrap-1 {
   width: 1140px;
-  margin: 0 auto 20px;
+  margin: 20px auto;
 }
 
 .u-section-8 .u-layout-cell-1 {
@@ -1283,7 +1283,7 @@
   }
 
   .u-section-8 .u-layout-wrap-1 {
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 25px;
     width: auto;
     margin-right: initial;
