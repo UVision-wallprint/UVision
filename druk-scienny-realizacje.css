@@ -113,20 +113,15 @@
 
   .u-section-1 .u-group-2 {
     width: 1000px;
-    min-height: 260px;
+    min-height: 275px;
     margin-left: auto;
     height: auto;
-  }
-
-  .u-section-1 .u-container-layout-2 {
-    padding-left: 20px;
-    padding-right: 20px;
   }
 
   .u-section-1 .u-text-3 {
     width: auto;
     margin-top: 21px;
-    margin-right: 433px;
+    margin-right: 500px;
   }
 
   .u-section-1 .u-group-3 {
@@ -136,7 +131,8 @@
   }
 
   .u-section-1 .u-container-layout-3 {
-    padding: 0 20px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .u-section-1 .u-group-elements-1 {
@@ -184,7 +180,7 @@
   }
 
   .u-section-1 .u-container-layout-2 {
-    padding: 0 15px;
+    padding: 0 20px;
   }
 
   .u-section-1 .u-text-2 {
@@ -202,6 +198,11 @@
     margin-left: initial;
     width: auto;
   }
+
+  .u-section-1 .u-container-layout-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -212,13 +213,18 @@
     margin-left: initial;
   }
 
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
   .u-section-1 .u-text-2 {
-    margin-right: 225px;
+    margin-right: 235px;
   }
 
   .u-section-1 .u-text-3 {
     margin-top: 20px;
-    margin-right: 225px;
+    margin-right: 235px;
   }
 
   .u-section-1 .u-container-layout-3 {
@@ -230,7 +236,7 @@
 @media (max-width: 575px) {
    .u-section-1 {
     background-position: 50% 50%, 69.02% 0%;
-    min-height: 704px;
+    min-height: 700px;
   }
 
   .u-section-1 .u-text-1 {
@@ -238,8 +244,19 @@
     margin-right: 0;
   }
 
+  .u-section-1 .u-group-2 {
+    min-height: 270px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: 0;
+  }
+
   .u-section-1 .u-text-2 {
     margin-right: 0;
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-right: auto;
   }
 
   .u-section-1 .u-text-3 {
@@ -249,9 +266,14 @@
 
   .u-section-1 .u-group-3 {
     margin-top: 0;
+    margin-bottom: 0;
     width: auto;
     margin-right: initial;
     margin-left: initial;
+  }
+
+  .u-section-1 .u-container-layout-3 {
+    padding-bottom: 20px;
   }
 
   .u-section-1 .u-btn-1 {
