@@ -1,7 +1,7 @@
  .u-section-1 {
-  background-position: 50% 50%, 50% 0%;
+  background-position: 50% 50%;
   background-repeat: no-repeat, no-repeat;
-  background-image: linear-gradient(rgba(24, 42, 250, 0) 90%, rgb(15, 15, 15) 97%), url("../images/UVision_other_bg.jpg");
+  background-image: linear-gradient(rgba(24, 42, 250, 0) 90%, rgb(15, 15, 15) 97%), url("../images/bg_UVision_other.jpg");
   background-size: cover, cover;
   min-height: 100vh;
 }
