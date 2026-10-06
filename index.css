@@ -1962,12 +1962,8 @@
 }
 
 @media (max-width: 767px) {
-   .u-section-6 {
-    min-height: 476px;
-  }
-
   .u-section-6 .u-group-1 {
-    margin-bottom: 17px;
+    min-height: 414px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -1983,7 +1979,9 @@
   }
 
   .u-section-6 .u-gallery-1 {
+    height: 230px;
     width: 540px;
+    margin-top: 25px;
   }
 
   .u-section-6 .u-carousel-control-1 {
@@ -1996,13 +1994,8 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-6 {
-    min-height: 0;
-  }
-
   .u-section-6 .u-group-1 {
-    margin-bottom: 0;
-    min-height: 401px;
+    min-height: 385px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -2027,9 +2020,8 @@
   }
 
   .u-section-6 .u-gallery-1 {
-    height: 180px;
+    height: 165px;
     width: 100%;
-    margin-top: 25px;
   }
 
   .u-section-6 .u-carousel-control-1 {
@@ -2587,7 +2579,6 @@
   border-style: solid;
   background-image: none;
   align-self: center;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   margin: 30px auto 0;
   padding: 9px 29px;
 }
@@ -2597,7 +2588,6 @@
   filter: none;
   border-style: solid;
   background-image: none;
-  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   margin: 10px auto 0;
   padding: 9px 29px;
 }
@@ -2669,11 +2659,11 @@
 
 @media (max-width: 575px) {
    .u-section-8 {
-    min-height: 0;
+    min-height: 392px;
   }
 
   .u-section-8 .u-group-1 {
-    min-height: 392px;
+    min-height: 417px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
