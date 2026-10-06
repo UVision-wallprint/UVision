@@ -336,9 +336,9 @@
 }
 
 .u-section-2 .u-repeater-1 {
-  --gap: 20px;
-  grid-auto-columns: calc(25% - 15px);
-  grid-template-columns: repeat(4, calc(25% - 15px));
+  --gap: 25px;
+  grid-auto-columns: calc(25% - 18.75px);
+  grid-template-columns: repeat(4, calc(25% - 18.75px));
   min-height: 566px;
 }
 
@@ -710,8 +710,8 @@
   }
 
   .u-section-2 .u-repeater-1 {
-    grid-auto-columns: calc(50% - 10px);
-    grid-template-columns: repeat(2, calc(50% - 10px));
+    grid-auto-columns: calc(50% - 12.5px);
+    grid-template-columns: repeat(2, calc(50% - 12.5px));
     min-height: 901px;
   }
 
@@ -793,7 +793,6 @@
   }
 
   .u-section-2 .u-repeater-1 {
-    --gap: 25px;
     grid-auto-columns: 100%;
     grid-template-columns: repeat(1, 100%);
     min-height: 1765px;
