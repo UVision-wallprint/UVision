@@ -47110,19 +47110,17 @@ a.u-link.u-text-hover-color-var.hover {
   font-size: 0.75rem;
 }
 
-.u-header .u-nav-link-2 {
+.u-header .u-nav-popup-1 {
   --color-var: #0f0f0f80;
   padding: 7px 15px;
 }
 
 .u-header .u-nav-2 {
   font-weight: 400;
-  font-size: 0.75rem;
 }
 
 .u-header .u-nav-3 {
   font-weight: 400;
-  font-size: 0.75rem;
 }
 
 .u-header .u-sidenav-1 {
@@ -47143,12 +47141,10 @@ a.u-link.u-text-hover-color-var.hover {
 
 .u-header .u-nav-5 {
   font-weight: 400;
-  font-size: 0.75rem;
 }
 
 .u-header .u-nav-6 {
   font-weight: 400;
-  font-size: 0.75rem;
 }
 
 .u-header .u-social-icons-2 {
@@ -47274,6 +47270,22 @@ a.u-link.u-text-hover-color-var.hover {
   .u-header .u-image-1 {
     width: 67px;
     height: 84px;
+  }
+
+  .u-header .u-nav-2 {
+    font-size: 0.75rem;
+  }
+
+  .u-header .u-nav-3 {
+    font-size: 0.75rem;
+  }
+
+  .u-header .u-nav-5 {
+    font-size: 0.75rem;
+  }
+
+  .u-header .u-nav-6 {
+    font-size: 0.75rem;
   }
 }
  .u-footer {
