@@ -1,7 +1,7 @@
  .u-section-1 {
   background-position: 50% 50%, 50% 50%;
   background-repeat: no-repeat, no-repeat;
-  background-image: linear-gradient(rgba(24, 42, 250, 0) 90%, rgb(15, 15, 15) 97%), url("../images/bg_UVision_dla_szkol.jpg");
+  background-image: linear-gradient(rgba(24, 42, 250, 0) 90%, rgb(15, 15, 15) 97%), url("../images/bg_UVision_dla_szkol1.jpg");
   background-size: cover, cover;
   min-height: 100vh;
 }
@@ -240,7 +240,7 @@
 
 @media (max-width: 575px) {
    .u-section-1 {
-    background-position: 50% 50%, 71.1% 50%;
+    background-position: 50% 50%, 52.53% 50%;
     min-height: 700px;
   }
 

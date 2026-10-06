@@ -1,7 +1,7 @@
  .u-section-1 {
-  background-position: 50% 50%;
+  background-position: 50% 50%, 50% 50%;
   background-repeat: no-repeat, no-repeat;
-  background-image: linear-gradient(rgba(24, 42, 250, 0) 90%, rgb(15, 15, 15) 97%), url("images/bg_UVision_home.jpg");
+  background-image: linear-gradient(rgba(24, 42, 250, 0) 90%, rgb(15, 15, 15) 97%), url("images/bg_UVision_index.jpg");
   background-size: cover, cover;
   min-height: 100vh;
 }
@@ -2542,16 +2542,20 @@
 }
 
 .u-section-8 .u-group-2 {
-  width: 50%;
-  min-height: 300px;
+  width: 70%;
+  min-height: 312px;
   height: auto;
-  --radius: 20px;
-  box-shadow: 5px 5px 5px 0 rgba(255,255,255,0.4);
+  box-shadow: 5px 5px 20px 0 rgba(255,255,255,0.4);
   --animation-custom_in-translate_x: 0px;
   --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, #ffffff 0%, #ffd101 50%);
+  background-size: cover;
+  --radius: 50px;
   margin: 0 auto;
 }
 
@@ -2583,7 +2587,8 @@
   border-style: solid;
   background-image: none;
   align-self: center;
-  margin: 20px auto 0;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  margin: 30px auto 0;
   padding: 9px 29px;
 }
 
@@ -2592,6 +2597,7 @@
   filter: none;
   border-style: solid;
   background-image: none;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   margin: 10px auto 0;
   padding: 9px 29px;
 }
@@ -2611,18 +2617,11 @@
   }
 
   .u-section-8 .u-group-2 {
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: auto;
   }
 
   .u-section-8 .u-shape-1 {
     width: 30px;
-  }
-
-  .u-section-8 .u-btn-1 {
-    margin-top: 30px;
   }
 }
 
@@ -2647,11 +2646,10 @@
   }
 
   .u-section-8 .u-text-2 {
+    width: auto;
     margin-top: 19px;
-  }
-
-  .u-section-8 .u-btn-1 {
-    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -2661,19 +2659,11 @@
   }
 
   .u-section-8 .u-group-2 {
-    width: 65%;
     min-height: 349px;
   }
 
   .u-section-8 .u-text-2 {
-    width: auto;
     margin-top: 20px;
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .u-section-8 .u-btn-1 {
-    margin-top: 21px;
   }
 }
 
@@ -2694,8 +2684,10 @@
   }
 
   .u-section-8 .u-group-2 {
-    min-height: 310px;
-    width: 328px;
+    min-height: 328px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-8 .u-text-1 {
@@ -2708,7 +2700,6 @@
   }
 
   .u-section-8 .u-btn-1 {
-    margin-top: 35px;
     padding-left: 10px;
     padding-right: 10px;
   }
