@@ -261,24 +261,24 @@
   }
 
   .u-section-1 .u-group-3 {
-    min-height: 204px;
-    margin-top: 1px;
-    margin-bottom: 0;
+    min-height: 225px;
+    margin-top: 0;
+    margin-bottom: 2px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
   }
 
   .u-section-1 .u-container-layout-3 {
+    padding-top: 1px;
     padding-bottom: 20px;
   }
 
   .u-section-1 .u-group-elements-1 {
-    margin-top: auto;
-    margin-bottom: 10px;
-    width: auto;
-    margin-right: initial;
-    margin-left: initial;
+    min-height: 150px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: 0;
   }
 
   .u-section-1 .u-btn-1 {
