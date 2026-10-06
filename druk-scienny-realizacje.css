@@ -265,6 +265,7 @@
   }
 
   .u-section-1 .u-group-3 {
+    min-height: 227px;
     margin-top: 0;
     margin-bottom: 0;
     width: auto;
@@ -274,6 +275,13 @@
 
   .u-section-1 .u-container-layout-3 {
     padding-bottom: 20px;
+  }
+
+  .u-section-1 .u-group-elements-1 {
+    min-height: 150px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: 0;
   }
 
   .u-section-1 .u-btn-1 {
