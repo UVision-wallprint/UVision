@@ -2548,7 +2548,7 @@
   --radius: 20px;
   box-shadow: 5px 5px 5px 0 rgba(255,255,255,0.4);
   --animation-custom_in-translate_x: 0px;
-  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-translate_y: 300px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
@@ -2611,7 +2611,6 @@
   }
 
   .u-section-8 .u-group-2 {
-    --animation-custom_in-translate_y: 300px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
