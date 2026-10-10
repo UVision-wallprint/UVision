@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-position: 50% 50%;
+  background-position: 50% 50%, 50% 50%;
   background-repeat: no-repeat, no-repeat;
   background-image: linear-gradient(rgba(24, 42, 250, 0) 90%, rgb(15, 15, 15) 97%), url("../images/bg_UVision_other.jpg");
   background-size: cover, cover;
@@ -58,7 +58,7 @@
   height: auto;
   width: 1140px;
   min-height: 180px;
-  margin: 122px auto 10px;
+  margin: auto auto 10px;
 }
 
 .u-section-1 .u-container-layout-3 {
@@ -133,7 +133,6 @@
   .u-section-1 .u-group-3 {
     min-height: 195px;
     width: 1000px;
-    margin-top: auto;
     height: auto;
   }
 
@@ -286,7 +285,7 @@
   }
 } .u-section-2 {
   --color-var: #0f0f0f;
-  min-height: 606px;
+  min-height: 666px;
 }
 
 .u-section-2 .u-group-1 {
