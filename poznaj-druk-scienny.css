@@ -1305,7 +1305,7 @@
   --animation-custom_in-scale: 1;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-image: linear-gradient(to bottom, #ffffff 0%, #ffd101 50%);
+  background-image: linear-gradient(to top, #ffffff 23%, #ffd101 71%);
   background-size: cover;
   --radius: 50px;
   margin: 0 auto;
