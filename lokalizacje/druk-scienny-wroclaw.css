@@ -719,12 +719,7 @@
 }
 
 @media (max-width: 575px) {
-   .u-section-3 {
-    min-height: 1572px;
-  }
-
   .u-section-3 .u-group-1 {
-    margin-bottom: 54px;
     min-height: 1518px;
     width: auto;
     margin-right: initial;
