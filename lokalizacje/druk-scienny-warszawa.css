@@ -426,14 +426,14 @@
     margin-right: 305px;
   }
 } .u-section-3 {
-  min-height: 782px;
   --color-var: #0f0f0f;
+  min-height: 802px;
 }
 
 .u-section-3 .u-gallery-1 {
   height: 742px;
   width: 1140px;
-  margin: 20px auto;
+  margin: 20px auto 40px;
 }
 
 .u-section-3 .u-gallery-inner-1 {
@@ -452,7 +452,7 @@
 
 @media (max-width: 1199px) {
    .u-section-3 {
-    min-height: 652px;
+    min-height: 672px;
   }
 
   .u-section-3 .u-gallery-1 {
