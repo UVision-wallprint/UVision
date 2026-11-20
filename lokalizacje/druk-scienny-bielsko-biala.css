@@ -428,13 +428,13 @@
 
 .u-section-3 .u-group-1 {
   height: auto;
-  min-height: 768px;
+  min-height: 819px;
   width: 1140px;
-  margin: 0 auto 51px;
+  margin: 0 auto;
 }
 
 .u-section-3 .u-container-layout-1 {
-  padding: 0;
+  padding: 0 0 30px;
 }
 
 .u-section-3 .u-text-1 {
@@ -625,7 +625,6 @@
   .u-section-3 .u-group-1 {
     min-height: 816px;
     width: 1000px;
-    margin-bottom: 0;
     height: auto;
   }
 
